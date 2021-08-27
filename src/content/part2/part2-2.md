@@ -433,3 +433,91 @@ Where from?
 <Note>Remember that the lower and the upper limits can be negative!</Note>
 
 </Exercise>
+
+<Exercise title={'008 Numbers and calculations'}>
+
+### Section 1
+
+Implement a program that asks the user for numbers(the program first prints "Write numbers: ") until the user gives the number -1, When the user writes -1, the program prints "Thx! Bye!" and ends.
+
+```console
+Give numbers: 
+> 5 
+> 2 
+> 4 
+> -1 
+Thx! Bye!
+```
+
+### Section 2
+
+Extend the program so, that it prints the sum of the numbers (not including the -1) the user has written.
+
+```console
+Give numbers: 
+> 5 
+> 2 
+> 4 
+> -1 
+Thx! Bye! 
+Sum: 11
+```
+
+### Section 3 
+
+Extend the program so, that it also prints the number of numbers (not including the -1) the user has written.
+
+```console
+Give numbers: 
+> 5 
+> 2 
+> 4 
+> -1 
+Thx! Bye! 
+Sum: 11
+Numbers: 3
+```
+
+### Section 4
+
+Extend the program so, that it prints the mean of the numbers (not including the -1) the user has written.
+
+```console
+Give numbers: 
+> 5 
+> 2 
+> 4 
+> -1 
+Thx! Bye! 
+Sum: 11
+Numbers: 3
+Average: 3.666666666666
+```
+
+### Section 5
+
+Extend the program so that it prints the number of even and odd numbers (excluding the -1).
+
+```console
+Give numbers: 
+> 5 
+> 2 
+> 4 
+> -1 
+Thx! Bye! 
+Sum: 11
+Numbers: 3
+Average: 3.666666666666
+Even: 2
+Odd: 1
+```
+
+</Exercise>
+
+<Note>
+When you are writing a program, whether it's an exercise or a personal project, figure out the types of parts the program needs to function and proceed by implementing them one part at a time. Make sure to test the program right after implementing each part.
+
+Never try solving the whole problem at once, because that makes running and testing the program in the middle of the problem-solving process difficult. Start with something easy that you know you can do. When one part works, you can move on to the next.
+
+Some of the exercises are already split into parts. However, it's often the case in programming that these parts need to be split into even smaller parts. You should almost always run the program after every new line of code. This ensures that the solution is moving in the right direction.
+</Note>
