@@ -243,5 +243,3 @@ False
 ```
 
 The **Convert Class** can be used to convert strings into multiple other types as well. We will handle them as they come, but for the curious, the full list can be [**found here**](https://docs.microsoft.com/en-us/dotnet/api/system.convert?view=netframework-4.8).
-
-**You can now do the exercises for variables**

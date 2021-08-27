@@ -147,5 +147,3 @@ else // otherwise
     Console.WriteLine("ok");
 }
 ```
-
-**You can now do the exercises for subproblems**

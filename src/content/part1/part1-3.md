@@ -240,5 +240,3 @@ row 9: print variable third
 row 9: assign the value for variable third arvo to be printed, the value of variable third is now 28
 row 9: print value 28
 ```
-
-**You can now do the exercises for calculations with numbers**

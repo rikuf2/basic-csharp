@@ -180,6 +180,6 @@ else
 
 When a program is executed multiple times with appropriate inputs the hidden error is often found. Coming up with relevant inputs is a skill in its own right. It's essential to test the so-called corner cases, i.e., circumstances where the program execution could be exceptional. An example scenario would be one where the user does not enter a single acceptable value or enters zeros or very large values.
 
-**There are no exercises. Move along.**
+
 
 Answer: The last variable in the code is called **value**, when it should be called **values**. We are calling for a variable which was defined inside the loop, rather than the one we want.
