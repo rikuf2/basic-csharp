@@ -1046,7 +1046,7 @@ You will also have to either copy the `PrintStars` method from your previous ans
 
 Create a method called `PrintRightTriangle(int size)` that uses PrintSpaces and PrintStars to print the correct triangle. So the method call PrintRightTriangle(4) should print the following:
 
-```console
+```
    *
   **
  ***
@@ -1059,7 +1059,7 @@ Define a method called `ChristmasTree(int height)` that prints the correct Chris
 
 For example, the call ChristmasTree(4) should print the following:
 
-```console
+```
    * 
   *** 
  *****
@@ -1069,7 +1069,7 @@ For example, the call ChristmasTree(4) should print the following:
 ```
 The call ChristmasTree(10) should print:
 
-```console
+```
          * 
         *** 
        ***** 

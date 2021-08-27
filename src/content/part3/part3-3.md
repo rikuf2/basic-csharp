@@ -349,7 +349,7 @@ Console.WriteLine(sum);
 
 <Exercise title={'020 Print neatly'}>
 
-Complete the method `public static void PrintNeatly(int[] array)` in the template to make it print the numbers of the array it receives more nEatly. There should be a whitespace and a comma between each number. don't put a comma after the last number.
+Complete the method `public static void PrintNeatly(int[] array)` in the template to make it print the numbers of the array it receives more neatly. There should be a whitespace and a comma between each number. don't put a comma after the last number.
 
 Print the numbers on one line using `Console.Write`.
 

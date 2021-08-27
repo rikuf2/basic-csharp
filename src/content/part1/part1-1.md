@@ -342,7 +342,7 @@ Once upon a time
 I was falling in love
 Now I'm only falling apart
 ```
-create a program which prints these lyrics using three (3) `Console.WriteLine`s.
+Create a program which prints these lyrics using `Console.WriteLine` three times.
 
 </Exercise>
 
