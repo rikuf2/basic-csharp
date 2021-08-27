@@ -1038,7 +1038,8 @@ Create a method called PrintTriangle(int size) that prints a triangle by using t
 <Exercise title={'021 Christmas tree'}>
 
 * Section 1
-Define a method called PrintSpaces(int number) that produces the number of spaces specified by number. The method does not print the line break.
+
+Define a method called `PrintSpaces(int number)` that produces the number of spaces specified by number. The method does not print the line break.
 
 You will also have to either copy the `PrintStars` method from your previous answer or reimplement it in this exercise template.
 
@@ -1047,8 +1048,7 @@ You will also have to either copy the `PrintStars` method from your previous ans
 Create a method called `PrintRightTriangle(int size)` that uses PrintSpaces and PrintStars to print the correct triangle. So the method call PrintRightTriangle(4) should print the following:
 
 ```
-    
-   *
+&nbsp;&nbsp;&nbsp;*
   **
  ***
 ****
