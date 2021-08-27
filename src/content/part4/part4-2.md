@@ -4,7 +4,7 @@ nav_order: 2
 hidden: false
 ---
 
-The type parameter used in creating a list defines the type of the variables that are added to the list. For instance, List\<string\> includes strings, List\<int\> integers, and List\<double\> floating point numbers.
+The type parameter used in creating a list defines the type of the variables that are added to the list. For instance, List<string\> includes strings, List<int\> integers, and List<double\> floating point numbers.
 
 In the example below we first Add strings to a list, after which the strings in the list are printed one by one.
 

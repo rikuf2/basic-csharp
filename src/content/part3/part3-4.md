@@ -252,3 +252,19 @@ else
 
 Age average: 1.6666666666666667
 ```
+
+# Exercises
+
+<Exercise title={'022 String three times'}>
+
+Write a program, that reads a string from the user and then prints it three times.
+
+```console
+Give a word: cake
+
+cakecakecake
+```
+
+<Note>The program should ask for only one string. Don't use a loop here.</Note>
+
+</Exercise>

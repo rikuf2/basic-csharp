@@ -43,17 +43,17 @@ public class Program
 
 ```
 
-Creating a new list is done with the command List\<type\> list = new List\<type\>(), where type is the type of the values to be stored in the list (e.g. int). We create a list for storing strings in the example below.
+Creating a new list is done with the command List<type\> list = new List<type\>(), where type is the type of the values to be stored in the list (e.g. int). We create a list for storing strings in the example below.
 
 ```cpp
 List<string> strings = new List<string>();
 ```
 
-The type of the List variable is **List**. When a list variable is initialized, the type of the values to be stored is also defined in addition to the variable type -- all the variables stored in a given list are of the same type. As such, the type of an List that stores strings is **List\<string\>**. A new list is created with the command new List\<\>();.
+The type of the List variable is **List**. When a list variable is initialized, the type of the values to be stored is also defined in addition to the variable type -- all the variables stored in a given list are of the same type. As such, the type of an List that stores strings is **List<string\>**. A new list is created with the command new List<\>();.
 
 ## Defining the Type of Values That a List Can Contain
 
-When defining the type of values that a list can include, the type is written the same way as when declaring variables. A list that includes int-type variables has to be defined in the form **List\<int\>**; and a list that includes double-type variables is defined in the form **List\<double\>**.
+When defining the type of values that a list can include, the type is written the same way as when declaring variables. A list that includes int-type variables has to be defined in the form **List<int\>**; and a list that includes double-type variables is defined in the form **List<double\>**.
 
 You'll find examples below of creating lists that contain different types of values.
 
@@ -1182,7 +1182,7 @@ Logan was not found!
 
 <Exercise title={'014 Numbers in range'}>
 
-Create the method `public static void PrintNumbersInRange(List\<int\> numbers, int lowerLimit, int upperLimit)` in the exercise template. The method prints the numbers in the given list whose values are in the range [lowerLimit, upperLimit]. A few examples of using the method are supplied below.
+Create the method `public static void PrintNumbersInRange(List<int> numbers, int lowerLimit, int upperLimit)` in the exercise template. The method prints the numbers in the given list whose values are in the range [lowerLimit, upperLimit]. A few examples of using the method are supplied below.
 
 ```cpp
 List<int> numbers = new List<int>();
@@ -1216,7 +1216,7 @@ The numbers in the range [3, 10]
 
 <Exercise title={'015 Sum method'}>
 
-Create the method `public static int Sum(List\<int\> numbers)` in the exercise template. The method is to return the sum of the numbers in the parameter list.
+Create the method `public static int Sum(List<int> numbers)` in the exercise template. The method is to return the sum of the numbers in the parameter list.
 
 ```cpp
 List<int> numbers = new List<int>();
@@ -1240,7 +1240,7 @@ Console.WriteLine(Sum(numbers));
 
 <Exercise title={'016 Remove last method'}>
 
-create the method `public static void RemoveLast(List\<string\> strings)` in the exercise template. The method should remove the last value in the list it receives as a parameter. If the list is empty, the method does nothing.
+create the method `public static void RemoveLast(List<string> strings)` in the exercise template. The method should remove the last value in the list it receives as a parameter. If the list is empty, the method does nothing.
 
 ```cpp
 List<string> strings = new List<string>();
