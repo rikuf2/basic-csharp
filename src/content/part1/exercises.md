@@ -4,7 +4,7 @@ nav_order: 6
 hidden: false
 ---
 
-<Exercise title={'001 Hello World'}>
+<Exercise title={'001 Hello World!'}>
 The basic structure of a program is given in the exercise:
 
 ```cpp
@@ -157,7 +157,7 @@ Thank you for sharing!
 
 </Exercise>
 
-<Exercise title={'010 Name and Profession'}>
+<Exercise title={'010 Name and profession'}>
 
 Create a program, that asks the user for a name and a profession. Then make the program to write a little story with this information. Here is an example story with inputs `Ada` and `Data Scientist`.
 
@@ -191,7 +191,7 @@ Coding is fun:
 Are you sure?
 ```
 
-Change the values of the variables, so the program will print
+Change the `values` of the variables, so the program will print
 
 ```console
 Days to summer:
@@ -208,7 +208,7 @@ Do not change anything else, only the variable values!
 
 <Exercise title={'012 Print integer'}>
 
-Create a program which asks the user for an integer. After user input, the program will print the integer. Example prints:
+Create a program which asks the user for an `integer`. After user input, the program will print the `integer`. Example prints:
 
 ```console
 Give a number!
@@ -226,7 +226,7 @@ You gave 42
 
 <Exercise title={'013 Print double'}>
 
-Create a program, that asks the user for a double. After user input, the program will print the double. Example prints:
+Create a program, that asks the user for a `double`. After user input, the program will print the `double`. Example prints:
 
 ```console
 Give a number!
@@ -241,3 +241,24 @@ You gave 41.999999
 ```
 
 </Exercise>
+
+<Exercise title={'014 Print truth'}>
+
+Create a program, that asks the user for a `boolean`. After user input, the program will print the `boolean`. Example prints:
+
+```console
+Give me the truth!
+> tRuE
+True
+```
+
+```console
+Give me the truth!
+> false
+False
+```
+
+</Exercise>
+
+
+
