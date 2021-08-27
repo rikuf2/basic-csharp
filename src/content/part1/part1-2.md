@@ -346,3 +346,4 @@ Your integer: 42
 Your double: 3.1415
 Your boolean: True
 ```
+</Exercise>
