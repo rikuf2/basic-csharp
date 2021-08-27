@@ -1133,7 +1133,7 @@ Found at index: 2
 Found at index: 3
 ```
 
-<Note<> You can combine the programs you wrote for the exercises "Greatest number in the list" and "Index of the requested number". First find the smallest number, and then find the index of that number. </Note>
+<Note> You can combine the programs you wrote for the exercises "Greatest number in the list" and "Index of the requested number". First find the smallest number, and then find the index of that number. </Note>
 
 </Exercise>
 
@@ -1218,7 +1218,7 @@ The numbers in the range [3, 10]
 
 Create the method `public static int Sum(List\<int\> numbers)` in the exercise template. The method is to return the sum of the numbers in the parameter list.
 
-```cs
+```cpp
 List<int> numbers = new List<int>();
 numbers.Add(3);
 numbers.Add(2);
@@ -1234,6 +1234,35 @@ Console.WriteLine(Sum(numbers));
 ```console
 10
 16
+```
+
+</Exercise>
+
+<Exercise title={'016 Remove last method'}>
+
+create the method `public static void RemoveLast(List\<string\> strings)` in the exercise template. The method should remove the last value in the list it receives as a parameter. If the list is empty, the method does nothing.
+
+```cpp
+List<string> strings = new List<string>();
+
+strings.Add("First");
+strings.Add("Second");
+strings.Add("Third");
+
+// Remember, this is how you print all the items in a list
+strings.ForEach(Console.WriteLine);
+
+RemoveLast(strings);
+RemoveLast(strings);
+
+strings.ForEach(Console.WriteLine);
+```
+
+```console
+First
+Second
+Third
+First
 ```
 
 </Exercise>

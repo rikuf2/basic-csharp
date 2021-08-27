@@ -256,3 +256,75 @@ for (int i = 0; i < arrayOfFloatingpoints.Length; i++) {
     Console.WriteLine(arrayOfStrings[i] + " " +  arrayOfFloatingpoints[i]);
 }
 ```
+
+# Exercises
+
+<Exercise title={'017 Swap indices'}>
+
+The exercise template already contains a program, that creates an array and prints the values of the array twice. Modify the program to do following: After the first printing, the program should ask for two indices from the user. The values in these two indices should be swapped, and in the end the values of the array should be printed once again.
+
+```console
+1 
+3 
+5 
+7 
+9
+
+Give two indices to swap: 
+> 2 
+> 4
+
+1 
+3 
+9 
+7 
+5
+```
+
+```console
+1 
+3 
+5 
+7 
+9
+
+Give two indices to swap: 
+> 0 
+> 1
+
+3 
+1 
+5 
+7 
+9
+```
+
+You can assume the array to contain the given indices.   
+
+<Note>You'll need an additional variable to store one of the values for little while.</Note>
+
+</Exercise>
+
+<Exercise title={'018 Searching array'}>
+
+The exercise template has already an array containing numbers. Complete the program to ask the user for a number to search in the array. If the array contains the given number, the program tells the index containing the number. If the array doesn't contain the given number, the program will tell the number wasn't found.
+
+```console
+Search for? 
+> 3 
+3 is at index 4.
+```
+
+```console
+Search for? 
+> 7 
+7 is at index 7.
+```
+
+```console
+Search for? 
+> 22 
+22 was not found.
+```
+
+</Exercise>
