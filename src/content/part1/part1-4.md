@@ -500,7 +500,7 @@ Give a number
 It is odd.
 ````
 
-Hint: You might want to use the `%` operator to get the remainder after a division with 2.
+<Note>: You might want to use the `%` operator to get the remainder after a division with 2.</Note>
 
 </Exercise>
 

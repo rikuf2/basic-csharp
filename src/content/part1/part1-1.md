@@ -81,7 +81,7 @@ public class Program {
 }
 ```
 
-Notice, there is no empty space around the **\n**. In a text, every character, even the empty ones, are part of the text. If you would put space around the line change, the first line would end with an empty character and the second one would start with one.
+<Note> There is no empty space around the **\n**. In a text, every character, even the empty ones, are part of the text. If you would put space around the line change, the first line would end with an empty character and the second one would start with one.</Note>
 
 Sometimes the texts can be quite long, and reading them from a single line can become quite difficult. It is possible to do split the string into multiple pieces and then concatenate them together with the **+** operator. The example above could be
 
@@ -383,7 +383,7 @@ Do not change the line containing `Console.WriteLine`, only change the content o
 
 </Exercise>
 
-<Exercise title={'003 Bonnie Tyler with line changes'}>
+<Exercise title={'005 Ada Lovelace'}>
 
 You will find following structure in the exercise:
   
