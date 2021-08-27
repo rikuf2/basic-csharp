@@ -106,11 +106,39 @@ Do not modify the variable content!
 
 <Exercise title={'006 Print input'}>
 
-create a program, that asks user for a string. After the user has given the string (written text and pressed enter), the program will print the given line. Example output with `Hello` as input (input marked with `>` for clarification):
+Create a program, that asks user for a string. After the user has given the string (written text and pressed enter), the program will print the given line. Example output with `Hello` as input (input marked with `>` for clarification):
 
 ```console
 Give input!
 > Hello
+Hello
+```
+
+</Exercise>
+
+<Exercise title={'007 Triple hello'}>
+
+Create a program, that asks user for a string. After the user has given the string (written text and pressed enter), the program will print the given line 3 times. Example output with `Hello` as input:
+
+```console
+Give input!
+> Hello
+Hello
+Hello
+Hello
+```
+
+</Exercise>
+
+<Exercise title={'007 Triple hello'}>
+
+Create a program, that asks user for a string. After the user has given the string (written text and pressed enter), the program will print the given line 3 times. Example output with `Hello` as input:
+
+```console
+Give input!
+> Hello
+Hello
+Hello
 Hello
 ```
 
