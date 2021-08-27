@@ -221,3 +221,157 @@ static void Main(string[] args)
 ```console
 Total amount read: 3
 ```
+
+# Exercises
+
+<Exercise title={'019 Reading strings'}>
+
+As a recap, a simple program of reading the input.
+
+Write a program that reads strings from the user until the user inputs the string "end". At that point, the program should print how many strings have been read. The string "end" should not be included in the number strings read. You can find some examples below of how the program works.
+
+```console
+> I 
+> have
+> a
+> feeling
+> that
+> I
+> have
+> written
+> this
+> wrong
+> before
+> end 
+11
+```
+
+```console
+> end 
+0
+```
+
+</Exercise>
+
+<Exercise title={'020 Reading integers'}>
+
+Write a program that reads strings from the user until the user inputs the string "end". As long as the input is not "end", the program should handle the input as an integer and print the cube of the number provided (i.e., number * number * number). Below are some sample outputs
+
+```console
+> 3 
+27 
+> -1 
+-1 
+> 11 
+1331 
+> end
+```
+
+```console
+end
+```
+
+Remember to convert to integer before calculation!
+
+</Exercise>
+
+<Exercise title={'021 Reading file'}>
+
+Write a program that prints the contents of a file called "data.txt", such that each line of the file is printed on its own line.
+
+If the file content looks like so:
+
+In a world   
+Where code is built   
+
+Then the program should print the following:
+
+```console
+In a world
+Where code is built
+```
+
+<Note>
+You can assume the file is in the same folder as your program.
+</Note>
+
+</Exercise>
+
+<Exercise title={'022 File names'}>
+
+Write a program that asks the user for a string, and then prints the contents of a file with a name matching the string provided. You may assume that the user provides a file name that the program can find. You do not have to worry about getting errors when the file does not exist.
+
+The exercise template contains the files "data.txt" and "song.txt", which you may use when testing the functionality of your program. The output of the program can be seen below for when a user has entered the string "song.txt". The content that is printed comes from the file "song.txt". Naturally, the program should also work with other filenames, assuming the file can be found.
+
+```console
+Which file should have its contents printed? 
+> song.txt 
+
+No option for duality 
+The old is where we come 
+Clockspeed is fast, but we'll survive 
+The new will overcome 
+We are challengers, not followers 
+We take the ball to build 
+Easy safe services 
+Are here to stay
+
+Value for society 
+Value for life 
+For you and me 
+Tieto is here allright!
+```
+
+<Note>
+You can assume the file is in the same folder as your program.
+</Note>
+
+</Exercise>
+
+<Exercise title={'023 Guestlist txt'}>
+
+The exercise template comes ready with functionality for the guest list application. It checks whether names entered by the user are on the guest list.
+
+However, the program is missing the functionality needed for reading the guest list. Modify the program so that the names on the guest list are read from the file.
+
+Name of the file: guestlist.txt
+
+```console
+Enter names, an empty line quits. 
+> Chuck Norris 
+The name is not on the list. 
+> Jack Baluer 
+The name is not on the list. 
+> Jack Bauer 
+The name is on the list. 
+> Jack Bower 
+The name is on the list.
+>
+Thank you!
+```
+
+<Note>The exercise template comes with two files, names.txt and other-names.txt, which have the following contents. Do not change the contents of the files!</Note>
+
+<Note>The exercise expects you to have a string called names where you store the file!</Note>
+
+names.txt:
+
+ada  
+arto  
+leena  
+test  
+heikki  
+   
+other-names.txt:
+  
+leo   
+jarmo   
+alicia  
+mike  
+potato  
+
+<Note>
+You can assume the files are in the same folder as your program.
+</Note>
+
+</Exercise>
