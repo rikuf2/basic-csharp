@@ -1,5 +1,5 @@
 ---
-title: 'About Exercises And Notes'
+title: 'Exercises'
 nav_order: 6
 hidden: false
 ---
