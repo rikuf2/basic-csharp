@@ -311,3 +311,175 @@ Console.WriteLine(a.Equals(b));
 ```console
 True
 ```
+
+Exercises
+
+<Exercise title={'024 Speeding'}>
+
+Let's create a program, which asks the user for an integer.
+
+If the given integer is larger than 120, output "Speeding!".
+
+```console
+Your speed:
+> 5
+````
+
+```console
+Your speed:
+125
+Speeding!
+```
+
+</Exercise>
+
+<Exercise title={'025 Orwell'}>
+
+Create a program which asks for an integer. If the integer is 1984, output "Orwell".
+
+```console
+Give a number:
+>1985
+```
+
+```console
+Give a number:
+> 1984
+Orwell
+```
+
+</Exercise>
+
+
+
+<Exercise title={'026 Too old'}>
+
+Create a program which asks for an integer. If the integer is less than 1900, output "You're old".
+
+```console
+Give your age:
+>1985
+```
+
+```console
+Give your age:
+> 1899
+You're old
+```
+
+</Exercise>
+
+<Exercise title={'027 Stay positive'}>
+
+Create a program which tells if the given number is positive (greater than zero), or not.
+
+```console
+Give a number:
+> 5
+It is positive
+```
+
+```console
+Give a number:
+-2
+It is not positive
+```
+
+</Exercise>
+
+<Exercise title={'028 Over eighteen'}>
+
+Create a program which tell if the given person is legally adult (in Finland, over 18), or not.
+
+```console
+How old are you?
+> 5
+You're under age!
+```
+
+```console
+How old are you?
+> 18
+You're an adult!
+```
+
+</Exercise>
+
+<Exercise title={'029 Larger number'}>
+
+Create a program which asks for two integers. The program should tell which of them is greater. If they are equal, that should be noted, too.
+
+```console
+Give the first number!
+> 3
+Give the second number!
+> 2
+The larger number is 3!
+```
+
+```console
+Give the first number!
+> 3
+Give the second number!
+> 4
+The larger number is 4!
+```
+
+```console
+Give the first number!
+> 3
+Give the second number!
+> 3
+They are equal!
+```
+
+</Exercise>
+
+<Exercise title={'030 Course grading'}>
+
+Here is the grading for this course:
+
+| Percent | Grade|
+|---|---|
+| < 0 | Impossible |
+| 0 - 49  | Fail |
+| 50 - 59 | 1 |
+| 60 - 69 | 2 |
+| 70 - 79 | 3 |
+| 80 - 89 | 4 |
+| 90 - 100 | 5 |
+| > 100 | Outstanding! |
+
+Create a program, which asks the user for their percent, and gives them their score. A few examples:
+
+```console
+Give your percent [0 - 100]:
+> -2
+Impossible
+```
+
+```console
+Give your percent [0 - 100]:
+> 49
+Fail
+```
+
+```console
+Give your percent [0 - 100]:
+> 75
+Grade: 3
+```
+
+```console
+Give your percent [0 - 100]:
+> 99
+Grade: 5
+```
+
+```console
+Give your percent [0 - 100]:
+> 9001
+Outstanding!
+```
+
+</Exercise>

@@ -245,7 +245,7 @@ row 9: print value 28
 
 <Exercise title={'016 Seconds in days'}>
 
-Let's combine everything you know so far. create program that asks the user for a string, an integer, a double and a boolean, and prints them like follows:
+Let's combine everything you know so far. create program that asks the user for a `string`, an `integer`, a `double` and a `boolean`, and prints them like follows:
 
 ```console
 Give a string:
@@ -260,6 +260,139 @@ Your string: This is a masterpiece!
 Your integer: 42
 Your double: 3.1415
 Your boolean: True
+```
+
+</Exercise>
+
+<Exercise title={'017 Input two integers'}>
+
+Create a program, which asks the user for two `integers`, and calculates their sum.  
+
+Remember, that the input is a string, so you have to convert it to integer!
+
+Example output:
+
+```console
+Give the first number!
+> 8
+Give the second number!
+> 3
+The sum is 11
+```
+
+```console
+Give the first number!
+> 3
+Give the second number!
+> -1
+The sum is 2
+```
+
+</Exercise>
+
+<Exercise title={'018 Input three integers'}>
+
+Expand a little on the previous exercise. Now create a program, which asks for three `integers`, and calculates their sum.
+
+```console
+Give the first number!
+> 3
+Give the second number!
+> -1
+Give the third number!
+> 2
+The sum is 4
+```
+
+</Exercise>
+
+<Exercise title={'019 Sum of two integers'}>
+
+Create a program, which asks the user for two `integers` and counts their sum. This time, also print the equation to the user, too.
+
+```console
+Give the first number!
+> 3
+Give the second number!
+> 1
+3 + 1 = 4
+```
+
+```console
+Give the first number!
+> 5
+Give the second number!
+> -1
+3 + -1 = 2
+```
+
+</Exercise>
+
+<Exercise title={'020 Multiply two integers'}>
+
+Create a program, which asks the user for two `integers` and multiplies them with each other.
+
+```console
+Give the first number!
+> 3
+Give the second number!
+> 2
+3 * 2 = 6
+```
+
+```console
+Give the first number!
+> 50
+Give the second number!
+> -2
+50  * -2 = -100
+```
+
+</Exercise>
+
+<Exercise title={'021 Average of two integers'}>
+
+Create a program, which asks the user for two `integers` and calculates their average as a `double`.
+
+```console
+Give the first number!
+> 3
+Give the second number!
+> 2
+The average is 2.5
+```
+
+</Exercise>
+
+<Exercise title={'022 Average of three integers'}>
+
+Create a program, which asks the user for three `integers` and calculates their average as a `double`.
+
+```console
+Give the first number!
+> 3
+Give the second number!
+> 2
+Give the third number!
+> 1
+The average is 2.0
+```
+
+</Exercise>
+
+<Exercise title={'023 Tiny calculator'}>
+
+Let's create a program, that does all the basic calculations from user input! Ask for two `integers` and do and print the calculations with them.
+
+```console
+Give the first number!
+> 3
+Give the second number!
+> 2
+3 + 2 = 5
+3 - 2 = 1
+3 * 2 = 6
+3 / 2 = 1.5
 ```
 
 </Exercise>
