@@ -23,7 +23,7 @@ namespace Exercise001
 }
 ```
 
-The line `Add your code here:` is a comment. The composer does not compose it, so you do not have to worry about it. You can remove it, if you want.
+The line `\\Add your code here:` is a comment. The composer does not compose it, so you do not have to worry about it. You can remove it, if you want.
 
 Create a program that writes the text **Hello World!** into the console. The program contains the basic structure pictured above.
 
