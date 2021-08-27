@@ -130,16 +130,71 @@ Hello
 
 </Exercise>
 
-<Exercise title={'007 Triple hello'}>
+<Exercise title={'008 Greeting'}>
 
-Create a program, that asks user for a string. After the user has given the string (written text and pressed enter), the program will print the given line 3 times. Example output with `Hello` as input:
+Create a program, that asks user for their name and greets them. Example output with `Ada` as input:
 
 ```console
-Give input!
-> Hello
-Hello
-Hello
-Hello
+What is your name?
+> Ada
+Hello Ada!
+```
+Notice the exclamation mark.
+
+</Exercise>
+
+<Exercise title={'009 Conversation'}>
+
+Create a program, that simulates a small conversation. The program will tell three lines, and expects two user inputs. Example output:
+
+```console
+Hello, how are you?
+> Fine, thanks.
+That's interesting, tell me more
+> I learn coding
+Thank you for sharing!
+```
+
+</Exercise>
+
+<Exercise title={'010 Name and Profession'}>
+
+Create a program, that asks the user for a name and a profession. Then make the program to write a little story with this information. Here is an example story with inputs `Ada` and `Data Scientist`.
+
+NOTICE! Every `Ada` and `Data Scientist` in the story are the inputs by the user. Remember to save the `Console.ReadLines` into variables and use them as parts of the story!
+
+```console
+I will tell a story, but I need some information.
+Give a name for main character:
+> Ada
+Give the character a profession:
+> Data Scientist
+Here is the story:
+Once upon a time there was a Data Scientist called Ada
+On her way to work, Ada often pondered what being Data Scientist meant to them.
+When you work as a Data Scientist you meet interesting people.
+Ada enjoys their work as Data Scientist, The end.
+```
+
+</Exercise>
+
+<Exercise title={'011 Print variables'}>
+
+Create a program, that asks the user for a name and a profession. Then make the program to write a little story with this information. Here is an example story with inputs `Ada` and `Data Scientist`.
+
+NOTICE! Every `Ada` and `Data Scientist` in the story are the inputs by the user. Remember to save the `Console.ReadLines` into variables and use them as parts of the story!
+
+```console
+I will tell a story, but I need some information.
+Give a name for main character:
+> Ada
+Give the character a profession:
+> Data Scientist
+Here is the story:
+Once upon a time there was a Data Scientist called Ada
+On her way to work, Ada often pondered what being Data Scientist meant to them.
+When you work as a Data Scientist you meet interesting people.
+Ada enjoys their work as Data Scientist, The end.
 ```
 
 </Exercise>
