@@ -340,3 +340,31 @@ foreach (Person person in persons) {
 What is the age limit? 12
 Matthew, age 12 years
 ```
+
+# Exercises
+
+<Exercise title={'015 Main class'}>
+
+Implement the class `Main` described here.
+ 
+<Note>Do not modify the class Item.</Note>
+
+Write a program that reads names of items from the user. If the name is empty, the program stops reading. Otherwise, the given name is used to create a new item, which you will then add to the items list.
+
+Having read all the names, print all the items by using the ToString method of the Item class. The implementation of the Item class keeps track of the time of creation, in addition to the name of the item.
+
+NOTICE! The list has to be called "items" for the tests to work!
+
+Example print:
+```console
+Name: Hammer
+Name: Radio
+Name: Hot Potato
+Name: 
+
+Hammer (created at: 9.2.2020 13.48.16)
+Radio (created at: 9.2.2020 13.48.18)
+Hot Potato (created at: 9.2.2020 13.48.21)
+```
+
+</Exercise>
