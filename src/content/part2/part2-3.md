@@ -873,3 +873,65 @@ public static void Main(string[] args)
 ```
 
 </Exercise>
+
+<Exercise title={'015 Number uno'}>
+
+Write a method `public static int NumberUno()` that returns the value 1.
+
+</Exercise>
+
+<Exercise title={'016 Word'}>
+
+Write a method `public static string Word()`. The method must return a string of your choice.
+
+</Exercise>
+
+<Exercise title={'017 Sum'}>
+
+Expand the method `Sum`  in the exercise template so that it calculates and returns the sum of the numbers that are given as the parameters.
+create the method using the following structure:
+
+```cs
+public static int Sum(int number1, int number2, int number3, int number4) 
+{
+  // write your code here
+  // remember to include return (at the end)!
+}
+
+public static void Main(string[] args) 
+{
+    int answer = Sum(4, 3, 6, 1);
+    Console.WriteLine("Sum: " + answer);
+}
+```
+Output of the example:
+
+```console
+Sum: 14
+```
+
+</Exercise>
+
+<Exercise title={'018 Smallest'}>
+
+Write a method `public static string Word()`. The method must return a string of your choice.
+
+</Exercise>
+
+<Exercise title={'019 Greatest'}>
+
+Write a method `public static string Word()`. The method must return a string of your choice.
+
+</Exercise>
+
+<Exercise title={'020 Stars'}>
+
+Write a method `public static string Word()`. The method must return a string of your choice.
+
+</Exercise>
+
+<Exercise title={'021 Christmas tree'}>
+
+Write a method `public static string Word()`. The method must return a string of your choice.
+
+</Exercise>

@@ -53,7 +53,7 @@ ExtraInfo.propTypes = {
 }
 
 Note.propTypes = {
-	children: PropTypes.string.isRequired,
+	children: PropTypes.array.isRequired,
 }
 
 const ExerciseContainer = styled.div`
