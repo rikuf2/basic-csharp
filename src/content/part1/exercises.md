@@ -74,7 +74,7 @@ namespace Exercise004
 }
 ```
 
-Change it, so that it prints **Passport and a toothbrush!**
-Do not change the line containing Console.WriteLine, only change the content of the variable!
+Change it, so that it prints `Passport and a toothbrush!`
+Do not change the line containing `Console.WriteLine`, only change the content of the variable!
 
 </Exercise>
