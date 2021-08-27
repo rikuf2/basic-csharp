@@ -627,7 +627,7 @@ We have a very short solution
 public string name { get; }
 ```
 
-NOTICE! We have to change our string **name** into **public** (from private), so it can be accessed from the **Main program**, or any other class. There are ways of protecting the property, but we'll get to that later.
+<Note> We have to change our string name into public (from private), so it can be accessed from the Main program, or any other class. There are ways of protecting the property, but we'll get to that later. </Note>
 
 Let's use this way of getting age:
 

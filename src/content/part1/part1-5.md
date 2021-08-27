@@ -506,7 +506,7 @@ Amount of ones: 2
 
 Create a program which asks the user if they want to continue. If the user answers "no", then quit the program. Otherwise, ask again.
 
-<Note>: Use a while-loop!</Note>
+<Note>Use a while-loop!</Note>
 
 ```console
 Do you want to continue?
@@ -627,7 +627,7 @@ Total sum of numbers: 25
 Total amount of numbers: 3
 ```
 
-<Note>: You will need two variables to store the data, one for the sum, one for the amount.</Note>
+<Note>You will need two variables to store the data, one for the sum, one for the amount.</Note>
 
 
 </Exercise>

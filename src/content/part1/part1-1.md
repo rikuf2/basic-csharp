@@ -81,7 +81,7 @@ public class Program {
 }
 ```
 
-<Note> There is no empty space around the **\n**. In a text, every character, even the empty ones, are part of the text. If you would put space around the line change, the first line would end with an empty character and the second one would start with one.</Note>
+<Note> There is no empty space around the \n. In a text, every character, even the empty ones, are part of the text. If you would put space around the line change, the first line would end with an empty character and the second one would start with one.</Note>
 
 Sometimes the texts can be quite long, and reading them from a single line can become quite difficult. It is possible to do split the string into multiple pieces and then concatenate them together with the **+** operator. The example above could be
 
@@ -465,7 +465,7 @@ Thank you for sharing!
 
 Create a program, that asks the user for a name and a profession. Then make the program to write a little story with this information. Here is an example story with inputs `Ada` and `Data Scientist`.
 
-<Note> Every `Ada` and `Data Scientist` in the story are the inputs by the user. Remember to save the `Console.ReadLines` into variables and use them as parts of the story! </Note>
+<Note> Every Ada and Data Scientist in the story are the inputs by the user. Remember to save the Console.ReadLines into variables and use them as parts of the story! </Note>
 
 ```console
 I will tell a story, but I need some information.

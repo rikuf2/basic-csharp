@@ -531,7 +531,7 @@ Console.WriteLine("today is  " + day + "." + month + "." + year);
 today is  13.2.2020
 ```
 
-NOTICE! With C# the output of the first line can differ, depending on the language setting of your environment. This is due to **culture** in C# environments. We will discuss this later.
+<Note>With C# the output of the first line can differ, depending on the language setting of your environment. This is due to culture in C# environments. We will discuss this later.</Note>
 
 ## Object of same type as method parameter
 
@@ -803,7 +803,7 @@ namespace sandbox
 }
 ```
 
-Notice! So far we have compared only with **==**, but now we're also using **Equals**. They compare different things. Try out, what happens if you compare two identical SimpleDates with both:
+<Note>So far we have compared only with ==, but now we're also using Equals. They compare different things. Try out, what happens if you compare two identical SimpleDates with both:
 
 ```cpp
 static void Main(string[] args)
@@ -814,6 +814,7 @@ static void Main(string[] args)
   Console.WriteLine(date1 == date2);
 }
 ```
+</Note>
 
 
 ## Some inheritance
