@@ -483,3 +483,63 @@ Outstanding!
 ```
 
 </Exercise>
+
+<Exercise title={'031 Even or odd'}>
+
+Create a program which asks for an integer and tells the user if it is even or not.
+
+```console
+Give a number:
+> 2
+It is even.
+```
+
+````console
+Give a number
+> 5
+It is odd.
+````
+
+Hint: You might want to use the `%` operator to get the remainder after a division with 2.
+
+</Exercise>
+
+<Exercise title={'032 Enter friend'}>
+
+Create a program which asks for a string. If the string is "Mellon", print "Welcome, friend", otherwise print "They've got a cave troll!"
+
+```console
+Speak, friend, and enter!
+> Let meeeee in!
+They've got a cave troll!
+```
+
+```console
+Speak, friend, and enter!
+> Mellon
+Welcome, friend
+```
+
+</Exercise>
+
+<Exercise title={'033 Echo'}>
+
+Create a program which asks for two string. If the strings are equal, print "Echo!", otherwise print "Nope!".
+
+```console
+Give the first string:
+> Potato
+Give the second string:
+> Potato
+Echo!
+```
+
+```console
+Give the first string:
+> Potato
+Give the second string:
+> Tomato
+Nope!
+```
+
+</Exercise>
