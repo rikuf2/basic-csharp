@@ -1264,7 +1264,7 @@ When visiting a student cafeteria, the customer pays either with cash or with a 
 The outline of the payment terminal. The comments inside the methods tell the wanted functionality:
 
 ```cpp
-namespace exercise_126
+namespace Exercise008
 {
   public class PaymentTerminal
   {
@@ -1633,7 +1633,7 @@ return newDate;
 The whole class template looks like this:
 
 ```cpp
-namespace exercise_132
+namespace Exercise013
 {
   public class SimpleDate
   {
@@ -1761,7 +1761,7 @@ This exercise is worth 2 points without individual sections.
 In the Payment card exercise we used a double-type object variable to store the amount of money. In real applications this is not the approach you want to take, since as we have seen, calculating with doubles is not exact. A more reasonable way to handle amounts of money is create an own class for that purpose. Here is a layout for the class:
 
 ```cpp
-namespace exercise_133
+namespace Exercise015
 {
   public class Money
   {

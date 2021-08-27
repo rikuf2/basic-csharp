@@ -331,3 +331,59 @@ public class Program
 ```
 
 The method **TellIfOfAge** has been defined static, so it is not attached to any object, **BUT** the the method gets an object as a parameter. Method has not been defined inside the person class, even though it handles Persons. It is a helper method for the main program, which made our main program more readable.
+
+# Exercises
+
+<Exercise title={'003 How many names'}>
+
+Our template has the `Person` class and some use for it in Main. create a `public static void HowManyNames(Person person)` for the Main Program, which prints the name and the amount of names as follows:
+
+```cpp
+public static void Main(string[] args)
+{
+  Person ada = new Person("Ada Lovelace");
+  Person jack = new Person("Jack The Ripper");
+  Person mike = new Person("Mike The Incredible Magic Mouse");
+
+  HowManyNames(ada);
+  HowManyNames(jack);
+  HowManyNames(mike);
+}
+```
+
+```console
+Ada Lovelace has 2 names.
+Jack The Ripper has 3 names.
+Mike The Incredible Magic Mouse has 5 names.
+```
+
+<Note> The Console.WriteLine is called from inside the method this time!</Note>
+
+</Exercise>
+
+<Exercise title={'004 How many names in person'}>
+
+Our template has the `Person` class and some use for it in Main. create a `public int HowManyNames()` in the `Person` class, which returns the name and the amount of names as follows:
+
+```cpp
+public static void Main(string[] args)
+{
+  Person ada = new Person("Ada Lovelace");
+  Person jack = new Person("Jack The Ripper");
+  Person mike = new Person("Mike The Incredible Magic Mouse");
+
+  Console.WriteLine(ada + " has " ada.HowManyNames() + " names.");
+  Console.WriteLine(jack + " has " jack.HowManyNames() + " names.");
+  Console.WriteLine(mike + " has " mike.HowManyNames() + " names.");
+}
+```
+
+```console
+Ada Lovelace has 2 names.
+Jack The Ripper has 3 names.
+Mike The Incredible Magic Mouse has 5 names.
+```
+
+<Note> The Console.WriteLine is called from inside the method this time!</Note>
+
+</Exercise>

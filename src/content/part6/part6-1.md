@@ -880,3 +880,239 @@ public class UserInterface
   }
 }
 ```
+
+# Exercises
+
+<Exercise title={'001 Grade register'}>
+
+The exercise base contains the `GradeRegister` from the material. In this exercise you will further develop the program, so that it can calculate the average of grades and exam results.
+
+* Section 1 - Average grade
+
+create the method `public double AverageOfGrades()` for the class `GradeRegister`. It should return the average of the grades, rounded to 2 decimals. If the register contains no grades, the method should return `-1`. Use the `grades` list to calculate the average. Example:
+
+```cpp
+GradeRegister register = new GradeRegister();
+register.AddGradeBasedOnPoints(93);
+register.AddGradeBasedOnPoints(91);
+register.AddGradeBasedOnPoints(92);
+register.AddGradeBasedOnPoints(88);
+
+Console.WriteLine(register.AverageOfGrades());
+```
+
+```console
+4.75
+```
+
+* Section 2 - Average points
+
+Give the class GradeRegister a new object variable: a list where you will store the exam points every time that the method `AddGradeBasedOnPoints` is called. After this addition, create a method `public double AverageOfPoints()` that calculates and returns the average of the exam points, rounded to 2 decimals. If there are no points added to the register, the method should return the number -1. Example:
+
+```cpp
+GradeRegister register = new GradeRegister();
+register.AddGradeBasedOnPoints(93);
+register.AddGradeBasedOnPoints(91);
+register.AddGradeBasedOnPoints(92);
+
+Console.WriteLine(register.AverageOfPoints());
+```
+
+```console
+92
+```
+
+* Section 3 - Prints in the user interface
+
+As a final step, add the methods implemented above as parts of the user interface. When the program prints the grade distribution, it should also print the averages of the points and the grades.
+
+```console
+Points:
+> 82 
+Points:
+> 83
+Points:
+> 96 
+Points: 
+> 51 
+Points:
+> 48 
+Points:
+> 56 
+Points:
+> 61 
+Points:
+>
+
+5: * 
+4: ** 
+3: 
+2: * 
+1: ** 
+0: * 
+The average of points: 68.14
+The average of grades: 2.43
+```
+
+</Exercise>
+
+<Exercise title={'002 Joke manager'}>
+
+<Note>This exercise DOES NOT HAVE TESTS. It is up to you to decide, when the exercise is ready. I WILL CHECK THEM, SO DON'T CHEAT.</Note>
+
+<Note>This is worth double the points, so 4 in total (2 per section).</Note>
+
+The exercise base contains the following program that has been written "in the main".
+
+```cpp
+using System;
+using System.Collections.Generic;
+
+namespace Exercise002
+{
+  class Program
+  {
+    public static void Main(string[] args)
+    {
+      List<string> jokes = new List<string>();
+      Console.WriteLine("What a joke!");
+
+      while (true)
+      {
+        Console.WriteLine("Commands:");
+        Console.WriteLine(" 1 - add a joke");
+        Console.WriteLine(" 2 - draw a joke");
+        Console.WriteLine(" 3 - list jokes");
+        Console.WriteLine(" X - stop");
+
+        string command = Console.ReadLine();
+
+        if (command == "X")
+        {
+          break;
+        }
+
+        if (command == "1")
+        {
+          Console.WriteLine("Write the joke to be added:");
+          string joke = Console.ReadLine();
+          jokes.Add(joke);
+        }
+        else if (command == "2")
+        {
+          Console.WriteLine("Drawing a joke.");
+
+          if (jokes.Count == 0)
+          {
+            Console.WriteLine("Jokes are in short supply.");
+          }
+          else
+          {
+            Random draw = new Random();
+            int index = draw.Next(0, jokes.Count);
+            Console.WriteLine(jokes[index]);
+          }
+
+        }
+        else if (command == "3")
+        {
+          Console.WriteLine("Printing the jokes.");
+          foreach (string joke in jokes)
+          {
+            Console.WriteLine(joke);
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+The application is in practice a storage for jokes. You can add jokes, get a randomized joke, and the stored jokes can be printed. In this exercise the program is divided into parts in a guided manner.
+
+* Section 1 - Joke manager
+
+Create a class called `JokeManager` and move the functionality to manage jokes in it. The class must have a parameter-free constructor, and the following methods:
+
+* `public void AddJoke(string joke)` - adds a joke to the manager.
+* `public string DrawJoke()` - chooses one joke at random and returns it. It there are no jokes stored in the joke manager, the method should return the string "Jokes are in short supply.".
+* `public void PrintJokes()` - prints all the jokes stored in the joke manager.
+
+An example of how to use the class:
+
+```cpp
+JokeManager manager = new JokeManager();
+manager.AddJoke("What is red and smells of blue paint? - Red paint.");
+manager.AddJoke("What is blue and smells of red paint? - Blue paint.");
+
+Console.WriteLine("Drawing jokes:");
+for (int i = 0; i < 5; i++)
+{
+  Console.WriteLine(manager.DrawJoke());
+}
+
+Console.WriteLine("");
+Console.WriteLine("Printing jokes:");
+manager.PrintJokes();
+```
+
+Below is a possible output of the program. Notice that the jokes will probably not be drawn as in this example.
+
+```console
+Drawing jokes: 
+What is blue and smells of red paint? - Blue paint. 
+What is red and smells of blue paint? - Red paint. 
+What is blue and smells of red paint? - Blue paint. 
+What is blue and smells of red paint? - Blue paint. 
+What is blue and smells of red paint? - Blue paint.
+
+Printing jokes: 
+What is red and smells of blue paint? - Red paint. 
+What is blue and smells of red paint? - Blue paint.
+```
+
+* Section 2 - User Interface
+
+Create a class called `UserInterface` and move the UI functionality of the program there. The class must have a constructor with one parameter: an instance of the JokeManager class. In addition, the class should have the method `public void Start()` that can be used to start the user interface.
+
+The user interface should provide the user with the following commands:
+
+* X - ending: exits the method start.
+* 1 - adding: asks the user for the joke to be added to the joke manager, and then adds it.
+* 2 - drawing: chooses a random joke from the joke manager and prints it. If there are no jokes in the manager, thi string "Jokes are in short supply." will be printed.
+* 3 - printing: prints all the jokes stored in the joke manager.
+
+An example of how to use the UI:
+
+```cpp
+JokeManager manager = new JokeManager();
+UserInterface ui = new UserInterface(manager);
+ui.Start();
+```
+
+```console
+Commands: 
+ 1 - add a joke 
+ 2 - draw a joke 
+ 3 - list jokes
+  X - stop 
+> 1 
+Write the joke to be added:
+> Did you hear about the claustrophobic astronaut? -- He just needed a little space. 
+Commands:
+ 1 - add a joke
+ 2 - draw a joke
+ 3 - list jokes 
+ X - stop 
+> 3 
+Printing the jokes. 
+Did you hear about the claustrophobic astronaut? -- He just needed a little space. 
+Commands:
+ 1 - add a joke
+ 2 - draw a joke
+ 3 - list jokes 
+ X - stop 
+> X
+```
+
+</Exercise>
