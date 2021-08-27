@@ -260,5 +260,48 @@ False
 
 </Exercise>
 
+<Exercise title={'015 Asking multiple inputs'}>
+
+Let's combine everything you know so far. create program that asks the user for a string, an integer, a double and a boolean, and prints them like follows:
+
+```console
+Give a string:
+> This is a masterpiece!
+Give an integer:
+> 42
+Give a double:
+> 3.1415
+Give a boolean:
+> True
+Your string: This is a masterpiece!
+Your integer: 42
+Your double: 3.1415
+Your boolean: True
+```
+
+</Exercise>
+
+<Exercise title={'016 Seconds in days'}>
+
+Let's combine everything you know so far. create program that asks the user for a string, an integer, a double and a boolean, and prints them like follows:
+
+```console
+Give a string:
+> This is a masterpiece!
+Give an integer:
+> 42
+Give a double:
+> 3.1415
+Give a boolean:
+> True
+Your string: This is a masterpiece!
+Your integer: 42
+Your double: 3.1415
+Your boolean: True
+```
+
+</Exercise>
+
+
 
 
