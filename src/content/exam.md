@@ -1,7 +1,7 @@
 ---
 title: 'Exam information'
 nav_order: 100
-hidden: false
+hidden: true
 ---
 
 - Now that there is quarantine enforcement due to corona virus, the exam will be postponed to be after both courses (basics and object oriented).

@@ -153,7 +153,7 @@ The block is always opened with **{** and closed with **}**. If either of them i
 As you might have noticed, we already have **comments** in our code. Comments are text that are not compiled and thus are not run. Comments can be used for example to comment certain elements in the code, or to **temporarily** comment out part of a code for debugging purposes. There are two types of comments:
 
 - **// single line comment**
-- **/_ multiple line comment _/**
+- **/\* multiple line comment \*/**
 
 As you can see, the single line comment is started with **//** but does not have an ending delimeter. Multiline comment starts with **/\*** and ends with **\*/**. Everything between these are considered as a comment by the compiler.
 
