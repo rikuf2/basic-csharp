@@ -434,7 +434,7 @@ Where from?
 
 <Exercise title={'008 Numbers and calculations'}>
 
-### Section 1
+- Section 1
 
 Implement a program that asks the user for numbers(the program first prints "Write numbers: ") until the user gives the number -1, When the user writes -1, the program prints "Thx! Bye!" and ends.
 
@@ -447,7 +447,7 @@ Give numbers:
 Thx! Bye!
 ```
 
-### Section 2
+- Section 2
 
 Extend the program so, that it prints the sum of the numbers (not including the -1) the user has written.
 
@@ -461,7 +461,7 @@ Thx! Bye!
 Sum: 11
 ```
 
-### Section 3 
+- Section 3 
 
 Extend the program so, that it also prints the number of numbers (not including the -1) the user has written.
 
@@ -476,7 +476,7 @@ Sum: 11
 Numbers: 3
 ```
 
-### Section 4
+- Section 4
 
 Extend the program so, that it prints the mean of the numbers (not including the -1) the user has written.
 
@@ -492,7 +492,7 @@ Numbers: 3
 Average: 3.666666666666
 ```
 
-### Section 5
+- Section 5
 
 Extend the program so that it prints the number of even and odd numbers (excluding the -1).
 
