@@ -4,7 +4,6 @@ nav_order: 3
 hidden: false
 ---
 
-## Types and variables
 
 There are two kinds of types in C#: **value types** and **reference types**. Variables of value types directly contain their data whereas variables of reference types store references to their data, the latter being known as **objects**. 
 

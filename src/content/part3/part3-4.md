@@ -4,7 +4,6 @@ nav_order: 4
 hidden: false
 ---
 
-## Strings
 
 Let's first revise what we already know about strings and see how to split them. Below we create a string variable magicWord, that contains value "abracadabra".
 

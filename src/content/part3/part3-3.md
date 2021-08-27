@@ -4,8 +4,6 @@ nav_order: 3
 hidden: false
 ---
 
-# Arrays
-
 We've gotten familiar with List, which has a lot of functionality to make the life of a programmer easier. Perhaps the most important is about adding elements: From the point of view of the programmer the size of the List is unlimited. In reality there are no magic tricks in the List -- they have been programmed like any programs or tools offered by the programming language. When you create a list, a limited space is reserved in the memory of the computer. When the List runs out of space, larger space is reserved and the data from the previous space is copied to the new one.
 
 Even though List is simple to use, sometimes we need the ancestor of the List, the Array.

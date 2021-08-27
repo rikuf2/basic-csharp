@@ -5,8 +5,6 @@ hidden: false
 ---
 
 
-## Objects and references
-
 Let's continue working with objects and references. Assume we can use the class that represents a person, shown below. 
 
 Person has object variables name, age, weight, and height; additionally, it offers methods to calculate the body mass index, among other things. 

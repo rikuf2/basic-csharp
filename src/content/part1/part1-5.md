@@ -4,7 +4,6 @@ nav_order: 5
 hidden: false
 ---
 
-# Repetition
 
 We now can do simple commands, one at a time. But what if we want to do something more than once?
 

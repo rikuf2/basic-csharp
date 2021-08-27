@@ -4,7 +4,6 @@ nav_order: 1
 hidden: false
 ---
 
-# Object Oriented programming revisited
 
 What is object-oriented programming all about? We'll rewind a little.
 

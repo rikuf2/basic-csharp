@@ -4,7 +4,6 @@ nav_order: 2
 hidden: false
 ---
 
-# Lists
 
 In programming, we often encounter situations where we want to handle many values. The only method we've used so far has been to define a separate variable for storing each value. This is impractical.
 
