@@ -38,7 +38,7 @@ Once upon a time
 I was falling in love
 Now I'm only falling apart
 ```
-create a program using 3 Console.WriteLines, that prints these lyrics.
+create a program which prints these lyrics using three (3) `Console.WriteLine`s.
 
 </Exercise>
 
@@ -50,7 +50,7 @@ Once upon a time
 I was falling in love
 Now I'm only falling apart
 ```
-This time, use only one Console.WriteLine.
+This time, use only one `Console.WriteLine`.
 
 </Exercise>
 
@@ -76,5 +76,42 @@ namespace Exercise004
 
 Change it, so that it prints `Passport and a toothbrush!`
 Do not change the line containing `Console.WriteLine`, only change the content of the variable!
+
+</Exercise>
+
+<Exercise title={'003 Bonnie Tyler with line changes'}>
+
+You will find following structure in the exercise:
+  
+```cpp
+using System;
+
+namespace Exercise005
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            string name = "Ada Lovelace";
+            // Write your code here:           
+        }
+    }
+}
+```
+
+Modify the code, so that it prints `Hello Ada LoveLace!`
+Do not modify the variable content!
+
+</Exercise>
+
+<Exercise title={'006 Print input'}>
+
+create a program, that asks user for a string. After the user has given the string (written text and pressed enter), the program will print the given line. Example output with `Hello` as input (input marked with `>` for clarification):
+
+```console
+Give input!
+> Hello
+Hello
+```
 
 </Exercise>

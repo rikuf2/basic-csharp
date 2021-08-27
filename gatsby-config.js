@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Template',
-    name: 'Template',
+    title: 'Basics of programming',
+    name: 'Basics of programming',
     description:
-      'This is my description that will be used in the meta tags and important for search results',
+      'Basics of programming with CSharp',
   },
   plugins: [
     // access content folder
