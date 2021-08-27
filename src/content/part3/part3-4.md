@@ -425,3 +425,69 @@ Number of parts: 3
 </Note>
 
 </Exercise>
+
+<Exercise title={'029 CSV age'}>
+
+Write a program that reads names and ages from the user until an empty line is entered. The name and age are separed by a comma.
+
+After reading the program prints the age of the oldest person. You can assume, that the user enters at least one person, and that one of the users is older than the others.
+
+```console
+> sebastian,2 
+> lucas,2
+> lily,1
+> hanna,5
+> gabriel,10
+>
+Age of the oldest: 10
+```
+
+</Exercise>
+
+<Exercise title={'030 CSV name'}>
+
+Write a program that reads names and ages from the user until an empty line is entered. The name and age are separed by a comma.
+
+After reading the program prints the name of the oldest person. You can assume, that the user enters at least one person, and that one of the users is older than the others.
+
+```console
+> sebastian,2 
+> lucas,2
+> lily,1
+> hanna,5
+> gabriel,10
+>
+Name of the oldest: gabriel
+```
+
+</Exercise>
+
+<Exercise title={'031 Maximum name and age'}>
+
+In this exercise you'll be asked for the length of the names. You can find out the length of a string with Length property:
+
+```cpp
+string word = "equisterian";
+int length = word.Length;
+Console.WriteLine("The length of the word " + word + " is " + length);
+```
+
+```console
+The length of the word equisterian is 11
+```
+Write a program that reads names and birth years from the user until an empty line is entered. The name and birth year are separed by a comma.
+
+After that the program prints the longest name and the highest age. If multiple names are equally longest, you can print any of them. You can assume the user to enter at least one person, and the current year to be 2020.
+
+```console
+> sebastian,2017 
+> lucas,2017 
+> lily,2017 
+> hanna,2014 
+> gabriel,2009
+>
+Longest name: sebastian 
+Highest age: 11
+```
+
+</Exercise>
