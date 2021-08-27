@@ -1001,9 +1001,9 @@ The output of the program:
 *********
 ```
 
-##### Section 2
+* Section 2
 
-* Define a method called **PrintSquare(int size)** that prints a suitable square with the help of the printStars method. So the method call **PrintSquare(4)** results in the following output:
+Define a method called `PrintSquare(int size)` that prints a suitable square with the help of the printStars method. So the method call `PrintSquare(4)` results in the following output:
 
 ```console
 ****
@@ -1012,9 +1012,9 @@ The output of the program:
 ****
 ```
 
-##### Section 3
+* Section 3
 
-* Write a method called PrintRectangle(int width, int height) that prints the correct rectangle by using the PrintStars method. So the method call PrintRectangle(17, 3) should produce the following output:
+Write a method called PrintRectangle(int width, int height) that prints the correct rectangle by using the PrintStars method. So the method call PrintRectangle(17, 3) should produce the following output:
 
 ```console
 ***************** 
@@ -1022,9 +1022,9 @@ The output of the program:
 *****************
 ```
 
-##### Section 4
+* Section 4
 
-* create a method called PrintTriangle(int size) that prints a triangle by using the PrintStars method. So the call PrintTriangle(4) should print the following:
+Create a method called PrintTriangle(int size) that prints a triangle by using the PrintStars method. So the call PrintTriangle(4) should print the following:
 
 ```console
 *
