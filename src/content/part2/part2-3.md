@@ -711,3 +711,165 @@ The output of the method call **MultiplicationTable(3)**, for instance, looks li
 4 5 6
 7 8 9
 ```
+
+# Exercises
+
+<Exercise title={'009 Print phrase'}>
+
+create a method called PrintPhrase which prints the phrase "In a hole in the ground there lived a method" and a newline (use WriteLine and not just Write).
+
+```cs
+public static void Main(string[] args)
+{
+  // Call your method here:
+  PrintPhrase();
+
+}
+
+// Write your method here:
+public static void PrintPhrase() 
+{
+
+}
+```
+
+```console
+In a hole in the ground there lived a method
+```
+
+</Exercise>
+
+<Exercise title={'010 How many times'}>
+
+Expand the previous program so that the main program asks the user for the number of times the phrase will be printed (i.e. how many times the method will be called).
+
+```cs
+public static void Main(string[] args)
+{
+  // ask the user for the number of times that the phrase will be printed
+  // use the while command to call the method a suitable number of times
+
+}
+
+// Write your method here:
+public static void PrintPhrase() 
+{
+
+}
+```
+
+```console
+How many times?
+> 3
+In a hole in the ground there lived a method
+In a hole in the ground there lived a method
+In a hole in the ground there lived a method
+```
+
+</Exercise>
+
+<Note>From here on out, when introducing methods, we might not explicitly mention they must be located in the correct place. Methods cannot be defined e.g. inside other methods.</Note>
+
+<Exercise title={'011 Print until number'}>
+
+Create the following method in the exercise template: `public static void PrintUntilNumber(int number)`. It should print the numbers from one to the number passed as a parameter. Two examples of the method's usage are given below.
+
+```cpp
+public static void Main(string[] args) 
+{
+  PrintUntilNumber(5);
+}
+```
+
+```console
+1
+2
+3
+4
+5
+```
+
+```cpp
+public static void Main(string[] args) 
+{
+  PrintUntilNumber(3);
+}
+```
+
+```console
+1
+2
+3
+```
+
+</Exercise>
+
+<Exercise title={'012 From number to one'}>
+
+Create the following method in the exercise template: `public static void PrintFromNumberToOne(int number)`. It should print the numbers from the number passed as a parameter down to one. Two examples of the method's usage are given below.
+
+```cs
+public static void Main(string[] args) 
+{
+  PrintFromNumberToOne(5);
+}
+```
+
+```console
+5
+4
+3
+2
+1
+```
+
+```cs
+public static void Main(string[] args) 
+{
+  PrintFromNumberToOne(2);
+}
+```
+
+```console
+2
+1
+```
+
+</Exercise>
+
+<Exercise title={'013 Division'}>
+
+Write a method `public static void Division(int numerator, int denominator)` that prints the result of the division of the numerator by the denominator. Keep in mind that the result of the division of the integers is an integer -- in this case we want the result to be a floating point number (double).
+
+</Exercise>
+
+<Exercise title={'014 Divisible in range'}>
+
+Write a method `public static void DivisibleByThreeInRange(int beginning, int end)` that prints all the numbers divisible by three in the given range. The numbers are to be printed in order from the smallest to the greatest.
+
+```cs
+public static void Main(string[] args) 
+{
+  DivisibleByThreeInRange(3, 6);
+}
+```
+
+```console
+3
+6
+```
+
+```cs
+public static void Main(string[] args) 
+{
+  DivisibleByThreeInRange(2, 10);
+}
+```
+
+```console
+3
+6
+9
+```
+
+</Exercise>
