@@ -278,7 +278,7 @@ Number of values on the list: 1
 Number of values on the list: 1
 ```
 
-NOTICE! The **Count is not a method** but a property. This means that when calling Count, we do not add brackets in the end!
+<Note> The **Count is not a method** but a property. This means that when calling Count, we do not add brackets in the end! </Note>
 
 Let's make a new version of the program that prints each index manually. In this intermediate version we use the **index** variable to keep track of the place that is to be outputted.
 
@@ -568,7 +568,7 @@ Console.WriteLine(list[1]);
 2
 ```
 
-NOTICE! The method **Remove** removes the first match it finds. So, if your list would contain multiples of the same value, only the first one would be removed!
+<Note> The method **Remove** removes the first match it finds. So, if your list would contain multiples of the same value, only the first one would be removed! </Note>
 
 
 The list method **Contains** can be used to check the existence of a value in the list. The method receives the value to be searched as its parameter, and it returns a boolean type value (True or False) that indicates whether or not that value is stored in the list.
@@ -753,7 +753,7 @@ Third print:
 
 As you can see, the methor **RemoveFirst** affects the list it was given as a parameter, directly.
 
-NOTICE! Instead of doing **Console.WriteLine(numbers)**, to get the values from the list, the annotation is **numbers.ForEach(Console.WriteLine);** !!
+<Note>Instead of doing **Console.WriteLine(numbers)**, to get the values from the list, the annotation is **numbers.ForEach(Console.WriteLine);** !!</Note>
 
 ## A Summary of List Methods and Properties
 

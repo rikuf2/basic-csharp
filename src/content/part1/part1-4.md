@@ -57,7 +57,7 @@ If the expression in the conditional statement is evaluated as true, above in th
 
 If the statement would be false, the code execution moves to the next line after the closing **}** of the code block.
 
-Notice, that there is no semicolon after the if-clause, as the statement does not end after the conditional part.
+<Note>There is no semicolon after the if-clause, as the statement does not end after the conditional part.</Note>
 
 ### Reminder of code indent
 
@@ -312,7 +312,7 @@ Console.WriteLine(a.Equals(b));
 True
 ```
 
-Exercises
+# Exercises
 
 <Exercise title={'024 Speeding'}>
 
@@ -500,7 +500,7 @@ Give a number
 It is odd.
 ````
 
-<Note>: You might want to use the `%` operator to get the remainder after a division with 2.</Note>
+<Note>You might want to use the % operator to get the remainder after a division with 2.</Note>
 
 </Exercise>
 

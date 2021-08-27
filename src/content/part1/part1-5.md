@@ -112,7 +112,7 @@ Console.WriteLine("All done!");
 All done!
 ```
 
-Notice, that we created our original number outside of the loop. If we would create it in the beginning, it would be recreated every time the loop starts again.
+<Note>We created our original number outside of the loop. If we would create it in the beginning, it would be recreated every time the loop starts again.</Note>
 
 ```cpp
 while (true) 
