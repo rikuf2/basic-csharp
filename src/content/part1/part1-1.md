@@ -443,7 +443,7 @@ What is your name?
 > Ada
 Hello Ada!
 ```
-Notice the exclamation mark.
+<Note>Notice the exclamation mark.</Note>
 
 </Exercise>
 

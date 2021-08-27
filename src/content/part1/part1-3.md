@@ -73,7 +73,8 @@ Console.WriteLine("The magic number is " + truth + ".");
 The magic number is 42.
 ```
 
-In our example, we combined a string, value of our variable, and another string. Notice, that the first string ends in whitespace, so there is space between the word "is" and the value. The dot in the end does not have whitespace, so it is right next to the number.
+In our example, we combined a string, value of our variable, and another string. 
+<Note>The first string ends in whitespace, so there is space between the word "is" and the value. The dot in the end does not have whitespace, so it is right next to the number.</Note>
 
 ```cpp
 Console.WriteLine("The magic number is " + 42);

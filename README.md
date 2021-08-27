@@ -110,7 +110,7 @@ yarn run build
 
 ### Config to deploy the application on Github Pages
 
-To deploy the application on your own Github Pages, first you need create a secret key on your account by going to ***account setting** then **developer settings** and **personal access tokens** and **generate new token**, tick on **repo** option as the picture below:
+To deploy the application on your own Github Pages, first you need create a secret key on your account by going to *account setting** then **developer settings** and **personal access tokens** and **generate new token**, tick on **repo** option as the picture below:
 
 ![genetate token](https://i.imgur.com/444VSXd.png)
 
