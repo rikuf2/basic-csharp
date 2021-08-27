@@ -49,7 +49,7 @@ Creating a new list is done with the command List\<type\> list = new List\<type\
 List<string> strings = new List<string>();
 ```
 
-The type of the List variable is **List**. When a list variable is initialized, the type of the values to be stored is also defined in addition to the variable type -- all the variables stored in a given list are of the same type. As such, the type of an List that stores strings is **List\<string\>**. A new list is created with the command new List<>();.
+The type of the List variable is **List**. When a list variable is initialized, the type of the values to be stored is also defined in addition to the variable type -- all the variables stored in a given list are of the same type. As such, the type of an List that stores strings is **List\<string\>**. A new list is created with the command new List\<\>();.
 
 ## Defining the Type of Values That a List Can Contain
 
