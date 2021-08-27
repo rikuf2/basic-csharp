@@ -240,3 +240,26 @@ row 9: print variable third
 row 9: assign the value for variable third arvo to be printed, the value of variable third is now 28
 row 9: print value 28
 ```
+
+# Exercises
+
+<Exercise title={'016 Seconds in days'}>
+
+Let's combine everything you know so far. create program that asks the user for a string, an integer, a double and a boolean, and prints them like follows:
+
+```console
+Give a string:
+> This is a masterpiece!
+Give an integer:
+> 42
+Give a double:
+> 3.1415
+Give a boolean:
+> True
+Your string: This is a masterpiece!
+Your integer: 42
+Your double: 3.1415
+Your boolean: True
+```
+
+</Exercise>
