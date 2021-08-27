@@ -6,6 +6,9 @@ hidden: false
 
 ## Part 0 - Learning goals and grading
 
+
+# THIS SITE IS UNDER CONSTRUCTION AND WILL BE PUBLISHED 1.9.2021!
+
 The list below does not include everything, but exists to give a guideline for students, what to expect each week. This list may extend as the course goes on.
 
 | Part | Goal                                                                                                                                                                                                                                                                          |
