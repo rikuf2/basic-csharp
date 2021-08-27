@@ -328,3 +328,63 @@ Search for?
 ```
 
 </Exercise>
+
+<Exercise title={'019 Sum of numbers in array'}>
+
+The template has a method `public static int SumOfNumbersInArray(int[] array)`. Complete the method so, that it computes and returns the sum of the numbers in the array it receives as parameter.
+
+You can try out the computation of the sum with this example:
+
+```cpp
+int[] numbers = {5, 1, 3, 4, 2};
+int sum = SumOfNumbersInArray(numbers);
+Console.WriteLine(sum);
+```
+
+```console
+15
+```
+
+</Exercise>
+
+<Exercise title={'020 Print neatly'}>
+
+Complete the method `public static void PrintNeatly(int[] array)` in the template to make it print the numbers of the array it receives more nEatly. There should be a whitespace and a comma between each number. don't put a comma after the last number.
+
+Print the numbers on one line using `Console.Write`.
+
+You can try out your printing with this example:
+
+```cpp
+int[] array = {5, 1, 3, 4, 2};
+PrintNeatly(array);
+```
+
+```console
+5, 1, 3, 4, 2
+```
+
+</Exercise>
+
+<Exercise title={'021 Array in stars'}>
+
+Complete the method `public static void PrintArrayInStars(int[] array)` in the template to make it print a row of stars for each number in the array. The amount of stars on each row is defined by the corresponding number in the array.
+
+You can try out the printing with this example:
+
+```cpp
+int[] array = {5, 1, 3, 4, 2};
+PrintArrayInStars(array);
+```
+
+```
+***** 
+* 
+*** 
+**** 
+**
+```
+
+The 0th element of the array is 5, so the first line has 5 stars. The next one has 1 etc.
+
+</Exercise>
