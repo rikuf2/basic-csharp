@@ -183,3 +183,4 @@ When a program is executed multiple times with appropriate inputs the hidden err
 
 
 Answer: The last variable in the code is called **value**, when it should be called **values**. We are calling for a variable which was defined inside the loop, rather than the one we want.
+
