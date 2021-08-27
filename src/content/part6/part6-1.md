@@ -27,7 +27,7 @@ Let's build this program piece by piece. One of the challenges is that it is dif
 
 We could start implementing the user interface by creating a class UserInterface. 
 
-```cs
+```cpp
 public class UserInterface
 {
   public UserInterface() 
@@ -44,7 +44,7 @@ public class UserInterface
 
 Creating and starting up a user interface can be done as follows.
 
-```cs
+```cpp
 public static void Main(string[] args) 
 {  
   UserInterface userinterface = new UserInterface();
@@ -57,7 +57,7 @@ public static void Main(string[] args)
 This program has (at least) two "sub-problems". The first problem is continuously reading words from the user until a certain condition is reached. We can outline this as follows.
 
 
-```cs
+```cpp
 public class UserInterface
 {
   public UserInterface() 
@@ -83,7 +83,7 @@ public class UserInterface
 
 The program continues to ask for words until the user enters a word that has already been entered before. Let us modify the program so that it checks whether the word has been entered or not. We don't know yet how to implement this functionality, so let us first build an outline for it.
 
-```cs
+```cpp
 public class UserInterface
 {
   public UserInterface() 
@@ -115,7 +115,7 @@ public class UserInterface
 
 It's a good idea to test the program continuously, so let's make a test version of the method:
 
-```cs
+```cpp
 public bool AlreadyEntered(string word) 
 {
   if (word == "end") 
@@ -148,7 +148,7 @@ The program doesn't completely work yet, but the first sub-problem - quitting th
 
 Another sub-problem is remembering the words that have already been entered. A list is a good structure for this purpose.
 
-```cs
+```cpp
 public class UserInterface
 {
   private List<string> words;
@@ -184,7 +184,7 @@ public class UserInterface
 
 When a new word is entered, it has to be added to the list of words that have been entered before. This is done by adding a line that updates our list to the while-loop:
 
-```cs
+```cpp
 while(true)
 {
   Console.WriteLine("Enter a word:");
@@ -201,7 +201,7 @@ while(true)
 
 The whole user interface now looks as follows.
 
-```cs
+```cpp
 public class UserInterface
 {
   private List<string> words;
@@ -241,7 +241,7 @@ public class UserInterface
 
 Again, it is a good idea to test that the program still works. For example, it might be useful to add a test print to the end of the start-method to make sure that the entered words have really been added to the list.
 
-```cs
+```cpp
 // test print to check that everything still works
 words.ForEach(Console.WriteLine);
 ```
@@ -250,7 +250,7 @@ words.ForEach(Console.WriteLine);
 
 Let's change the method 'AlreadyEntered' so that it checks whether the entered word is contained in our list of words that have been already entered.
 
-```cs
+```cpp
 public bool AlreadyEntered(string word) 
 {
   return this.words.Contains(word);
@@ -281,7 +281,7 @@ You wrote the same word twice!
 We came up with the following solution:
 
 
-```cs
+```cpp
 public class UserInterface
 {
   private List<string> words;
@@ -321,7 +321,7 @@ From the point of view of the user interface, the support variable 'words' is ju
 
 Let's make a class called 'WordSet'. After implenting the class, the user interface's start method looks like this:
 
-```cs
+```cpp
 while(true)
 {
   if (words.Contains(word))
@@ -339,7 +339,7 @@ We notice that the readability of the user interface is greatly improved when it
 
 The outline for the class 'WordSet' looks like this:
 
-```cs
+```cpp
 public class WordSet 
 {
   // object variable(s)
@@ -366,7 +366,7 @@ public class WordSet
 
 We can implement the set of words by making our earlier solution, the list, into an object variable:
 
-```cs
+```cpp
 public class WordSet 
 {
   private List<string> words;
@@ -392,7 +392,7 @@ Now our solution is quite elegant. We have separated a distinct concept into a c
 
 Let's now edit the user interface so that it uses the class WordSet. The class is given to the user interface as a parameter.
 
-```cs
+```cpp
 public class UserInterface
 {
   private WordSet wordSet;
@@ -423,7 +423,7 @@ public class UserInterface
 
 Starting the program is now done as follows:
 
-```cs
+```cpp
 public static void Main(string[] args) 
 {  
   WordSet set = new WordSet();
@@ -442,7 +442,7 @@ The main point here is that changes made inside the class WordSet don't affect t
 
 In the future, we might want to augment the program so that the class 'WordSet' offers some new functionalities. If, for example, we wanted to know how many of the entered words were palindromes, we could add a method called **Palindromes** into the program.
 
-```cs
+```cpp
 public void Start()
 {
   while(true)
@@ -464,7 +464,7 @@ public void Start()
 
 The user interface remains clean, because counting the palindromes is done inside the 'WordSet' object. The following is an example implementation of the method.
 
-```cs
+```cpp
 public int Palindromes() 
 {
   int count = 0;
@@ -564,7 +564,7 @@ Points:
 
 As almost all programs, this program can be written into main as one entity. Here is one possibility.
 
-```cs
+```cpp
 public class Program 
 {
   public static void Main(string[] args) 
@@ -649,7 +649,7 @@ Program logic includes parts that are crucial for the execution of the program, 
 
 An example class follows.
 
-```cs
+```cpp
 public class GradeRegister 
 {
   private List<int> grades;
@@ -713,7 +713,7 @@ public class GradeRegister
 When the grade register has been separated into a class, we can remove the functionality associated with it from our main program. The main program now looks like this.
 
 
-```cs
+```cpp
 public class Program 
 {
   public static void Main(string[] args) 
@@ -758,7 +758,7 @@ public class Program
 
 Separating the program logic is a major benefit for the maintenance of the program. Since the program logic -- in this case the GradeRegister -- is its own class, it can also be tested separately from the other parts of the program. If you wanted to, you could copy the class GradeRegister and use it in your other programs. Below is an example of simple manual testing -- this experiment only concerns itself with a small part of the register's functionality.
 
-```cs
+```cpp
 GradeRegister register = new GradeRegister();
 register.AddGradeBasedOnPoints(51);
 register.AddGradeBasedOnPoints(50);
@@ -774,7 +774,7 @@ Typically each program has its own user interface. We will create the class User
 
 When we now have a separate user interface at our disposal, the main program that initializes the whole program becomes very clear.
 
-```cs
+```cpp
 public class Program 
 {
   public static void Main(String[] args) 
@@ -789,7 +789,7 @@ public class Program
 
 Let's have a look at how the user interface is implemented. There are two essential parts to the UI: reading the points, and printing the grade distribution.
 
-```cs
+```cpp
 public class UserInterface 
 {
   private GradeRegister register;
@@ -818,7 +818,7 @@ public class UserInterface
 
 We can copy the code for reading exam points and printing grade distribution nearly as is from the previous main program. In the program below, parts of the code have indeed been copied from the earlier main program, and new method for printing stars has also been created -- this clarifies the method that is used for printing the grade distribution.
 
-```cs
+```cpp
 public class UserInterface 
 {
   private GradeRegister register;

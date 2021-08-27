@@ -11,7 +11,7 @@ Let's continue working with objects and references. Assume we can use the class 
 
 Person has object variables name, age, weight, and height; additionally, it offers methods to calculate the body mass index, among other things. 
 
-```cs
+```cpp
 namespace sandbox
 {
 
@@ -84,7 +84,7 @@ namespace sandbox
 
 Precisely what happens when a new object is created?
 
-```cs
+```cpp
 Person joan = new Person("Joan Ball");
 ```
 
@@ -101,7 +101,7 @@ So the value of the variable is set to be a reference, i.e. knowledge about the 
 
 Let's add a Person type variable called **ball** into the program, and assign joan as its initial value. What happens then?
 
-```cs
+```cpp
 Person joan = new Person("Joan Ball");
 Console.WriteLine(joan);
 
@@ -112,7 +112,7 @@ The statement **Person ball = joan;** creates a new Person variable call, and co
 
 Let's inspect the same example a little more thoroughly.
 
-```cs
+```cpp
 Person joan = new Person("Joan Ball");
 Console.WriteLine(joan);
 
@@ -134,7 +134,7 @@ An object's internal state is not copied when a variable's value is assigned. A 
 
 Next, the example is continued so that a new object is created for the **joan** variable, and a reference to it is assigned as the value of the variable. The variable **ball** still refers to the object that we created earlier.
 
-```cs
+```cpp
 Person joan = new Person("Joan Ball");
 Console.WriteLine(joan);
 
@@ -162,7 +162,7 @@ So in the beginning the variable **joan** contains a reference to one object, bu
 
 Let's extend the example further by setting the value of the reference variable **ball** to **null**, i.e. a reference "to nothing". The **null** reference can be set as the value of any reference type variable.
 
-```cs
+```cpp
 Person joan = new Person("Joan Ball");
 Console.WriteLine(joan);
 
@@ -196,7 +196,7 @@ In other words, when an object is not needed anymore, it will be taken care of, 
 
 Let's see what happens when we try to print a variable that references "nothing" i.e. null.
 
-```cs
+```cpp
 Person joan = new Person("Joan Ball");
 Console.WriteLine(joan);
 
@@ -224,7 +224,7 @@ We cannot see anything in the last line of print: That's because **ball** now re
 
 Let's see what happens if we grow our **ball** older.
 
-```cs
+```cpp
 Person joan = new Person("Joan Ball");
 Console.WriteLine(joan);
 
@@ -261,7 +261,7 @@ We have seen both value and reference variables act as method parameters. Since 
 
 Amusement park rides only permit people who are taller than a certain height. The limit is not the same for all attractions. Let's create a class representing an amusement park ride. When creating a new object, the constructor receives as parameters the name of the ride, and the smallest height that permits entry to the ride.
 
-```cs
+```cpp
 public class AmusementParkRide
 {
   private string name;
@@ -284,7 +284,7 @@ Then let's write a method that can be used to check if a person is allowed to en
 
 We can safely assume our Person class now has the ability to tell the age outside the class (i.e. the variable **int age** is public).
 
-```cs
+```cpp
 public bool AllowedToRide(Person person)
 {
   if (person.height < this.lowestHeight)
@@ -300,7 +300,7 @@ So the method AllowedToRide of an AmusementParkRide object is given a Person obj
 
 Below is an example main program where the amusement park ride method is called twice: first the supplied parameter is a person object **matt**, and then a person object **jasper**:
 
-```cs
+```cpp
 static void Main(string[] args)
 {
 
@@ -343,7 +343,7 @@ What if we wanted to know how many people have taken the ride?
 
 Let's add an object variable to the amusement park ride. It keeps track of the number of people that were permitted to enter.
 
-```cs
+```cpp
 public class AmusementParkRide
 {
   private string name;
@@ -377,7 +377,7 @@ public class AmusementParkRide
 
 Now the previously used example program also keeps track of the number of visitors who have experienced the ride.
 
-```cs
+```cpp
 static void Main(string[] args)
 {
 
@@ -422,7 +422,7 @@ Objects may contain references to objects.
 
 Let's keep working with people, and add a birthday to the person class. A natural way of representing a birthday is to use a **Date** class. We could use the classname Date, but for the sake of **avoiding confusion with the similarly named existing C# class**, we will use **SimpleDate** here.
 
-```cs
+```cpp
 public class SimpleDate
 {
   private int day;
@@ -446,7 +446,7 @@ public class SimpleDate
 
 Since we know the birthday, there is no need to store that age of a person as a separate object variable. The age of the person can be inferred from their birthday. Let's assume that the class Person now has the following variables.
 
-```cs
+```cpp
 public class Person
 {
   public string name;
@@ -459,7 +459,7 @@ public class Person
 
 Let's create a new Person constructor that allows for setting the birthday:
 
-```cs
+```cpp
 public Person(string name, SimpleDate date)
 {
   this.name = name;
@@ -471,7 +471,7 @@ public Person(string name, SimpleDate date)
 
 Along with the constructor above, we could give Person another constructor where the birthday was given as integers.
 
-```cs
+```cpp
 public Person(string name, int day, int month, int year)
 {
   this.name = name;
@@ -483,7 +483,7 @@ The constructor receives as parameters the different parts of the date (day, mon
 
 Let's modify the ToString method of the Person class so that instead of age, the method returns the birthday:
 
-```cs
+```cpp
 public override string ToString()
 {
   return this.name + ", born on " + this.birthday;
@@ -492,7 +492,7 @@ public override string ToString()
 
 Let's see how the updated Person class works.
 
-```cs
+```cpp
 SimpleDate date = new SimpleDate(1, 1, 780);
 Person muhammad = new Person("Muhammad ibn Musa al-Khwarizmi", date);
 Person pascal = new Person("Blaise Pascal", 19, 6, 1623);
@@ -516,7 +516,7 @@ Birthday appears to be a good extension to the Person class. Earlier we noted th
 
 In the section above, we use our own class SimpleDate to represent date, because it is suitable for illustrating and practising the operation of objects. If we want to handle date (and time) in our own programs, we would most probably use [**C#'s DateTime**](https://docs.microsoft.com/en-us/dotnet/api/system.datetime?view=netframework-4.8) rather than code our own version.
 
-```cs
+```cpp
 DateTime now = DateTime.Now;
 Console.WriteLine(now);
 int year = now.Year;
@@ -537,7 +537,7 @@ NOTICE! With C# the output of the first line can differ, depending on the langua
 
 We will continue working with the **Person** class. We recall that persons know their birthdays:
 
-```cs
+```cpp
 public class Person
 {
   public string name;
@@ -550,7 +550,7 @@ public class Person
 
 We would like to compare the ages of two people. The comparison can be done in multiple ways. We could, for instance, implement a method called **public int AgeAsYears()** for the Person class; in that case, the comparison would happen in the following manner:
 
-```cs
+```cpp
 Person muhammad = new Person("Muhammad ibn Musa al-Khwarizmi", 1, 1, 780);
 Person pascal = new Person("Blaise Pascal", 19, 6, 1623);
 
@@ -565,7 +565,7 @@ We are going to create a new method **public bool OlderThan(Person compared)** f
 
 The method is meant to be used like this:
 
-```cs
+```cpp
 Person muhammad = new Person("Muhammad ibn Musa al-Khwarizmi", 1, 1, 780);
 Person pascal = new Person("Blaise Pascal", 19, 6, 1623);
 
@@ -590,7 +590,7 @@ The method OlderThan receives a **person object** as its parameter. More precise
 
 The implementation of the method is illustrated below. Note that the method may return a value in more than one place -- here the comparison has been divided into multiple parts based on the years, the months, and the days:
 
-```cs
+```cpp
 public bool OlderThan(Person compared)
 {
   // 1. First compare years
@@ -638,7 +638,7 @@ Let's pause for a moment to consider abstraction, one of the principles of objec
 
 We'll create a method called **public boole Before(SimpleDate compared)** for the class SimpleDate. The method returns the value **true** if the date given as the parameter is after (or on the same day as) the date of the object whose method is called.
 
-```cs
+```cpp
 public class SimpleDate
 {
   private int day;
@@ -699,7 +699,7 @@ Even though the object variables year, month, and day are encapsulated (private)
 
 An example of how to use the method:
 
-```cs
+```cpp
 SimpleDate d1 = new SimpleDate(14, 2, 2011);
 SimpleDate d2 = new SimpleDate(21, 2, 2011);
 SimpleDate d3 = new SimpleDate(1, 3, 2011);
@@ -726,7 +726,7 @@ Console.WriteLine(d1 + " is earlier than " + d4 + ": " + d1.Before(d4));
 
 Let's tweak the method OlderThan of the Person class so that from here on out, we take use of the comparison functionality that date objects provide.
 
-```cs
+```cpp
 public bool OlderThan(Person compared) {
     if (this.birthday.Before(compared.birthday)) {
         return true;
@@ -747,7 +747,7 @@ If we want to be able to compare two objects of our own design with the **Equals
 
 The method equals is implemented in a way that allows for using it to compare the current object with any other object. The method receives an Object type object as its single parameter -- all objects are Object type, in addition to their own type. The equals method first compares if the addresses are equal: if so, the objects are equal. After this, we examine if the types of the objects are the same: if not, the objects are not equal. Then the Object object passed as the parameter is converted to the type of the object that is being examined by using a type cast. Then the values of the object variables can be compared. Below the equality comparison has been implemented for the SimpleDate class.
 
-```cs
+```cpp
 namespace sandbox
 {
   public class SimpleDate
@@ -805,7 +805,7 @@ namespace sandbox
 
 Notice! So far we have compared only with **==**, but now we're also using **Equals**. They compare different things. Try out, what happens if you compare two identical SimpleDates with both:
 
-```cs
+```cpp
 static void Main(string[] args)
 {
   SimpleDate date1 = new SimpleDate(1,2,2020);
@@ -822,7 +822,7 @@ Every class we create (and every ready-made C# class) inherits the class Object,
 
 To illustrate, the following source code compiles successfully: **Equals** method can be found in the Object class inherited by all classes.
 
-```cs
+```cpp
 namespace sandbox
 {
   public class Bird
@@ -837,7 +837,7 @@ namespace sandbox
 }
 ```
 
-```cs
+```cpp
 static void Main(string[] args)
 {
   Bird red = new Bird("Red");
@@ -869,7 +869,7 @@ They're not equal!
 
 Let's examine how the **Equals** method is used with Lists. Let's assume we have the previously described class **Bird** with only the default **Equals** method (not defined by us).
 
-```cs
+```cpp
 public class Bird
 {
   private string name;
@@ -883,7 +883,7 @@ public class Bird
 
 Let's create a list and add a bird to it. After this we'll check if that bird is contained in it.
 
-```cs
+```cpp
 static void Main(string[] args)
 {
   List<Bird> birds = new List<Bird>();
@@ -936,7 +936,7 @@ The **Contains** method of a list uses the **Equals** method that is defined for
 
 Let's implement the **Equals** method for the class **Bird**. The method examines if the names of the objects are equal -- if the names match, the birds are thought to be equal.
 
-```cs
+```cpp
 public override bool Equals(object compared)
 {
   // if the variables are located in the same position, they are equal
@@ -962,7 +962,7 @@ public override bool Equals(object compared)
 
 Now the Contains list method recognizes birds with identical contents.
 
-```cs
+```cpp
 static void Main(string[] args)
 {
   List<Bird> birds = new List<Bird>();
@@ -1015,7 +1015,7 @@ We have seen methods return boolean values, numbers, and strings. Easy to guess,
 
 In the next example we present a simple counter that has the method **Clone**. The method can be used to crete a clone of the counter; i.e. a new counter object that has the same value at the time of its creation as the counter that is being cloned.
 
-```cs
+```cpp
 namespace sandbox
 {
   public class Counter
@@ -1058,7 +1058,7 @@ namespace sandbox
 
 An example of using counters follows:
 
-```cs
+```cpp
 Counter counter = new Counter();
 counter.Increase();
 counter.Increase();
@@ -1098,7 +1098,7 @@ Immediately after the cloning operation, the values contained by the clone and t
 
 Similarly, a **Factory** object could also be used to create and return new Car objects. Below is a sketch of the outline of the factory -- the factory also knows the makes of the cars that are created.
 
-```cs
+```cpp
 public class Factory 
 {
   private string make;

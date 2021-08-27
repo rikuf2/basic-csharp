@@ -10,7 +10,7 @@ We now can do simple commands, one at a time. But what if we want to do somethin
 
 For example, let's make a program which asks the user for a number 7 times and sums them up.
 
-```cs
+```cpp
 int sum = 0;
 Console.Write("Give integer value: ");
 string userInput = Convert.ToInt32(Console.ReadLine());
@@ -52,7 +52,7 @@ This will get the job done, but as you can see, there is plenty of repetition, a
 
 The easier and nicer way to solve this problem, is with **loops**, especially the **while-loop**, which we  peeked into a little in previous parts. 
 
-```cs
+```cpp
 int sum = 0;
 int readNumbers = 0;
 
@@ -73,7 +73,7 @@ Let's look deeper into the while loops.
 
 ## While loop, forever and ever and ever...
 
-```cs
+```cpp
 while (expression)
 {
     // Your code is here
@@ -89,7 +89,7 @@ We did manage to create a program in the previous example, that is not looping f
 
 Usually a break is used when the user gives a certain kind of input, or when the loop-calculation has reached a certain point, just like in our example above.
 
-```cs
+```cpp
 int number = 1;
 
 while (true) 
@@ -114,7 +114,7 @@ All done!
 
 Notice, that we created our original number outside of the loop. If we would create it in the beginning, it would be recreated every time the loop starts again.
 
-```cs
+```cpp
 while (true) 
 {
     int number = 1;
@@ -139,7 +139,7 @@ Console.WriteLine("All done!");
 
 You can also ask user input in a while loop. In the following example, we will ask the user if they want to continue the program.
 
-```cs
+```cpp
 while (true) 
 {
     Console.WriteLine("Do you want to continue?");
@@ -167,7 +167,7 @@ All done!
 
 In the previous example, we asked the user for string input. Of course, other types of variable work just as well.
 
-```cs
+```cpp
 while (true) 
 {
     Console.WriteLine("Input an integer, 0 quits");
@@ -201,7 +201,7 @@ We return to the beginning of a while loop when all the code inside the code blo
 
 In the example below, we will ask the user for positive integers. If the user gives a negative integer, we will print out a message "Not a positive integer" and return to the beginning of the loop. If the user gives a zero, the program will end.
 
-```cs
+```cpp
 while (true) 
 {
     Console.WriteLine("Input a positive integer, 0 quits");
@@ -236,7 +236,7 @@ All done!
 
 You might have noticed, that we used two ifs instead of if-else-if structure. Let's see our code with if-else.
 
-```cs
+```cpp
 while (true) 
 {
     Console.WriteLine("Input a positive integer, 0 quits");
@@ -259,7 +259,7 @@ Console.WriteLine("All done!");
 
 The only difference in code is the **else if** instead of just if. What if we change the order inside the block?
 
-```cs
+```cpp
 while (true) 
 {
     Console.WriteLine("Input a positive integer, 0 quits");
@@ -281,7 +281,7 @@ Console.WriteLine("All done!");
 
 The functionality from the user's perspective is identical. Let's combine this code into if-else-structure.
 
-```cs
+```cpp
 while (true) 
 {
     Console.WriteLine("Input a positive integer, 0 quits");
@@ -305,7 +305,7 @@ Console.WriteLine("All done!");
 
 Now let's comment the newest versions of our program, to see what happens in the code.
 
-```cs
+```cpp
 // Repeat until the block has been exited
 while (true) 
 {
@@ -335,7 +335,7 @@ Console.WriteLine("All done!");
 
 All the lines and inner code blocks have a simple, meaningful task to perform. What about the combined version?
 
-```cs
+```cpp
 // Repeat until the block has been exited
 while (true) 
 {
@@ -377,7 +377,7 @@ For a program to be able to print information after the while loop has been exec
 
 If the variable for data storage is introduced inside the block dedicated for the loop, the variable is accessible only inside the block, but not elsewhere. Let's demonstrate that with commented code.
 
-```cs
+```cpp
 // Repeat until the block has been exited
 
 while (true) 
@@ -409,7 +409,7 @@ Console.WriteLine("Amount of ones: " + countOnes);
 
 All the variables are **visible** to the code block they are in. Let's modify our example, so that the printing line is inside the inner code block, and see what happens.
 
-```cs
+```cpp
 // Repeat until the block has been exited
 
 while (true) 
@@ -457,7 +457,7 @@ Now the program works, but not the way we intended. As the "storage" is created 
 
 If we want the program to work, we have to create the variable before the loop. The next example works as intended.
 
-```cs
+```cpp
 // Create a variable as storage for counting 1s
 int countOnes = 0;
 

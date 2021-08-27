@@ -16,7 +16,7 @@ An Array contains a limited amount of numbered spots (indices) for values. The l
 
 There are two ways to create an Array. In the first one you have to explicitly define the size upon the creating. This is how you create an Array to hold three integers:
 
-```cs
+```cpp
 int[] numbers = new int[3];
 ```
 
@@ -24,7 +24,7 @@ An array is declared by adding square brackets after the type of the elements it
 
 An array to hold 5 Strings can be created like this:
 
-```cs
+```cpp
 string[] strings = new string[5];
 ```
 
@@ -32,7 +32,7 @@ string[] strings = new string[5];
 
 An element of an array is referred to by its index. In the example below we create an array to hold 3 integers, and then assigning values to the indices 0 and 2. After that we print the values.
 
-```cs
+```cpp
 int[] numbers = new int[3];
 numbers[0] = 2;
 numbers[2] = 5;
@@ -46,7 +46,7 @@ Assigning a value to a specific spot of an Array works much like assigning a val
 
 The index is an integer, and it's value is between [0, length of the Array - 1]. For example an Array to hold 5 elements has indices 0, 1, 2, 3, and 4.
 
-```cs
+```cpp
 int[] numbers = new int[5];
 numbers[0] = 42;
 numbers[1] = 13;
@@ -62,7 +62,7 @@ Console.WriteLine(numbers[index]);
 
 The value held in an Array can also be assigned to be the value of another variable
 
-```cs
+```cpp
 int[] numbers = new int[5];
 numbers[0] = 42;
 numbers[1] = 13;
@@ -81,7 +81,7 @@ Console.WriteLine(number);
 
 You can find out the size of the array through the property **Length**. You can access this property by writing name of the array dot name of the variable, i.e. numbers.Length. Note, that this is not a method call, so numbers.Length() doesn't work.
 
-```cs
+```cpp
 int[] numbers = new int[4];
 
 numbers[0] = 12;
@@ -110,7 +110,7 @@ If the index is pointing outside the Array, i.e. the element doesn't exist, we g
 
 The next example is a program that first asks the user to enter how many numbers, and then enter the numbers. Finally it prints back the numbers in the same order. The numbers are stored in an Array.
 
-```cs
+```cpp
 Console.WriteLine("How many numbers? ");
 int howMany = Convert.ToInt32(Console.ReadLine());
 
@@ -154,7 +154,7 @@ Here are the numbers again:
 
 You can create an array stating the type of the elements of the array followed by square brackets (typeofelements[]). Therefore the elements of the array can be of any type. Here's a few examples:
 
-```cs
+```cpp
 string[] months = new string[12];
 double[] approximations = new double[100];
 
@@ -174,7 +174,7 @@ Some programming languages try to make sure the programmer doesn't go "in the wr
 
 You can use arrays as a parameter of a method just like any other variable. Because array is reference type, the value of the array is a reference to the information contained in the array. When you use array as a parameter of a method, the method receives a copy of the reference to the array.
 
-```cs
+```cpp
 public static void ListElements(int[] integerArray)
 {
   Console.WriteLine("the elements of the array are: ");
@@ -191,7 +191,7 @@ public static void ListElements(int[] integerArray)
 ```
 
 In action:
-```cs
+```cpp
 int[] numbers = new int[3];
 numbers[0] = 1;
 numbers[1] = 2;
@@ -213,13 +213,13 @@ Array is an object, so when you change the array inside the method, the changes 
 
 There's also a shortcut to create an array. Here we create an array to hold 3 integers, and initiate it with values 100, 1 and 42 in it:
 
-```cs
+```cpp
 int[] numbers = {100, 1, 42};
 ```
 
 So apart from calling for **new**, we can also initialize an array with a block, that contains comma-separated values to be assigned in the array. This works for all the types: below we initialize an array of strings, then an array of floating-point numbers. Finally the values are printed.
 
-```cs
+```cpp
 string[] arrayOfStrings = {"Mike L.", "Mike P.", "Mike V."};
 double[] arrayOfFloatingpoints = {1.20, 3.14, 100.0, 0.6666666667};
 
@@ -236,7 +236,7 @@ Mike V. 100
 
 When you initialize an array with a block, the length of the array is precisely the number of the values specified in the block. The values of the block are assigned to the array in the order, eg. the first value is assigned to the index 0, the second value to the index 1 etc.
 
-```cs
+```cpp
 // index           0   1    2    3   4   5     6     7
 int[] numbers = {100,  1,  42,  23,  1,  1, 3200, 3201};
 
@@ -248,7 +248,7 @@ Console.WriteLine(luvut[2]);
 
 Just like in Lists, you can't access an index outside of the array. You can try out the following example on your own computer, for example in the sandbox.
 
-```cs
+```cpp
 string[] arrayOfStrings = {"Mike L.", "Mike P.", "Mike V."};
 double[] arrayOfFloatingpoints = {1.20, 3.14, 100.0, 0.6666666667};
 

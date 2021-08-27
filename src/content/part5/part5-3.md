@@ -14,7 +14,7 @@ With value types, the variables each have their own copy of the data, and it is 
 
 From the programmer's point of view, the data in a value variable is stored as the value of that variable, whereas the value of a reference type varible is a reference to the data. Let's examine these different types with two examples.
 
-```cs
+```cpp
 int number = 10;
 Console.WriteLine(number);
 ```
@@ -23,7 +23,7 @@ Console.WriteLine(number);
 10
 ```
 
-```cs
+```cpp
 namespace sandbox
 {
   public class Name
@@ -38,7 +38,7 @@ namespace sandbox
 }
 ```
 
-```cs
+```cpp
   Name john = new Name("John");
   Console.WriteLine(john);
 ```
@@ -54,7 +54,7 @@ The method call **Console.WriteLine** prints the value of the variable. The valu
 
 The previous example is the case when the programmer has not changed a variable's default print format. You can change the default print by defining the method **ToString** in the class of the object in question. The method indicates what string should be printed when an instance of the class is printed. In the example below, we have defined the method **public override string ToString()** in the class Name: it returns the instance variable name. Now when we print an object that is an instance of Name with the Console.WriteLine command, what is printed is the string returned by the ToString method.
 
-```cs
+```cpp
 namespace sandbox
 {
   public class Name
@@ -73,7 +73,7 @@ namespace sandbox
 }
 ```
 
-```cs
+```cpp
 Name john = new Name("John");
 Console.WriteLine(john);
 ```
@@ -92,7 +92,7 @@ The most interesting (and maybe most important for us) are the **simple type**. 
 
 Because a simple type aliases a struct type, every simple type has members. For example, **int** has the members declared in **System.Int32** and the members inherited from **System.Object**, and the following statements are permitted:
 
-```cs
+```cpp
 int i = int.MaxValue;    // System.Int32.MaxValue constant
 string s = i.ToString(); // System.Int32.ToString() instance method
 string t = 123.ToString(); // System.Int32.ToString() instance method
@@ -102,7 +102,7 @@ In other words, all the basic variables we have been using, are actually just ea
 
 Introducing a value variable reserves a memory location of fixed size from the memory. The size is determined by the type of the variable, and the memory location is where the value of the variable stored at. In the example below we create three variables. Each one has its own memory location, to where the assigned value is copied.
 
-```cs
+```cpp
 int first = 10;
 int second = first;
 int third = second;
@@ -130,7 +130,7 @@ A reference type value is a reference to an **instance** of the type, the latter
 
 Let's re-examine the example at the beginning of the chapter, where we created a variable called john of type Name.
 
-```cs
+```cpp
 Name john = new Name("John");
 ```
 
@@ -138,25 +138,25 @@ The call consists of the following parts:
 
 * When introducing any new variable, we must first define the type of that variable. Below we introduce a variable of type **Name**. In order for the execution of the program to succeed, there must be a class called **Name** available.
 
-```cs
+```cpp
 Name ...
 ```
 
 * In the introduction of a variable its name must be included. You can later use the name of the variable to reference its value. Below, the variable name is defined as luke.
 
-```cs
+```cpp
 Name john ...
 ```
 
 * You can store a value in a variable. You can create an instance object from a class by calling the class constructor, which defines the values that are placed in the instance variables of the object that is created. Below we assume that the class **Name** has a constructor that takes a string as parameter.
 
-```cs
+```cpp
 ... new Name("John");
 ```
 
 * The constructor call returns a value that is a reference to the created object. The equality signs tells the program that the value of the right-side expression is to be copied as the value of the variable on the left side. The reference to the newly-created object, which is returned by the constructor call, is copied as the value of the **john** variable.
 
-```cs
+```cpp
 Name john = new Name("John");
 ```
 
@@ -176,7 +176,7 @@ A similar copying occurs when a method is called. Regardless of whether the vari
 
 Let's take a practical look at the phenomenon. Let's assume we have the following **Person** class available.
 
-```cs
+```cpp
 public class Person
 {
   private string name;
@@ -197,7 +197,7 @@ public class Person
 
 Let's take a look at the operation of the program step by step.
 
-```cs
+```cpp
 static void Main(string[] args)
 {
 

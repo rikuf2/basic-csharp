@@ -10,7 +10,7 @@ So far, our programs have been quite linear, going step-by-step in order, withou
 
 For the program to **branch** with for example user input, we will need a **conditional statement** in the program. The most simple conditional is
 
-```cs
+```cpp
 Console.WriteLine("Hello world!");
 if (true) 
 {
@@ -25,7 +25,7 @@ This is always printed!
 
 On the other hand, we could make a part of our code unreachable:
 
-```cs
+```cpp
 Console.WriteLine("Hello world!");
 if (false) 
 {
@@ -45,7 +45,7 @@ The brackets are followed by a code block, enclosed in **{ }**. The code inside 
 
 Let us examine an example, where we compare integers.
 
-```cs
+```cpp
 int number = 11;
 if (number > 10) 
 {
@@ -63,7 +63,7 @@ Notice, that there is no semicolon after the if-clause, as the statement does no
 
 The code inside a block should be indented. For example, the code inside an if statement should be indented more than the keyword **if** in the code. The ending **}** should be at the same level as the if.
 
-```cs
+```cpp
 int number = 11;
 if (number > 10) 
 {
@@ -71,7 +71,7 @@ Console.WriteLine("This indention is wrong");
 }
 ```
 
-```cs
+```cpp
 int number = 11;
 if (number > 10) 
 {
@@ -93,7 +93,7 @@ The following are relational operators:
 | != | not equal to |
 
 
-```cs
+```cpp
 int number = 55;
 
 if (number != 0) 
@@ -117,7 +117,7 @@ If the expression inside the if-clause evaluates as false, the code execution co
 
 This can be achieved with an else-statement, that is combined to the if-statement.
 
-```cs
+```cpp
 int number = 4;
 
 if (number > 5) 
@@ -140,7 +140,7 @@ If the conditional statement has an else branch, the code block defined for the 
 
 If you want to have more than one option, use **else-if-structure**. It is similar to else, but has an if-conditional. There can be multiple of them, and they come after if, before else.
 
-```cs
+```cpp
 int number = 3;
 
 if (number == 1) 
@@ -171,7 +171,7 @@ In the example above, we first check if the number is equal to 1. As it is not, 
 
 As any code, the comparisons are done in order, from top to bottom, left to right. When we reach a conditional which evaluates to **true**, we execute that block and end comparison.
 
-```cs
+```cpp
 int number = 42;
 
 if (number == 0) 
@@ -202,7 +202,7 @@ In the example, the condition **number > 0** is evaluated as **true**, so we exe
 
 The evaluated value of an expression inside the if-clause's brackets must be a **boolean**. Boolean is a representation of a truth-value, and is either **true** or **false**.
 
-```cs
+```cpp
 bool truthValue = true;
 Console.WriteLine("The value of truthValue is " + truthValue);
 ```
@@ -213,7 +213,7 @@ The value of truthValue is True
 
 Or with a conditional,
 
-```cs
+```cpp
 bool truthValue = true;
 if (truthValue)
 {
@@ -227,7 +227,7 @@ This is awesome!
 Comparison can be used outside statements, as well. Then the value of a boolean is stored into a boolean variable until further use.
 
 
-```cs
+```cpp
 int first = 1;
 int second = 3;
 bool isFirstLargerThanSecond = first > second;
@@ -235,7 +235,7 @@ bool isFirstLargerThanSecond = first > second;
 
 Now the value of **isFirstLargerThanSecond** is **false**. Let's change the example a bit and continue:
 
-```cs
+```cpp
 int first = 1;
 int second = 3;
 bool isFirstSmallerThanSecond = first < second;
@@ -254,7 +254,7 @@ if (isFirstSmallerThanSecond)
 
 Remainder is not used as frequently, but is a nice tool, especially if we want to check if something is divisible by some other number.
 
-```cs
+```cpp
 int remainder = 7 % 2;
 Console.WriteLine(remainder); // prints 1
 Console.WriteLine(5 % 3); // prints 2
@@ -265,7 +265,7 @@ Console.WriteLine(1 % 2); // prints 1
 
 As remainder is an operation similar to other calculations, we can use it in for example an if clause
 
-```cs
+```cpp
 string userInput = Console.ReadLine();
 
 int number = Convert.ToInt32(userInput);
@@ -289,7 +289,7 @@ In some of the programming languages, this means that string comparison has to b
 
 For example the following works in C#, while in most other languages it would not:
 
-```cs
+```cpp
 string a = "word";
 string b = "word";
 Console.WriteLine(a == b);
@@ -301,7 +301,7 @@ True
 
 Other way to compare strings, is with **equals-method**. The method compares the value of an object. We will go deeper into that later, now it is enough for you to know such a method exists.
 
-```cs
+```cpp
 string a = "word";
 string b = "word"; 
 

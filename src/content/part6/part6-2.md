@@ -16,7 +16,7 @@ In C#, methods can be divided into two groups, defined with the modifier **stati
 
  Below is an example of a class **Item**, which has three object methods. Each method can handle object's variables.
 
- ```cs
+ ```cpp
  public class Item
  {
    private string name;
@@ -48,7 +48,7 @@ In C#, methods can be divided into two groups, defined with the modifier **stati
 
 Unlike object methods, class methods are methods, which can only handle parameters given as parameters, or created inside the method. Below is an example of the class **Printer**, which has two class methods. The first one prints the given string with underscore, and the second one prints lines with the amount given as a parameter.
 
-```cs
+```cpp
 public class Printer
 {
   // class methods
@@ -73,7 +73,7 @@ To call object methods, we need an object, for whom the the method is called (in
 
 Let's examine the examples above in a class **Program**. In the example below we use the class **Printer**'s class methods, and from the class **Item** we create an object and use its methods.
 
-```cs
+```cpp
 public class Program 
 {
   public static void Main(string[] args)
@@ -99,7 +99,7 @@ Kartell Louis Ghost
 
 Let's examine a program which handles lists. In the **Main** method is functionality which handles integers in a list. Also the class has a class method **ZeroList** which works according to its name, setting a zero to each value of the list it gets as a parameter.
 
-```cs
+```cpp
 public class Program 
 {
   public static void Main(string[] args)
@@ -145,7 +145,7 @@ Since the class method is not connected to any object, it is not called the way 
 
 Below is the same example, varied in a way that the Main program and the method are in their own classes:
 
-```cs
+```cpp
 public class Program 
 {
   public static void Main(string[] args)
@@ -173,7 +173,7 @@ public class Program
 }
 ```
 
-```cs
+```cpp
 public class Lists 
 {
   public static void ZeroList(List<int> list)
@@ -194,7 +194,7 @@ All methods which handle the state of an object, must be defined as object metho
 
 Let's return to the class **Person**. Following is a part of the class. All the object variables are referred with the keyword **this** to highlight, that the methods are using the object variables "inside" the object itself.
 
-```cs
+```cpp
 public class Person
 {
   private string name;
@@ -225,7 +225,7 @@ public class Person
 
 Since the methods are handling the object, they cannot be defined as static, or "independent of objects". If we try to do so, the method will not work. For example, the method below does not work:
 
-```cs
+```cpp
 public static void GrowOlder()
 {
   this.age++;
@@ -243,7 +243,7 @@ This means the static method cannot handle the object variable.
 
 So, when should we use static methods? Let's look at the next example, where we have person objects. In the program, we create persons, grow them older, and eventually print information if they are of age.
 
-```cs
+```cpp
 public class Program
 {
   public static void Main(string[] args)
@@ -294,7 +294,7 @@ We can already see, that the code to tell each persons' of age has been copy-pas
 
 This is a good opportunity to use a static method. Let's rewrite the program, using the method:
 
-```cs
+```cpp
 public class Program
 {
   public static void Main(string[] args)
