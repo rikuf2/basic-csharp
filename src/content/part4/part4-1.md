@@ -38,11 +38,11 @@ An object is always instantiated by calling a method that created an object, i.e
 
 A class lays out a blueprint for any objects that are instantiated from it. Let's draw from an analogy from outside the world of computers. Detached houses are most likely familiar to most, and we can safely assume the existence of drawings somewhere that determine what exactly a detached house is to be like. A class is a blueprint. In other words, it specifies what kinds of objects can be instantiated from it:
 
-![House blueprints](https://github.com/centria/basic-coding/raw/master/assets/images/houses.jpg)
+![House blueprints](https://github.com/centria/basic-csharp/raw/master/src/images/houses.jpg)
 
 Individual objects, detached houses in this case, are all created based on the same blueprints - they're instances of the same class. The states of individual objects, i.e., their attributes (such as the wall color, the building material of the roof, the color of its foundations, the doors' materials and color, ...) may all vary, however. The following is an "object of a detached-house class":
 
-![Single house](https://github.com/centria/basic-coding/raw/master/assets/images/singlehouse.jpg)
+![Single house](https://github.com/centria/basic-csharp/raw/master/src/images/singlehouse.jpg)
 
 ## Creating Classes
 
@@ -117,7 +117,7 @@ Instance variables are written on the lines following the class definition **pub
 
 In the class diagram, the variables associated with the class are defined as "variableName: variableType". The minus sign before the variable name indicates that the variable is encapsulated (it has the keyword private).
 
-![Class Diagram](https://github.com/centria/basic-coding/raw/master/assets/images/person.jpg)
+![Class Diagram](https://github.com/centria/basic-csharp/raw/master/src/images/person.jpg)
 
 We have now defined a blueprint -- a class -- for the person object. Each new person object has the variables **name** and **age**, which are able to hold object-specific values. The "state" of a person consists of the values assigned to their name and age.
 
@@ -157,7 +157,7 @@ The constructor's name is always the same as the class name. The class in the ex
 
 A few things to note: the constructor contains the expression **this.age = 0**. This expression sets the instance variable age of the newly created object (i.e., "this" object's age) to 0. The second expression **this.name = initialName** likewise assigns the string passed as a parameter to the instance variable name of the object created.
 
-![Class Diagram With Constructror](https://github.com/centria/basic-coding/raw/master/assets/images/personconstructor.jpg)
+![Class Diagram With Constructror](https://github.com/centria/basic-csharp/raw/master/src/images/personconstructor.jpg)
 
 If the programmer does not define a constructor for a class, the C# compiler automatically creates a default one for it. A default constructor is a constructor that doesn't do anything apart from creating the object. The object's variables remain uninitialized (generally, the value of any object references will be null, meaning that they do not point to anything).
 
@@ -215,7 +215,7 @@ Going forward, our methods **will not include the static keyword** if they're us
 
 In addition to the class name, instance variables, and constructor, the class diagram now also includes the method PrintPerson. Since the method comes with the **public** modifier, the method name is prefixed with a plus sign. No parameters are defined for the method, so nothing is put inside the method's parentheses. The method is also marked with information indicating that it does not return a value, here **void**.
 
-![Class Diagram With Print](https://github.com/centria/basic-coding/raw/master/assets/images/printperson.jpg)
+![Class Diagram With Print](https://github.com/centria/basic-csharp/raw/master/src/images/printperson.jpg)
 
 The method **PrintPerson** contains one line of code that makes use of the instance variables **name** and **age** -- the class diagram says nothing about its internal implementations. Instance variables are referred to with the prefix this. All of the object's variables are visible and available from within the method.
 
@@ -277,7 +277,7 @@ The method is written inside the Person class just as the printPerson method was
 
 The class diagram also gets an update.
 
-![Class Diagram With Growth](https://github.com/centria/basic-coding/raw/master/assets/images/persongrow.jpg)
+![Class Diagram With Growth](https://github.com/centria/basic-csharp/raw/master/src/images/persongrow.jpg)
 
 Let's call the method and see what happens:
 
@@ -484,7 +484,7 @@ public class Person
 }
 ```
 
-![Class Diagram With Return](https://github.com/centria/basic-coding/raw/master/assets/images/personreturn.jpg)
+![Class Diagram With Return](https://github.com/centria/basic-csharp/raw/master/src/images/personreturn.jpg)
 
 Let's illustrate how the method works:
 
