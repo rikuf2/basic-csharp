@@ -176,7 +176,7 @@ Write a program that reads two integers from the user, and prints the square roo
 
 You can get the square root of an integer with the command Math.Sqrt like this:
 
-```cs
+```cpp
 int number = 42;
 double squareRoot = Math.Sqrt(number);
 Console.WriteLine(squareRoot);

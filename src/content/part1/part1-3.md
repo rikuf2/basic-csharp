@@ -162,7 +162,7 @@ double average = (first + second + third) / 3.0; //divide by the amount of numbe
 Console.WriteLine(average);  // prints 20.333333333333332
 ```
 
-<Note> that the divider for the average is 3.0, which is a double. Even though we declare average as a double, if all the operands are integers, the value for average would evaluate as 20.</Note>
+<Note> The divider for the average is 3.0, which is a double. Even though we declare average as a double, if all the operands are integers, the value for average would evaluate as 20.</Note>
 
 ## Common misconceptions with variables
 

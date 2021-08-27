@@ -403,7 +403,7 @@ Where to?
 4 
 5
 ```
-<Note>The number read from the user is now the upper limit of the condition. Remember that a &lt;= b means a is smaller or equal to b.</Note>
+<Note>The number read from the user is now the upper limit of the condition. Remember that a <= b means a is smaller or equal to b.</Note>
 
 - Section 2
 
