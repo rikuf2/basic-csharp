@@ -20,7 +20,7 @@ One way in which perceptual blindness manifests itself in programming practice i
 
 Likewise, a programmer may focus on the most complicated aspect of a program featuring a loop, when in fact the error lies somewhere else completely. An example of this is the program below, which is used to calculate the average of user-inputted values. It contains an error, and when searching for it, the loop is typically the first target of focus.
 
-```cs
+```cpp
 
 int values = 0;
 int sum = 0;
@@ -56,7 +56,7 @@ Perceptual blindness is something that one cannot be eliminated completely. Howe
 
 Comments have many purposes, and one of them is explaining how the code works to oneself when searching for bugs. The execution of a relatively simple program is described below through the use of comments.
 
-```cs
+```cpp
 /*
  Prints the numbers from ten to one.
 Each number is printed on its own line.
@@ -86,7 +86,7 @@ The comment style displayed above that is intended for learning purposes is, how
 
 The example can be "commented out" by encapsulating the code into an appropriately named method. Below are two examples of methods that do this - one of the methods is more general in its purpose compared to the other. The more general method assumes, however, that the user knows which of the two parameters is assigned the higher value and which the lower.
 
-```cs
+```cpp
 public static void PrintValuesFromTenToOne()
 {
   int value = 10;
@@ -98,7 +98,7 @@ public static void PrintValuesFromTenToOne()
 }
 ```
 
-```cs
+```cpp
 public static void PrintValuesFromLargestToSmallest(int start, int end)
 {
   while (start >= end) {
@@ -114,7 +114,7 @@ One required skill in programming is the ability to test and debug when searchin
 
 Let's inspect the program already familiar to us from the previous question that was used to calculate the average of non-negative values.
 
-```cs
+```cpp
 
 int values = 0;
 int sum = 0;
@@ -144,7 +144,7 @@ else
 
 Had the program contained an error, print debugging could have been used to unravel its functionality by adding print statements in the appropriate places. The example below contains one possible example of a program containing print-debug statements.
 
-```cs
+```cpp
 
 int values = 0;
 int sum = 0;

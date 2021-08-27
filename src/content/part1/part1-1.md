@@ -6,7 +6,7 @@ hidden: false
 
 The basic structure of a program is following:
 
-```cs
+```cpp
 using System;
 
 public class Program
@@ -20,7 +20,7 @@ public class Program
 
 The program execution starts from the first line after **public static void Main(string[] args) {** and ends at the closing **}** bracket. Everything in between is run one row at a time. For example, the most common first program of any programmer, the **Hello World**, would go like this:
 
-```cs
+```cpp
 public class Program {
     public static void Main(string[] args)
     {
@@ -39,7 +39,7 @@ We will later focus on the terms **public class** and **public static void**, no
 
 In the material the whole structure might not be shown, unless purposefully needed. The example above could be represented also as
 
-```cs
+```cpp
 Console.WriteLine("Hello World");
 ```
 
@@ -53,7 +53,7 @@ The requirements in the exercises are very precise. If for example the line need
 
 Programs are created (and read) command by command, where every command has to be on their own line. In the next example, we are calling **Console.WriteLine** twice, which means the print command is executed twice.
 
-```cs
+```cpp
 public class Program {
     public static void Main(string[] args)
     {
@@ -72,7 +72,7 @@ Hello World!
 
 To be precise, the command **Console.WriteLine("example text");** prints the text **example text** and a line change. The line change can also be handled with special character **\n**, which is written as a part of the printable text. The example above could also be written as
 
-```cs
+```cpp
 public class Program {
     public static void Main(string[] args)
     {
@@ -85,7 +85,7 @@ public class Program {
 
 Sometimes the texts can be quite long, and reading them from a single line can become quite difficult. It is possible to do split the string into multiple pieces and then concatenate them together with the **+** operator. The example above could be
 
-```cs
+```cpp
 public class Program {
     public static void Main(string[] args)
     {
@@ -114,7 +114,7 @@ When we want to print something, we have to give that information as a **paramet
 
 With a semicolon **;** statements are separated from each other. We could write our examples on a one line, but they would not be very readable.
 
-```cs
+```cpp
 Console.Write("Hello "); Console.Write("World!"); Console.Write("\n");
 ```
 
@@ -130,7 +130,7 @@ Code consists of **Code blocks**. Code block means part of the code, separated w
 
 For example, the line **public static void Main(string[] args)** that defines where to start the program, defines a block of what to run when the program is started.
 
-```cs
+```cpp
 public class Program
 {  // Here starts block for the class
 
@@ -163,7 +163,7 @@ Even though there is no style restraint from computer or the language we have ch
 
 We could write our program as
 
-```cs
+```cpp
 public class Program
 {
     public static void Main(string[] args)
@@ -176,7 +176,7 @@ public class Program
 
 As well as
 
-```cs
+```cpp
 public class Program { public static void Main(string[] args) { Console.WriteLine("Hello World!\n" +
 "... and Pietarsaari!");  }
                                         }
@@ -188,13 +188,13 @@ But as you can see, the latter is not as easy to read, and understanding for exa
 
 Now that we have the tools for programming, let's go a bit deeper. so far we have printed simple lines of text. These texts are actually **string literals**. These literals can be saved into **string variables**. When we introduce a variable into a program, we usually give it a **value**. A value is given by following the variable with a **=** sign, the value and ending the line again with a semicolon, **;**. For example, if we want a string variable called **message** with a value of **I am learning**, we would assign it with
 
-```cs
+```cpp
 string message = "I am learning";
 ```
 
 Creating a variable gives us an opportunity to reference to the variable inside the program. We could use our variable for printing:
 
-```cs
+```cpp
 string message = "Print me";
 Console.WriteLine(message);
 ```
@@ -207,7 +207,7 @@ Print me
 
 If we now would use quotes around our variable name, we would print it as a string literal.
 
-```cs
+```cpp
 string message = "Print me";
 Console.WriteLine("message");
 ```
@@ -218,7 +218,7 @@ message
 
 As we earlier combined multiple lines of text, the string variables can also be concatenated as a part of printing.
 
-```cs
+```cpp
 string name = "Doctor Octopus";
 Console.WriteLine("We meet again, " + name);
 ```
@@ -229,7 +229,7 @@ We meet again, Doctor Octopus
 
 Same can be done with multiple parts
 
-```cs
+```cpp
 string name = "Doctor Octopus";
 string greeting = "We meet again, ";
 Console.WriteLine(greeting + name + "!");
@@ -241,7 +241,7 @@ We meet again, Doctor Octopus!
 
 We could also create a string variable from multiple literals:
 
-```cs
+```cpp
 string counting = "One" + "\n" + "Two" + "\n" + "Three";
 Console.WriteLine(counting);
 ```
@@ -256,7 +256,7 @@ Three
 
 So far we have used strings that are written directly to the source code. It would be nice if we could tell our program, what we want to print each time. This can be done with another built in command, **ReadLine**.
 
-```cs
+```cpp
 public class Program
 {
     public static void Main()
@@ -282,7 +282,7 @@ I want to print this
 
 This is the same example, but with concatenating the input message with **Your message was:**
 
-```cs
+```cpp
 public class Program
 {
    public static void Main()
@@ -311,7 +311,7 @@ Your message was: I want to print this
 <Exercise title={'001 Hello World!'}>
 The basic structure of a program is given in the exercise:
 
-```cs
+```cpp
 using System;
 
 namespace Exercise001
@@ -362,7 +362,7 @@ This time, use only one `Console.WriteLine`.
 
 The exercise has following structure:
 
-```cs
+```cpp
 using System;
  
 namespace Exercise004
@@ -387,7 +387,7 @@ Do not change the line containing `Console.WriteLine`, only change the content o
 
 You will find following structure in the exercise:
   
-```cs
+```cpp
 using System;
 
 namespace Exercise005

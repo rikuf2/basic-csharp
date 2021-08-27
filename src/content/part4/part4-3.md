@@ -10,7 +10,7 @@ A considerable amount of software is in one way or another based on handling dat
 
 We've been using the **Console.ReadLine** since the beginning of this course to read user input. The block in which data is read has been a while-true loop where the reading ends at a specific input.
 
-```cs
+```cpp
 while (true) {
     string line = Console.ReadLine();
 
@@ -28,7 +28,7 @@ In text-based user interfaces, the input of the user is directed into the input 
 
 The user input is read in string form. If we wanted to handle the input as integers, for instance, we'd have to convert it to another form. An example program has been provided below - it reads input from the user until the user inputs "end". As long as the user input is not "end" the inputs are handled as integers -- in this case, the number is simply printed.
 
-```cs
+```cpp
 while (true) {
     string row = Console.ReadLine();
 
@@ -76,7 +76,7 @@ rebecca,23
 
 There are several ways how to read a file. Here's (first) two of them:
 
-```cs
+```cpp
 
 using System.IO;
 
@@ -145,7 +145,7 @@ The world is full of data that are related to other data -- these form collectio
 
 Data is often stored in files using a specific format. One such format that's already familiar to us is comma-separated values (CSV) format, i.e., data separated by commas.
 
-```cs
+```cpp
 while (true)
 {
   Console.WriteLine("Enter name and age separated by a comma:");
@@ -173,7 +173,7 @@ Enter name and age separated by a comma:
 
 Reading the same data from a file called **records.csv** would look like so:
 
-```cs
+```cpp
 string[] lines = File.ReadAllLines("records.csv");
 foreach (string line in lines)
 {
@@ -200,7 +200,7 @@ Creating objects from data that is read from a file is straightforward. Let's as
 
 Reading objects can be done like so:
 
-```cs
+```cpp
 static void Main(string[] args)
 {
   List<Person> people = new List<Person>();

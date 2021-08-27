@@ -6,7 +6,7 @@ hidden: false
 
 Calculations as such should be quite familiar to you already. They are done with same operators in code, as they are in mathematics: addition with **+**, substraction with **-**, multiplication with **\*** and division with **/**. The order of calculation is also very traditional. From left to right, taking into account any brackets, and multiplication and division before addition or substraction.
 
-```cs
+```cpp
 int first = 2;
 Console.WriteLine(first); // prints 2
 int second = 4;
@@ -20,7 +20,7 @@ Console.WriteLine(sum); // prints 6
 
 You can change the order of calculation with brackets, if you wish.
 
-```cs
+```cpp
 int calcWithBrackets = (1 + 1) + 3 * (2 + 5);
 Console.WriteLine(calcWithBrackets); // prints 23
 
@@ -32,7 +32,7 @@ Console.WriteLine(calcWithoutBrackets); // prints 13
 
 Expression is a combination of values, that is changed into a value during a calculation or evaluation. For example,
 
-```cs
+```cpp
 int calcWithoutBrackets = 1 + 1 + 3 * 2 + 5;
 ```
 
@@ -40,7 +40,7 @@ contains an expression of **1 + 1 + 3 \* 2 + 5**, which is evaluated before it i
 
 The evaluation is done in the same order of code as the rest of the code, line by line, left to right. The evaluation can also be done during a print, if the expression is used as a parameter for printing.
 
-```cs
+```cpp
 int first = 42;
 int second = 2;
 
@@ -51,7 +51,7 @@ Console.WriteLine(first + second);
 
 An expression does not change the value of a variable, unless the result of the expression is set as a value or given as a parameter to a method, such as printing.
 
-```cs
+```cpp
 int first = 42;
 int second = 2;
 
@@ -63,7 +63,7 @@ first + second;
 
 So far we have looked into basics of printing and calculations. Now let's combine them. You can print the value of a variable with **Console.WriteLine()**. If you want to concatenate the value to a string, it is done with **\*+** and having the string inside quotation marks.
 
-```cs
+```cpp
 int truth = 42;
 
 Console.WriteLine("The magic number is " + truth + ".");
@@ -76,7 +76,7 @@ The magic number is 42.
 In our example, we combined a string, value of our variable, and another string. 
 <Note>The first string ends in whitespace, so there is space between the word "is" and the value. The dot in the end does not have whitespace, so it is right next to the number.</Note>
 
-```cs
+```cpp
 Console.WriteLine("The magic number is " + 42);
 Console.WriteLine(42 + " is the magic number.");
 ```
@@ -88,7 +88,7 @@ The magic number is 42.
 
 If one side of the addition is a string, the other side is also changed to a string when the program is run. In the lower situation of the next example, the integer **2** changes into a string **"2"**, and is combined with a string. In the upper case, we demonstrate again the calculation order and brackets, how they change the case.
 
-```cs
+```cpp
 Console.WriteLine("Four: " + (2 + 2));
 Console.WriteLine("But! Twenty-two: " + 2 + 2);
 ```
@@ -100,7 +100,7 @@ But! Twenty-two: 22
 
 With all this information, we can create an expression that contains text and a variable, which is evaluated during printing.
 
-```cs
+```cpp
 int x = 10;
 
 Console.WriteLine("value of x is: " + x);
@@ -120,7 +120,7 @@ y is 5 and z is 6
 
 So far we have only done very simple additions. Multiplication is also quite simple, as from mathematical point of view, it is just a special case of addition (well, everything is). For example, 3\*2 is the same as 2+2+2. In code, this could be something like:
 
-```cs
+```cpp
 Console.WriteLine(3*2);
 Console.WriteLine(2+2+2);
 ```
@@ -136,7 +136,7 @@ When dividing in code, the type of the variables that are divided, also determin
 
 For the operands of integer types, the result of the **/** operator is of an integer type and equals the quotient of the two operands rounded towards zero:
 
-```cs
+```cpp
 Console.WriteLine(13 / 5);    // output: 2
 Console.WriteLine(-13 / 5);   // output: -2
 Console.WriteLine(13 / -5);   // output: -2
@@ -145,7 +145,7 @@ Console.WriteLine(-13 / -5);  // output: 2
 
 If we change one (or both) of the numbers to be double, the result will also be a double.
 
-```cs
+```cpp
 Console.WriteLine(13 / 5.0);       // output: 2.6
 int x = 13;
 int y = 5;
@@ -154,7 +154,7 @@ Console.WriteLine((double)x / y);  // output: 2.6
 
 If we would like to calculate an average of values, we could do something like
 
-```cs
+```cpp
 int first = 13;
 int second = 6;
 int third = 42;
@@ -170,7 +170,7 @@ When a computer runs source code, the code is run one command at a time, progres
 
 - The value is moved instead of copying. For example, if source code has a statement
 
-```cs
+```cpp
 first = second;
 ```
 
@@ -178,7 +178,7 @@ You might think that **second** does not have a value any more, and the value ha
 
 - Seeing the variable declaration as a dependency rather than copying: With the same example
 
-```cs
+```cpp
 first = second;
 ```
 
@@ -186,14 +186,14 @@ You might think, that any change into **second** affects **first** as well. That
 
 - Third and most common misconception is the order of copying. Often in the beginning of coding, it easy to mix up the direction on assignment. For example, you might want to write
 
-```cs
+```cpp
 42 = int truth;
 42 = 21;
 ```
 
 Which of course do not work. To understand what is happening in the code for variables,you might want to pick up pen and paper, and write down what happens in the code, line by line. For example in this code, happens quite much:
 
-```cs
+```cpp
 row 1: int first = (1 + 1);
 row 2: int second = first + 3 * (2 + 5);
 row 3:

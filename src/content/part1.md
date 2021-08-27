@@ -12,7 +12,7 @@ Programming languages offer multiple **methods** and **commands** as **built-in*
 
 Our C# programs require a certain type of body to function:
 
-```cs
+```cpp
 public class Program {
     public static void Main(string[] args)
     {

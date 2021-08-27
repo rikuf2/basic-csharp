@@ -6,7 +6,7 @@ hidden: false
 
 Let's get back to the Person class once more. Let's look a bit different version of the class:
 
-```cs
+```cpp
 public class Person
 {
   private string name;
@@ -52,7 +52,7 @@ public class Person
 
 Initially all person objects are 0 years old, because the constructor sets the value of the instance variable age to 0:
 
-```cs
+```cpp
 public Person(string name)
 {
   this.name = name;
@@ -66,7 +66,7 @@ public Person(string name)
 
 We would like to also be able to create Persons so that the constructor is given the age as well as the name as parameters. This is possible, because a class can have multiple constructors. Let's make an alternative constructor. You don't have to delete the old constructor.
 
-```cs
+```cpp
 public Person(string name)
 {
   this.name = name;
@@ -86,7 +86,7 @@ public Person(string name)
 
 Now we have two alternative ways to create objects:
 
-```cs
+```cpp
 static void Main(string[] args)
 {
   Person paul = new Person("Paul", 24);
@@ -115,7 +115,7 @@ That is no problem, because you can call a constructor from another constructor 
 Let's modify the first constructor so, that it does not do anything itself, but calls the second constructor and asks it to set the age to 0.
 
 
-```cs
+```cpp
 //here the code of the second constructor is run, and the age is set to 0
 public Person(string name) : this(name, 0)
 {
@@ -132,7 +132,7 @@ public Person(string name, int age)
 
 The constructor call **this(name, 0)** might seem a bit weird. We can use **this** to have one constructor invocation call another constructor method, whic reduces "copy-paste code". In the example above, you could imagine the upper constuctor calling the lower one, with values **name** and **0**. As the lower constructor already defines how those values are to be treated, there is no need to separately define the variables in the upper constructor. This kind of constructor call does not change the code's behavior, and new objects can be created just like before:
 
-```cs
+```cpp
 static void Main(string[] args)
 {
   Person paul = new Person("Paul", 24);
@@ -152,7 +152,7 @@ Ada, age: 0
 
 Like constructors, methods can also be overloaded, so you can have multiple versions of one method. Again, the parameters of the different versions must be different. Let's make another version of the **GrowOlder** method, which ages the person the amount of years given to it as a parameter.
 
-```cs
+```cpp
 public void GrowOlder()
 {
   this.age++;
@@ -165,7 +165,7 @@ public void GrowOlder(int years)
 ```
 Below "Paul" is born 24 years old, first ages one year and then ages 10 years:
 
-```cs
+```cpp
 static void Main(string[] args)
 {
   Person paul = new Person("Paul", 24);
@@ -188,7 +188,7 @@ A Person now has two methods called **GrowOlder**. Which one is executed debends
 
 We can also modify the program so, that the method without parameters is implemented using the method **GrowOlder(int years)**:
 
-```cs
+```cpp
 public void GrowOlder()
 {
   this.GrowOlder(1);
@@ -218,7 +218,7 @@ Add the following three constructors to the Product class:
 - `public Product(string name, int weight)` creates a product with the given name and the given weight. Its location is set to "warehouse".
 You can test your program with the following code:
 
-```cs
+```cpp
 Product tapeMeasure = new Product("Tape measure");
 Product plaster = new Product("Plaster", "home improvement section");
 Product tyre = new Product("Tyre", 5);

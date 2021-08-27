@@ -8,7 +8,7 @@ hidden: false
 
 The solution pattern for programming tasks involving reading user input is straightforward. We can use the **System.Console.ReadLine();** command for this task. In most cases, we want to use the command more than once, or use other methods from **System** as well. For this, we will have **using System** in our program structure:
 
-```cs
+```cpp
 using System;
 
 public class Program
@@ -34,7 +34,7 @@ We quite often need to calculate something in a program, such as an average or a
 
 For example, the solution pattern for the problem **Create a program to calculate the sum of two integers** is the following.
 
-```cs
+```cpp
 // Identifying the input values and declaring the variables for them
 int first = 1;
 int second = 2;
@@ -48,7 +48,7 @@ Console.WriteLine("The sum of " + first + " and " + second + " is " + sum);
 
 A program that both reads and calculates combines both of these patterns. One that calculates the product of two integers provided by the use looks like this:
 
-```cs
+```cpp
 // Identifying the input values and declaring the variables for them
 int first = 1;
 int second = 2;
@@ -66,7 +66,7 @@ Console.WriteLine("The product of " + first + " and " + second + " is " + produc
 
 In the example above, the program has been implemented so that the variables are declared first after which values are read into them. Variable declaration and the reading of values into them can also be combined into one.
 
-```cs
+```cpp
 int first = Convert.ToInt32(Console.ReadLine());
 int second = Convert.ToInt32(Console.ReadLine());
 
@@ -80,7 +80,7 @@ Console.WriteLine("The product of " + first + " and " + second + " is " + produc
 
 Problems often contain some alternative functionality, and in such case we use conditional statements. A Conditional statement starts with an **if** command followed by an expression in parentheses. The expression evaluates to either true or false. If it evaluates true, the following block delimited by curly brackets gets executed.
 
-```cs
+```cpp
 // if the value is greater than five
 if (value > 5)
 {
@@ -90,7 +90,7 @@ if (value > 5)
 
 A program that prints "ok" if the value of the variable is greater than 42, and otherwise prints "not ok" looks like this:
 
-```cs
+```cpp
 int value = 15;
 if (value > 42)
 {
@@ -104,7 +104,7 @@ else
 
 You can also chain together multiple conditions. In such a case, the problem takes the form "if a, then b; else if c, then d; else if e, then f; otherwise g". The chain consists of an if-statement followed by else if-statements each containing its own expression and a block.
 
-```cs
+```cpp
 // if the value is greater than five
 if (value > 5)
 {
@@ -123,7 +123,7 @@ else // otherwise
 
 Conditional functionality can be combined with other solution patterns. Let's look into a problem **"Read two integers from the user. If the sum of the integers is over 100, print too much. If the sum is less than 0, print too little. Otherwise, print ok."** The program below combines reading, calculating and conditional functionality.
 
-```cs
+```cpp
  // Declaring the variables and assigning user input to them
 int first = Convert.ToInt32(Console.ReadLine());
 int second = Convert.ToInt32(Console.ReadLine());
@@ -176,7 +176,7 @@ Write a program that reads two integers from the user, and prints the square roo
 
 You can get the square root of an integer with the command Math.Sqrt like this:
 
-```cs
+```cpp
 int number = 42;
 double squareRoot = Math.Sqrt(number);
 Console.WriteLine(squareRoot);

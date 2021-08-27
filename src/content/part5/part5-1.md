@@ -14,7 +14,7 @@ Time is always printed in the form **hours: minutes: seconds**, where the hours 
 Below is an implementation of the clock with integer type variables (the printing could be isolated into its own method, but that has not been done here).
 
 
-```cs
+```cpp
 static void Main(string[] args)
 
 int hours = 0;
@@ -77,7 +77,7 @@ The aim is to make the program more comprehensible.
 
 Since a clock hand is a clear concept in and of itself, a good idea with regard to the program's understandability would be to turn it into its own class. Let's create a **ClockHand** class describing a clock hand, which contains information about its value, upper limit (i.e. the point at which the value of the hand returns to zero), and provides methods for advancing the hand, viewing its value and printing the value in string form.
 
-```cs
+```cpp
 public class ClockHand
 {
   public int value { get; set; }
@@ -113,7 +113,7 @@ public class ClockHand
 
 Once we've created the ClockHand class, our clock becomes clearer. Now, printing the clock, i.e. the clock hand, is straightforward, and the hand's progression is hidden away in the ClockHand class. Since the hand's return to the beginning happens automatically with the help of the upper-limit variable defined by the ClockHand class, the way the hands work together is slightly different than in the program implementation that uses integers. The program that used integers looked at whether the value of the integer that represented the clock hand exceeded the upper limit, after which its value was set to zero and the value of the integer representing the next clock hand was incremented. Using clock-hand objects, the minute hand advances when the second hand's value is zero, and the hour hand advances when the minute hand's value is zero.
 
-```cs
+```cpp
 static void Main(string[] args)
 {
   ClockHand hours = new ClockHand(24);
@@ -147,7 +147,7 @@ Separating a concept into its own class is a good idea in many ways. Firstly, ce
 
 We realized that the clock contains three hands, i.e. it consists of three concepts. In fact, the clock is a concept in and of itself. That is, we can create a class of it as well. Next, we create a class called "Clock" that hides the hands inside of it.
 
-```cs
+```cpp
 public class Clock
 {
   private ClockHand hours;
@@ -185,7 +185,7 @@ public class Clock
 
 The way the program functions becomes increasingly clear. When you compare the program below to the original one composed of integers, you'll find that the program's readability is on a completely different level.
 
-```cs
+```cpp
 static void Main(string[] args)
 {
   Clock clock = new Clock();
@@ -214,7 +214,7 @@ In reality, we can relate all kinds of different information and things to a per
 
 In our example, a Person object that keeps track of name, age, weight, and height, and provides the ability to calculate body mass index and maximum heart rate would look like the following. Below, the height and weight are expressed as doubles - the unit of length is one meter.
 
-```cs
+```cpp
 public class Person
 {
   private string name;
@@ -258,7 +258,7 @@ public class Person
 
 Determining the maximum heart rate and body mass index of a given person is straightforward using the Person class described above.
 
-```cs
+```cpp
 static void Main(string[] args)
 {
   Console.WriteLine("What's your name?");
@@ -291,7 +291,7 @@ Laura Palmer, BMI: 0.0016762251409825073, maximum heart rate: 191.369
 
 A class defines the types of objects that can be created from it. It contains instance variables describing the object's data, a constructor or constructors used to create it, and methods that define its behavior. A rectangle class is detailed below which defines the functionality of a rectangle:
 
-```cs
+```cpp
 // class
 public class Rectangle
 {
@@ -337,7 +337,7 @@ Some of the methods defined above do not return a value (methods that have the k
 
 Objects are created from the class through constructors by using the new command. Below, you'll create two rectangles and print information related to them.
 
-```cs
+```cpp
 static void Main(string[] args)
 {
   Rectangle first = new Rectangle(40, 80);
@@ -372,7 +372,7 @@ The timer has two hands, one for hundredths of a second and one for seconds. As 
 
 You can test out the timer's functionality in the main program whenever you like. The example code below provides you with a program where the timer is printed and it advances once every hundredth of a second.
 
-```cs
+```cpp
 static void Main(string[] args)
 {
   // create new timer
@@ -426,7 +426,7 @@ Use the formula (maxHeartRate - restingHeartRate) * percentageOfMaximum + restin
 
 Use case:
 
-```cs
+```cpp
 public static void Main(string[] args)
 {
   Fitbyte assistant = new Fitbyte(30, 60);

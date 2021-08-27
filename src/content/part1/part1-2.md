@@ -6,7 +6,7 @@ hidden: false
 
 In the previous section, we introduced our first **variable**, the **string variable**. String is not the only variable in coding. Variables are the basic storages of information in coding. Variables are for example the familiar **string** for text, but also **int** for integers, **double** for numbers with decimal numbers, or **boolean** for truth value. As mentioned earlier, the value for a variable is set with **the equals sign, =**.
 
-```cs
+```cpp
 int truth = 42;
 ```
 
@@ -14,7 +14,7 @@ In the example above we **declare** a variable called **truth** and **assign** i
 
 This integer can be concatenated to a string in our program.
 
-```cs
+```cpp
 int truth = 42;
 double pie = 3.141592653;
 bool valid = true;
@@ -34,7 +34,7 @@ This is awesome: true
 
 The variable names must be unique inside a code block. You can declare each variable only once. But, as the name **variable** suggests, you can change their value.
 
-```cs
+```cpp
 int number = 42;
 Console.WriteLine(number);
 number = 21;
@@ -52,7 +52,7 @@ Prints
 
 Let us take a closer look of our previous example.
 
-```cs
+```cpp
 int number = 42;
 Console.WriteLine(number);
 number = 21;
@@ -80,21 +80,21 @@ The variables in **C#** are statically typed. This means that once a variable is
 
 For example, this works:
 
-```cs
+```cpp
 int magic = 42;
 magic = 41;
 ```
 
 This does not:
 
-```cs
+```cpp
 int magic = 42;
 magic = "Magic";
 ```
 
 There are exceptions, of course. For example, you can assign an integer to a double:
 
-```cs
+```cpp
 double decimal = 10; // Works fine
 
 int number = 20;
@@ -103,7 +103,7 @@ decimal = number; // Also works
 
 ... but not the other way around:
 
-```cs
+```cpp
 int number = 4.2; // Does not work
 
 double decimal = 4.2;
@@ -114,7 +114,7 @@ number = decimal // Does not work either
 
 Previously we discussed about the quality of code, and its readibility. Consider the following examples:
 
-```cs
+```cpp
 double a = 3.14;
 double b = 22.0;
 double c = a * b * b;
@@ -128,7 +128,7 @@ Prints
 1519.76
 ```
 
-```cs
+```cpp
 double pi = 3.14;
 double radius = 22.0;
 double area = pi * radius * radius;
@@ -155,14 +155,14 @@ The variables in C# are usually written with [**camelCase (here)**](https://en.w
 
 Even though **snake_case** with underscore would be a valid variable name, such naming convention is not recommended, and should **not** be used during this course.
 
-```cs
+```cpp
 int 9var = 42; // Does not work
 int var9 = 42; // Works, but does not describe the variable well
 ```
 
 The variables can only be declared once:
 
-```cs
+```cpp
 string camelCase = "Camels are fun!";
 string camelCase = "Camels are nice"; // Does not compile, the variable name is already in use
 ```
@@ -171,7 +171,7 @@ string camelCase = "Camels are nice"; // Does not compile, the variable name is 
 
 In the previous part we learned how to read a **string variable** from the user.
 
-```cs
+```cpp
 public class Program
 {
    public static void Main()
@@ -190,7 +190,7 @@ I want to print this
 
 All the other variables, such as integers, doubles or booleans are also read from the user as strings. We have to convert them to the correct type with built in methods.
 
-```cs
+```cpp
 Console.Write("Give integer value: ");
 
 // Declare and assign the input as string
@@ -225,7 +225,7 @@ In the example above, we read both an integer and a double. As you can see, ther
 
 If we want to convert a truth value from a string, are two options: **True** and **False**.
 
-```cs
+```cpp
 string truth = "True";
 bool booleanValue = System.Convert.ToBoolean(truth);
 Console.WriteLine(booleanValue);
