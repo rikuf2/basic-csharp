@@ -1178,7 +1178,8 @@ Create a class called `Dalmatian`. The dalmatian has instance variables `string 
 <Note>
 Also, give the variables ability for get and set:
 
-Make the variables public rather than private, and add { get; set; } on the declaring lines!</Note>
+Make the variables public rather than private, and add \{ get; set; \} on the declaring lines!
+</Note>
 
 ```cpp
 Dalmatian spotty = new Dalmatian("Spot", 306);
@@ -1202,7 +1203,8 @@ Create the class `Gauge`. The gauge has the instance `public int value`, a const
 <Note>
 Also, give the value ability for get and set:
 
-Make the value public rather than private, and add { get; set; } on the declaring lines!</Note>
+Make the value public rather than private, and add \{ get; set; \} on the declaring lines!
+</Note>
 
 An example of the class in use.
 
