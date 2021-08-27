@@ -964,6 +964,16 @@ Add the variables
 - private int age   
 to the class. As a class diagram, the class looks like this:
 
-![Dog class diagram](https://github.com/centria/coding-exercises/raw/master/assets/images/dogclass.jpg)
+![Dog class diagram](https://github.com/centria/basic-csharp/raw/master/src/images/dogclass.jpg)
+
+
+</Exercise>
+
+<Exercise title={'004 Classroom'}>
+
+Create a class named `Room` (and file `Room.cs`). Add the variables `private string code` and `private int seats` to the class. Then create a constructor `public Room(string classCode, int numberOfSeats)` through which values are assigned to the instance variables.
+
+![Room class diagram](https://github.com/centria/basic-csharp/raw/master/src/images/roomclass.jpg)
+
 
 </Exercise>
