@@ -7,7 +7,7 @@ hidden: false
 <Exercise title={'001 Hello World'}>
 The basic structure of a program is given in the exercise:
 
-```cs
+```cpp
 using System;
 
 namespace Exercise001
@@ -23,36 +23,54 @@ namespace Exercise001
 }
 ```
 
-The line **// Add your code here:** is a comment. The composer does not compose it, so you do not have to worry about it. You can remove it, if you want.
+The line `Add your code here:` is a comment. The composer does not compose it, so you do not have to worry about it. You can remove it, if you want.
 
 Create a program that writes the text **Hello World!** into the console. The program contains the basic structure pictured above.
 
 </Exercise>
 
-Dummy text between tags.
 
-<Exercise title={'Exercise 1.5'}>
+<Exercise title={'002 Bonnie Tyler'}>
 
-You will find following structure in the exercise:
+Let's write some more. Bonnie Tyler once sang about feelings, that also apply to coding:  
+**Once upon a time**  
+**I was falling in love**  
+**Now I'm only falling apart**  
+create a program using 3 Console.WriteLines, that prints these lyrics.
+
+</Exercise>
+
+<Exercise title={'003 Bonnie Tyler with line changes'}>
+
+Let's refine our program. Print the same message:  
+**Once upon a time**  
+**I was falling in love**  
+**Now I'm only falling apart**  
+This time, use only one Console.WriteLine.
+
+</Exercise>
+
+<Exercise title={'004 First variable'}>
+
+The exercise has following structure:
 
 ```cpp
-
 using System;
-
-namespace exercise_05
+ 
+namespace Exercise004
 {
-  class Program
-  {
-    public static void Main(string[] args)
-      {
-       string name = "Ada Lovelace";
-       // Write your code here:
-       }
-  }
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            string message = "Passport and floss!";
+            Console.WriteLine(message);
+        }
+    }
 }
 ```
 
-This is not a coding exorcist.
-</Exercise>
+Change it, so that it prints **Passport and a toothbrush!**
+Do not change the line containing Console.WriteLine, only change the content of the variable!
 
-<Note>This is just a message for someone to read</Note>
+</Exercise>
