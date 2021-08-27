@@ -1,6 +1,6 @@
 ---
 title: 'Exercises'
-nav_order: 6
+nav_order: 3
 hidden: false
 ---
 

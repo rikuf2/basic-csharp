@@ -180,21 +180,64 @@ Ada enjoys their work as Data Scientist, The end.
 
 <Exercise title={'011 Print variables'}>
 
-Create a program, that asks the user for a name and a profession. Then make the program to write a little story with this information. Here is an example story with inputs `Ada` and `Data Scientist`.
-
-NOTICE! Every `Ada` and `Data Scientist` in the story are the inputs by the user. Remember to save the `Console.ReadLines` into variables and use them as parts of the story!
+The exercise comes with a template that prints the following:
 
 ```console
-I will tell a story, but I need some information.
-Give a name for main character:
-> Ada
-Give the character a profession:
-> Data Scientist
-Here is the story:
-Once upon a time there was a Data Scientist called Ada
-On her way to work, Ada often pondered what being Data Scientist meant to them.
-When you work as a Data Scientist you meet interesting people.
-Ada enjoys their work as Data Scientist, The end.
+Days to summer:
+100
+Hours to lunch:
+1
+Coding is fun:
+Are you sure?
+```
+
+Change the values of the variables, so the program will print
+
+```console
+Days to summer:
+200
+Hours to lunch:
+3.5
+Coding is fun:
+It sure is!
+```
+
+Do not change anything else, only the variable values!
+
+</Exercise>
+
+<Exercise title={'012 Print integer'}>
+
+Create a program which asks the user for an integer. After user input, the program will print the integer. Example prints:
+
+```console
+Give a number!
+> 11
+You gave 11
+```
+
+```console
+Give a number!
+> 42
+You gave 42
+```
+
+</Exercise>
+
+<Exercise title={'013 Print double'}>
+
+Create a program, that asks the user for a double. After user input, the program will print the double. Example prints:
+
+```console
+Give a number!
+> 11.11
+You gave 11.11
+```
+
+```console
+Give a number!
+> 41.999999
+You gave 41.999999
 ```
 
 </Exercise>
