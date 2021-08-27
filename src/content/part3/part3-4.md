@@ -268,3 +268,160 @@ cakecakecake
 <Note>The program should ask for only one string. Don't use a loop here.</Note>
 
 </Exercise>
+
+<Exercise title={'023 True string'}>
+
+Write a program that asks the user for a string. If the user writes the string "true", the program prints "You got it right!", otherwise it prints "Try again!".
+
+```console
+Give a string: true 
+You got it right!
+```
+
+
+```console
+Give a string: trueish 
+Try again!
+```
+
+</Exercise>
+
+<Exercise title={'024 Login'}>
+
+Write a program that recognizes the following users:
+
+
+|username	|password|
+|--|--|
+|alex|	sunshine|
+|emma|	haskell|
+
+The program either shows a login message or informs of incorrect username or password.
+
+```console
+Enter username: 
+>alex 
+Enter password: 
+> sunshine 
+You have successfully logged in!
+```
+```console
+Enter username: 
+> emma 
+Enter password: 
+> haskell 
+You have successfully logged in!
+```
+
+```console
+Enter username: 
+> alex 
+Enter password: 
+> haskell 
+Incorrect username or password!
+```
+
+<Note>In read life login should not be implemented like this! This is just an exercise.</Note>
+
+
+</Exercise>
+
+<Exercise title={'025 String split'}>
+
+Write a program that reads strings from the user. If the input is empty, the program stops reading input and halts. For each non-empty input it splits the string input by whitespaces and prints each part of the string on a new line.
+
+```console
+> once upon a time 
+once 
+upon 
+a 
+time 
+> a little program 
+a 
+little 
+program 
+> halted 
+halted
+>
+```
+
+</Exercise>
+
+<Exercise title={'026 Split contains av'}>
+
+Write a program, that reads user input until an empty line. For each non-empty string, the program splits the string by spaces and then prints the pieces that contain `av`, each on a new line.
+
+```console
+> navy blue shirt
+navy
+> Do you have a favourite flavour
+have
+favourite
+flavour
+> was that a cat
+>
+```
+
+Tip! Strings have a Contains method, which tells if a string contains another string. It works like this:
+
+```cpp
+string text = "volcanologist";
+
+if (text.Contains("can")) 
+{
+  Console.WriteLine("can was found");
+}
+
+if (!text.Contains("tin")) 
+{
+  Console.WriteLine("tin wasn't found");
+}
+```
+
+```console
+can was found 
+tin wasn't found
+```
+
+</Exercise>
+
+<Exercise title={'027 First part split'}>
+
+Write a program, that reads user input until an empty line. For each non-empty line the program splits the string by spaces and prints the first part of the string.
+
+```console
+> one two three four 
+one 
+> this is a very important message 
+this
+>
+```
+
+</Exercise>
+
+<Exercise title={'028 Last part split'}>
+
+Write a program, that reads user input until an empty line. For each non-empty line the program splits the string by spaces and prints the last part of the string.
+
+```console
+> one two three four 
+four 
+> this is a very important message 
+message
+>
+```
+
+<Note>
+You can find out the length of the array like this:
+
+```cpp
+string[] parts = {"one", "two", "three"};
+Console.WriteLine("Number of parts: " + parts.Length);
+```
+
+```console
+Number of parts: 3
+```
+</Note>
+
+</Exercise>
