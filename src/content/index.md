@@ -7,6 +7,12 @@ hidden: false
 
 # THIS SITE IS UNDER CONSTRUCTION AND WILL BE PUBLISHED 1.9.2021!
 
+Welcome to the Basics of Programming with C# course! The course begins 1.9.2021 and ends 31.10.2021. 
+
+## Attending the course
+
+To attend the course, you do not have to be a student in Centria University of Applied science. All the material and exercises are available online, except for the final exam.
+
 ## Learning goals and grading
 
 
@@ -33,4 +39,4 @@ The course is graded on a scale of 0-5. The grade comprises of the amount of exe
 | 50 % - 59,99 %  |   1   |
 | Less than 50 %  |   0   |
 
-At the end of the courses, there is also an exam with **pass / fail** grading. This does not affect the grade but is to ensure that you have done the exercises yourself. More information about the exam will come closer to the exam.
+At the end of the courses, there is also an exam with **pass / fail** grading. This does not affect the grade but is to ensure that you have done the exercises yourself. The exam is reserved for students of Centria University of Applied Sciences, and at the moment official credits are only for said students. The information and the exercises are available still for anyone who wants.
