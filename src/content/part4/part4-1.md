@@ -18,7 +18,7 @@ A **Method** is a piece of source code written inside a class that's been named 
 
 As an example, List is a class offered by C#, and we've made use of objects instantiated from it in our programs. Below, an List object named integers is created and some integers are added to it.
 
-```cpp
+```cs
 // we create an object from the List class named integers
 List<int> integers = new List<int>();
 
@@ -56,7 +56,7 @@ A class is defined to represent some meaningful entity, where a "meaningful enti
 Let's begin. The example is using the **sandbox** from the exercises, so you can follow the instructions along. We'll assume that we have a project template that has an empty main program, called 
 **Program.cs**. 
 
-```cpp
+```cs
 using System;
 namespace sandbox
 {
@@ -88,7 +88,7 @@ We'll get to namespaces later. For now, whenever you create a new class, **use t
 
 4. Add this code to your file:
 
-```cpp
+```cs
 using System;
 
 namespace sandbox
@@ -102,7 +102,7 @@ namespace sandbox
 
 A class defines the attributes and behaviors of objects that are created from it. Let's decide that each person object has a name and an age. It's natural to represent the name as a string, and the age as an integer. We'll go ahead and add these to our blueprint:
 
-```cpp
+```cs
 public class Person {
     private string name;
     private int age;
@@ -125,7 +125,7 @@ The person doesn't do anything yet, but we'll get there.
 
 We want to set an initial state for an object that's created. Custom objects are created the same way as objects from pre-made classes, such as List, using the **new** keyword. It'd be convenient to pass values ​​to the variables of that object as it's being created. For example, when creating a new person object, it's useful to be able to provide it with a name:
 
-```cpp
+```cs
     public static void Main(string[] args)
     {
       Person ada = new Person("Ada");
@@ -136,7 +136,7 @@ We want to set an initial state for an object that's created. Custom objects are
 This is achieved by defining the method that creates the object, i.e., its **constructor**. The constructor is defined after the instance variables. In the following example, a constructor is defined for the Person class, which can be used to create a new Person object. The constructor sets the age of the object being created to 0, and the string passed to the constructor as a parameter as its name:
 
 
-```cpp
+```cs
 public class Person
 {
   private string name;
@@ -161,7 +161,7 @@ If the programmer does not define a constructor for a class, the C# compiler aut
 
 For example, an object can be created from the class below by making the call **new Person()**
 
-```cpp
+```cs
 public class Person
 {
   private string name;
@@ -171,7 +171,7 @@ public class Person
 
 If a constructor has been defined for a class, no default constructor exists. For the class below, calling new Person would cause an error, as the compiler cannot find a constructor in the class that has no parameters.
 
-```cpp
+```cs
 public class Person
 {
   private string name;
@@ -188,7 +188,7 @@ public class Person
 
 We know how to create an object and initialize its variables. However, an object also needs methods to be able to do anything. As we've learned, a **method** is a named section of source code inside a class which can be invoked.
 
-```cpp
+```cs
 public class Person
 {
   private string name;
@@ -219,7 +219,7 @@ The method **PrintPerson** contains one line of code that makes use of the insta
 
 Let's create three persons in the main program and request them to print themselves:
 
-```cpp
+```cs
 class Program
 {
   static void Main(string[] args)
@@ -247,7 +247,7 @@ Martin, age 0 years
 
 Let's add a method to the previously created person class that increments the age of the person by a year.
 
-```cpp
+```cs
 public class Person
 {
   private string name;
@@ -279,7 +279,7 @@ The class diagram also gets an update.
 
 Let's call the method and see what happens:
 
-```cpp
+```cs
 static void Main(string[] args)
 {
   Person ada = new Person("Ada");
@@ -318,7 +318,7 @@ That is to say that when the two objects are "born" they're both zero-years old 
 
 The method can also contain conditional statements and loops. The GrowOlder method below limits aging to 100 years.
 
-```cpp
+```cs
 public class Person
 {
   private string name;
@@ -349,7 +349,7 @@ public class Person
 
 A method can return a value. The methods we've created in our objects haven't so far returned anything. This has been marked by typing the keyword **void** in the method definition.
 
-```cpp
+```cs
 public class Door 
 {
   public void Knock() 
@@ -363,7 +363,7 @@ The keyword **void** means that the method does not return a value.
 
 If we want the method to return a value, we need to replace the void keyword with the type of the variable to be returned. In the following example, the Teacher class has a method **Grade** that always returns an integer-type (**int**) variable (in this case, the value 10). The value is always returned with the **return** command:
 
-```cpp
+```cs
 public class Teacher 
 {
   public int Grade() 
@@ -375,7 +375,7 @@ public class Teacher
 
 The method above returns an **int** type variable of value 10 when called. For the return value to be used, it needs to be assigned to a variable. This happens the same way as regular value assignment, i.e., by using the equals sign:
 
-```cpp
+```cs
 class Program
 {
   static void Main(string[] args)
@@ -395,7 +395,7 @@ The grade received is 10
 
 The method's return value is assigned to a variable of type **int** value just as any other int value would be. The return value could also be used to form part of an expression.
 
-```cpp
+```cs
 static void Main(string[] args)
 {
 Teacher first = new Teacher();
@@ -416,7 +416,7 @@ All the variables we've encountered so far can also be returned by a method. To 
 
 * A method that returns nothing has the **void** modifier as the type of variable to be returned.
 
-```cpp
+```cs
 public void MethodThatReturnsNothing() {
   // the method body
 }
@@ -424,7 +424,7 @@ public void MethodThatReturnsNothing() {
 
 * A method that returns an integer variable has the **int** modifier as the type of variable to be returned.
 
-```cpp
+```cs
 public int MethodThatReturnsAnInteger() {
   // the method body, requires a return statement
 }
@@ -432,7 +432,7 @@ public int MethodThatReturnsAnInteger() {
 
 * A method that returns a string has the **string** modifier as the type of the variable to be returned
 
-```cpp
+```cs
 public string MethodThatReturnsAString() {
   // the method body, requires a return statement
 }
@@ -440,7 +440,7 @@ public string MethodThatReturnsAString() {
 
 * A method that returns a double-precision number has the **double** modifier as the type of the variable to be returned.
 
-```cpp
+```cs
 public double MethodThatReturnsADouble() {
   // the method body, requires a return statement
 }
@@ -449,7 +449,7 @@ public double MethodThatReturnsADouble() {
 
 Let's continue with the Person class and add a **ReturnAge** method that returns the person's age.
 
-```cpp
+```cs
 public class Person
 {
   private string name;
@@ -486,7 +486,7 @@ public class Person
 
 Let's illustrate how the method works:
 
-```cpp
+```cs
 static void Main(string[] args)
 {
   Person pekka = new Person("Pekka");
@@ -515,7 +515,7 @@ As we came to notice, methods can contain source code in the same way as other p
 
 Let's now write a method for the person that determines if the person is of legal age. The method returns a boolean - either **true** or **false**:
 
-```cpp
+```cs
 class Person
 {
   //... The existing code could be up here
@@ -543,7 +543,7 @@ class Person
 
 And let's test it out:
 
-```cpp
+```cs
 static void Main(string[] args)
 {
   Person pekka = new Person("Pekka");
@@ -591,13 +591,13 @@ Let's fine-tune the solution a bit more. In its current form, a person can only 
 
 In many programming languages, you would write a **get method** for this. In C#, properties, such as our Person's **age** and **name**, can be used with [**Auto Implementation Property**](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties). 
 
-```cpp
+```cs
 public string name { get; }
 ```
 
 Let's open this up a bit. "Under the hood", the code above tells our **C# compiler** that our property **name** has kind of "built-in" methods for getting an setting the value. The code above is equal in functionality to:
 
-```cpp
+```cs
 string _name;
 public string name
 {
@@ -613,7 +613,7 @@ In this example, there is now also a line **string _name;**, and on both our ori
 
 Rather than having a method like we did with our **age**:
 
-```cpp
+```cs
 public string ReturnAge() {
   return age;
 }
@@ -621,7 +621,7 @@ public string ReturnAge() {
 
 We have a very short solution
 
-```cpp
+```cs
 public string name { get; }
 ```
 
@@ -629,7 +629,7 @@ public string name { get; }
 
 Let's use this way of getting age:
 
-```cpp
+```cs
 static void Main(string[] args)
 {
   Person pekka = new Person("Pekka");
@@ -672,7 +672,7 @@ Pekka is of legal age
 You can see, that now we can call our **Person's** name with simply adding **.name** after the object, such as **antti.name**. Let's update our **age** to have a **get method** as well, and remove the old ReturnAge-method. Now our class looks like this:
 
 
-```cpp
+```cs
 public class Person
 {
   public string name { get; }
@@ -710,7 +710,7 @@ You can see that **age** has also a method for **set**. This is because we are c
 
 We are guilty of programming in a somewhat poor style by creating a method for printing the object, i.e., the **PrintPerson** method. A preferred way is to define a method for the object that returns a "string representation" of the object. The method returning the string representation is always **ToString** in C#. Let's define this method for the person in the following example:
 
-```cpp
+```cs
 public class Person
 {
   // ..
@@ -725,7 +725,7 @@ The **ToString** functions as **PrintPerson** does. However, it doesn't itself p
 
 The method is used in a somewhat surprising way:
 
-```cpp
+```cs
 static void Main(string[] args)
 {
   Person pekka = new Person("Pekka");
@@ -747,13 +747,13 @@ static void Main(string[] args)
 
 In principle, the **Console.WriteLine** method requests the object's string representation and prints it. The call to the **ToString** method returning the string representation does not have to be written explicitly, as C# adds it automatically. When a programmer writes:
 
-```cpp
+```cs
 Console.WriteLine(antti);
 ```
 
 C# extends the call at run time to the following form:
 
-```cpp
+```cs
 Console.WriteLine(antti.ToString());
 ```
 
@@ -765,7 +765,7 @@ We can remove the now obsolete printPerson method from the Person class.
 
 Let's continue with the **Person** class once more. We've decided that we want to calculate people's body mass indexes. To do this, we write methods for the person to set both the height and the weight, and also a method to calculate the body mass index. The new and changed parts of the Person object are as follows:
 
-```cpp
+```cs
 public class Person
 {
   public string name { get; }
@@ -792,7 +792,7 @@ public class Person
 ```
 The instance variables **height** and **weight** were added to the person. We can now see the **{ get; set; };** on both of these new variables. We will use them next to be able to tell our program, how tall or heavy a person is.
 
-```cpp
+```cs
 static void Main(string[] args)
 {
   Person matti = new Person("Matti");
@@ -821,7 +821,7 @@ Juhana, body mass index is 20.897959183673468
 
 In our constructor, we use the variable **initialName** rather than just **name**.
 
-```cpp
+```cs
 public Person(string initialName)
 {
   this.age = 0;
@@ -833,7 +833,7 @@ public Person(string initialName)
 
 The parameter's name could also be the same as the instance variable's, so the following would also work:
 
-```cpp
+```cs
 public Person(string name)
 {
   this.age = 0;
@@ -845,7 +845,7 @@ public Person(string name)
 
 In this case, **name** in the method refers specifically to a parameter named **name** and this.name to an instance variable of the same name. For example, the following example would not work as the code does not refer to the instance variable **name** at all. What the code does in effect is set the **name** variable received as a parameter to the value it already contains:
 
-```cpp
+```cs
 public Person(string name)
 {
   this.age = 0;
@@ -856,7 +856,7 @@ public Person(string name)
 }
 ```
 
-```cpp
+```cs
 public Person(string name)
 {
   this.age = 0;
@@ -871,7 +871,7 @@ public Person(string name)
 
 The object may also call its methods. For example, if we wanted the string representation returned by ToString to also tell of a person's body mass index, the object's own BodyMassIndex method should be called in the ToString method:
 
-```cpp
+```cs
 public override string ToString()
 {
       return this.name + ", age " + this.age + " years, my body mass index is " + this.BodyMassIndex();
@@ -880,7 +880,7 @@ public override string ToString()
 
 So, when an object calls an internal method, the **name of the method** and **this** prefix suffice. An alternative way is to call the object's own method in the form BodyMassIndex(), whereby no emphasis is placed on the fact that the object's own bodyMassIndex method is being called:
 
-```cpp
+```cs
 public override string ToString()
 {
       return this.name + ", age " + this.age + " years, my body mass index is " + BodyMassIndex();
@@ -899,7 +899,7 @@ Some of the exercises require you to make changes to the Main program. Be sure t
 
 The exercise template comes with a ready-made class named Account. The Account object represents a bank account that has balance (i.e. one that has some amount of money in it). The accounts could be used as follows:
 
-```cpp
+```cs
 Account heikkisAccount = new Account("Heikki's account", 100.00);
 Account heikkisSwissAccount = new Account("Heikki's account in Switzerland", 1000000.00);
 
@@ -980,7 +980,7 @@ Create a class named `Room` (and file `Room.cs`). Add the variables `private str
 
 Create a class named `Whistle`. Add the variable `private string sound` to the class. After that, create the constructor `public Whistle(string whistleSound)`, which is used to create a new whistle that's given a sound. After that, create a method `public void Sound()` which prints out the sound (using Console.WriteLine).
 
-```cpp
+```cs
 Whistle duckWhistle = new Whistle("Kvaak");
 Whistle roosterWhistle = new Whistle("Peef");
 
@@ -1020,7 +1020,7 @@ This exercise consists of multiple sections. Each section corresponds to one exe
 
 The exercise template comes with a partially executed class DecreasingCounter:
 
-```cpp
+```cs
 using System;
 
 namespace exercise_99
@@ -1052,7 +1052,7 @@ namespace exercise_99
 
 The following is an example of how the main program uses the decreasing counter:
 
-```cpp
+```cs
 public static void Main(string[] args)
 {
   DecreasingCounter counter = new DecreasingCounter(10);
@@ -1080,7 +1080,7 @@ Implement the `Decrement()` method in the class body in such a way that it decre
 
 Improve the Decrement() in such a way that the counter's value never becomes negative. This means that if the value of the counter is 0, it cannot be decremented. A conditional statement is useful here.
 
-```cpp
+```cs
 public static void Main(string[] args)
 {
 
@@ -1106,7 +1106,7 @@ value: 0
 
 Create the method `public void Reset()` for the counter that resets the value of the counter to 0. For example:
 
-```cpp
+```cs
 public static void Main(string[] args)
 {
 
@@ -1135,7 +1135,7 @@ The debt is increased by multiplying the balance by the interest rate.
 
 The class should do the following:
 
-```cpp
+```cs
 public static void Main(string[] args)
 {
 
@@ -1179,7 +1179,7 @@ Also, give the variables ability for get and set:
 Make the variables public rather than private, and add \{ get; set; \} on the declaring lines!
 </Note>
 
-```cpp
+```cs
 Dalmatian spotty = new Dalmatian("Spot", 306);
 Console.WriteLine(spotty.name + " is a very good dog. He has " + spotty.spots + " darker spots in his fur");
 ```
@@ -1206,7 +1206,7 @@ Make the value public rather than private, and add \{ get; set; \} on the declar
 
 An example of the class in use.
 
-```cpp
+```cs
 public static void Main(string[] args)
 {
   Gauge g = new Gauge();
@@ -1239,7 +1239,7 @@ Not full! Value: 4
 
 The exercise template defines an Agent class, having a first name and last name. The Main method tries to print the introduction for mister Bond, but with no luck. This is what is should do:
 
-```cpp
+```cs
 public static void Main(string[] args)
 {
   Agent bond = new Agent("James", "Bond");
@@ -1269,7 +1269,7 @@ You also need to create an instance variable in this exercise. When you call the
 
 An example of the class in use:
 
-```cpp
+```cs
 public static void Main(string[] args)
 {
   Multiplier multiplyByThree = new Multiplier(3);
@@ -1308,7 +1308,7 @@ The calculations are actually ( in order):
 
 The exercise template includes class `Statistics`
 
-```cpp
+```cs
 namespace exercise_105
 {
   public class Statistics
@@ -1330,7 +1330,7 @@ namespace exercise_105
 
 The following program introduces the class' use:
 
-```cpp
+```cs
 Statistics statistics = new Statistics();
 statistics.AddNumber(3);
 statistics.AddNumber(5);
@@ -1365,7 +1365,7 @@ The template includes the `Program.cs` and `PaymentCard.cs` files.
 
 Here is the template for the PaymentCard:
 
-```cpp
+```cs
 namespace Exercise014
 {
   public class PaymentCard
@@ -1386,7 +1386,7 @@ namespace Exercise014
 ```
 The following main program tests the class:
 
-```cpp
+```cs
 public static void Main(string[] args)
 {
   PaymentCard card = new PaymentCard(50);
@@ -1408,7 +1408,7 @@ The method `EatLunch` should decrease the card's balance by 10.60 euros. The met
 
 The following main program tests the class:
 
-```cpp
+```cs
 public static void Main(string[] args)
 {
   PaymentCard card = new PaymentCard(50);
@@ -1432,7 +1432,7 @@ The card has a balance of 37.4 euros
 
 xpand your previous answers, so that when an item is bought the balance is checked. If there is not enough money to buy, the balance does not change.
 
-```cpp
+```cs
 public static void Main(string[] args)
 {
   PaymentCard card = new PaymentCard(10);
@@ -1458,7 +1458,7 @@ Notice how EatLunch did not change the balance, as there was not enough money. D
 
 Expand your previous answers, so that you can charge money on your card:
 
-```cpp
+```cs
 public void AddMoney(double amount) {
     // write code here
 }
@@ -1468,7 +1468,7 @@ The purpose of the method is to increase the card's balance by the amount of mon
 
 The following main program tests the class:
 
-```cpp
+```cs
 public static void Main(string[] args)
 {
   PaymentCard card = new PaymentCard(100);

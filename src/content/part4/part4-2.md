@@ -8,7 +8,7 @@ The type parameter used in creating a list defines the type of the variables tha
 
 In the example below we first Add strings to a list, after which the strings in the list are printed one by one.
 
-```cpp
+```cs
 List<string> names = new List<string>();
 
 // string can first be stored in a variable
@@ -54,7 +54,7 @@ Strings are objects, so it should come as no surprise that other kinds of object
 
 Let's assume we have access to the class defined below, describing a person.
 
-```cpp
+```cs
 public class Person
 {
   public string name { get; }
@@ -101,7 +101,7 @@ Handling objects in a list is not really different in any way from the previous 
 
 In the example below we first create a list meant for storing Person type object, after which we add persons to it. Finally the person objects are printed one by one.
 
-```cpp
+```cs
 static void Main(string[] args)
 {
   List<Person> persons = new List<Person>();
@@ -132,7 +132,7 @@ Martin, age 0 years
 
 The structure we have learned earlier for reading inputs is still very useful.
 
-```cpp
+```cs
 static void Main(string[] args)
 {
   List<Person> persons = new List<Person>();
@@ -181,7 +181,7 @@ Mike, age 0 years
 
 If the constructor demands more than one parameters, you can query the user for more information. Let's assume we have the following constructor for the class **Person**.
 
-```cpp
+```cs
 public class Person
 {
   public string name { get; }
@@ -207,7 +207,7 @@ If we want to query the user for this kind of objects, they must be asked for ea
 
 The persons are printed after they have been read.
 
-```cpp
+```cs
 static void Main(string[] args)
 {
   List<Person> persons = new List<Person>();
@@ -263,7 +263,7 @@ In the example below, the required information was entered line by line. By no m
 
 If the name and age were separated by a comma, the program could work in the following manner.
 
-```cpp
+```cs
 static void Main(string[] args)
 {
   List<Person> persons = new List<Person>();
@@ -317,7 +317,7 @@ Mike Pence, age 3 years
 You can also examine the objects on the list as you go through it. In the example below, we first ask the user for an age restriction, after which we print all the objects whose age is at least the number given by the user.
 
 
-```cpp
+```cs
 // Let's make a list with couple of entries
 List<Person> persons = new List<Person>();
 persons.Add(new Person("Martin", 11));

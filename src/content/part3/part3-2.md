@@ -7,7 +7,7 @@ hidden: false
 
 In programming, we often encounter situations where we want to handle many values. The only method we've used so far has been to define a separate variable for storing each value. This is impractical.
 
-```cpp
+```cs
 string word1;
 string word2;
 string word3;
@@ -28,7 +28,7 @@ For a List to be used, it first needs be imported into the program. This is achi
 
 To use a List, it also has to be initialized. Below is an example where we create a List that holds integers, called **numbers**.
 
-```cpp
+```cs
 using System.Collections.Generic;
 
 public class Program 
@@ -44,7 +44,7 @@ public class Program
 
 Creating a new list is done with the command List<type\> list = new List<type\>(), where type is the type of the values to be stored in the list (e.g. int). We create a list for storing strings in the example below.
 
-```cpp
+```cs
 List<string> strings = new List<string>();
 ```
 
@@ -56,29 +56,29 @@ When defining the type of values that a list can include, the type is written th
 
 You'll find examples below of creating lists that contain different types of values.
 
-```cpp
+```cs
 List<int> list = new List<int>();
 list.Add(1);
 ```
 
-```cpp
+```cs
 List<double> list = new List<double>();
 list.Add(4.2);
 ```
 
-```cpp
+```cs
 List<bool> list = new List<bool>();
 list.Add(true);
 ```
 
-```cpp
+```cs
 List<string> list = new List<string>();
 lista.Add("String is text");
 ```
 
 Once a list has been created, List assumes that all the variables contained in it are of the correct type. Of course, you can store variables with the correct type in them, as well. Then the value of said variable is stored.
 
-```cpp
+```cs
 List<int> integers = new List<int>();
 int integer = 1;
 integers.Add(integer);
@@ -92,7 +92,7 @@ doubles.Add(d);
 
 The next example demonstrates the addition of a few strings into an List containing strings. Addition is done with the list method **Add**, which takes the value to be added as a parameter. We then print the value at position zero. To retrieve a value from a certain position, you use a special annotation of **list[index]**, where list is your list, and index is the position from where to get the data. 
 
-```cpp
+```cs
 public class WordListExample 
 {
   public static void Main(string[] args) 
@@ -118,7 +118,7 @@ First
 
 As can be seen, the latter method retrieves the first value from the list when it is given the parameter **0**. This is because list positions are counted starting from zero. The first value is found by wordList[0], the second by wordList[1], and so on.
 
-```cpp
+```cs
 public class WordListExample 
 {
   public static void Main(string[] args) 
@@ -146,7 +146,7 @@ Second
 
 If you try to retrieve information from a place that does not exist on the list, the program will print a **ArgumentOutOfRangeException** error. In the example below, two values are added to a list, after which there is an attempt to print the value at place two on the list.
 
-```cpp
+```cs
 public class WordListExample 
 {
   public static void Main(string[] args) 
@@ -188,7 +188,7 @@ Example list called numbers could contain something like this...
 
 In the list above, the first value is 6 and the second value 1. If a new value was added to the list by calling the **Add method** of numbers with 8 as parameter, the number 8 would be placed at index 6. It would be the seventh number in the list.
 
-```cpp
+```cs
 numbers.Add(8);
 ```
 
@@ -200,7 +200,7 @@ Similarly, by calling the method **numbers[index]** with the parameter 4 the fif
 
 Each tool offered by C# has a name and location. The program can use a tool after it has been imported with the **using** command. The command is given the location and the name of the desired class. For example, the use of a **Console** from System necessitates placing the command **using System;** to the top of the program.
 
-```cpp
+```cs
 using System;
 
 public class Program 
@@ -214,7 +214,7 @@ public class Program
 
 The same usually applies to all C# classes. **Console** is called directly from system, so we can import it with just **using System;**. If we want to use Lists, we have to go deeper, and use **using System.Collections.Generic;**.
 
-```cpp
+```cs
 using System;
 using System.Collections.Generic;
 
@@ -233,7 +233,7 @@ public class Program
 
 We'll next be examining methods that can be used to go through the values on a list. Let's start with a simple example where we print a list containing four values.
 
-```cpp
+```cs
 List<string> teachers = new List<string>();
 
 teachers.Add("Simon");
@@ -258,7 +258,7 @@ The example is obviously clumsy. What if there were more values on the list? Or 
 
 The number of values on a list is provided by the list's **Count** property which returns the number of elements the list contains. The number is an integer (int), and it can be used as a part of an expression or stored in an integer variable for later use.
 
-```cpp
+```cs
 List<string> list = new List<string>();
 Console.WriteLine("Number of values on the list: " + list.Count);
 
@@ -282,7 +282,7 @@ Number of values on the list: 1
 Let's make a new version of the program that prints each index manually. In this intermediate version we use the **index** variable to keep track of the place that is to be outputted.
 
 
-```cpp
+```cs
 List<string> teachers = new List<string>();
 
 teachers.Add("Simon");
@@ -328,7 +328,7 @@ We can see that there's repetition in the program above.
 
 We can convert the if statements into a while loop that is repeated until the condition index < teachers.Count no longer holds (i.e., the value of the variable index grows too great).
 
-```cpp
+```cs
 List<string> teachers = new List<string>();
 
 teachers.Add("Simon");
@@ -350,7 +350,7 @@ Now the printing works regardless of the number of elements.
 
 The for-loop is extremely handy here. We can convert the loop above to a for-loop, after which the program looks like this.
 
-```cpp
+```cs
 List<string> teachers = new List<string>();
 
 teachers.Add("Simon");
@@ -373,7 +373,7 @@ Anna
 
 The index variable of the for-loop is typically labelled **i**:
 
-```cpp
+```cs
 for (int i = 0; i < teachers.Count; i++) 
 {
     Console.WriteLine(teachers[index]);
@@ -382,7 +382,7 @@ for (int i = 0; i < teachers.Count; i++)
 
 Let's consider using a list to store integers. The functionality is largely the same as in the previous example. The greatest difference has to do with the initialization of the list -- the type of value to be stored is defined as int, and the value to be printed is stored in a variable called number before printing.
 
-```cpp
+```cs
 List<int> numbers = new List<int>();
 
 numbers.Add(1);
@@ -407,7 +407,7 @@ for (int i = 0; i < numbers.Count; i++)
 
 Printing the numbers in the list in reverse order would also be straightforward.
 
-```cpp
+```cs
 List<int> numbers = new List<int>();
 
 numbers.Add(1);
@@ -438,7 +438,7 @@ Try and recreate the previous example with the for loop!
 If you don't need to keep track of the index as you're going through a list's values, you can make use of the **for-each** loop. It differs from the previous loops in that it has no separate condition for repeating or incrementing.
 
 
-```cpp
+```cs
 List<string> teachers = new List<string>();
 
 teachers.Add("Simon");
@@ -454,7 +454,7 @@ foreach (string teacher in teachers)
 
 In practical terms, the for-each loop described above hides some parts of the for-loop we practiced earlier.The for-each loop would look like this if implemented as a for-loop:
 
-```cpp
+```cs
 List<string> teachers = new List<string>();
 
 teachers.Add("Simon");
@@ -475,7 +475,7 @@ In practice, the for-each loop examines the values of the list in order one at a
 
 The list's **RemoveAt(index)** method removes the value that is located at the index that's given as the parameter. The parameter is an integer.
 
-```cpp
+```cs
 // create the list for storing strings
 List<string> list = new List<string>();
 
@@ -499,7 +499,7 @@ Third
 
 We can also use the method **Remove** if we know the value of the item we want to remove:
 
-```cpp
+```cs
 // create the list for storing strings
 List<string> list = new List<string>();
 
@@ -523,7 +523,7 @@ Third
 
 The methods work exactly the same way with integers, so be careful, which method you use!
 
-```cpp
+```cs
 // create the list for storing integers
 List<int> list = new List<int>();
 
@@ -545,7 +545,7 @@ Console.WriteLine(list[1]);
 2
 ```
 
-```cpp
+```cs
 // create the list for storing integers
 List<int> list = new List<int>();
 
@@ -572,7 +572,7 @@ Console.WriteLine(list[1]);
 
 The list method **Contains** can be used to check the existence of a value in the list. The method receives the value to be searched as its parameter, and it returns a boolean type value (True or False) that indicates whether or not that value is stored in the list.
 
-```cpp
+```cs
 // create the list for storing strings
 List<string> list = new List<string>();
 
@@ -599,7 +599,7 @@ We found second!
 
 Like other variables, a list, too, can be used as a parameter to a method. When the method is defined to take a list as a parameter, the type of the parameter is defined as the type of the list and the type of the values contained in that list. Below, the method **Print** prints the values in the list one by one.
 
-```cpp
+```cs
 public static void Print(List<String> list)
 {
   foreach (string value in list)
@@ -611,7 +611,7 @@ public static void Print(List<String> list)
 
 We're by now familiar with methods, and it works in the same way here. In the example below we use the method that was implemented above.
 
-```cpp
+```cs
 List<string> strings = new List<string>();
 
 strings.Add("First");
@@ -631,7 +631,7 @@ The chosen parameter in the method definition is not dependent on the list that 
 
 It's also possible to define multiple variables for a method. In the example the method receives two parameters: a list of numbers and a threshold value. It then prints all the numbers in the list that are smaller than the second parameter.
 
-```cpp
+```cs
 public static void PrintSmallerThan(List<int> numbers, int threshold) 
 {
   foreach(int number in numbers)
@@ -646,7 +646,7 @@ public static void PrintSmallerThan(List<int> numbers, int threshold)
 
 Here we see it in action:
 
-```cpp
+```cs
 List<int> list = new List<int>();
 
 list.Add(1);
@@ -667,7 +667,7 @@ PrintSmallerThan(list, 3);
 
 As before, a method can also return a value. The methods that return values have the type of the return value in place of the **void** keyword, and the actual returning of the value is done by the **return** command. The method below returns the Count of the list.
 
-```cpp
+```cs
 public static void Count(List<string> list)
 {
   return list.Count;
@@ -676,7 +676,7 @@ public static void Count(List<string> list)
 
 You can also define own variables for methods. The method below calculates the average of the numbers in the list. If the list is empty, it returns the number -1.
 
-```cpp
+```cs
 public static double Average(List<int> numbers) 
 {
   if (numbers.Count == 0) 
@@ -703,7 +703,7 @@ When a list (or any reference-type variable) is copied for a method's use, the m
 
 Let's look at this briefly with the following method.
 
-```cpp
+```cs
 public static void RemoveFirst(List<int> numbers)
 {
 if (numbers.Count == 0)
@@ -714,7 +714,7 @@ numbers.RemoveAt(0);
 }
 ```
 
-```cpp
+```cs
 List<int> numbers = new List<int>();
 numbers.Add(3);
 numbers.Add(2);
@@ -760,14 +760,14 @@ You can find all the information about [**Lists here**](https://docs.microsoft.c
 
 * Adding to a list is done with the method *Add** that receives the value to be added as a parameter.
 
-```cpp
+```cs
 List<int> numbers = new List<int>();
 numbers.Add(3);
 ```
 
 * The number of elements in a list can be discovered with the property **Count**; it returns an integer.
 
-```cpp
+```cs
 List<int> numbers = new List<int>();
 int amount = numbers.Count;
 Console.WriteLine("Amount of integers in numbers: " + amount);
@@ -775,7 +775,7 @@ Console.WriteLine("Amount of integers in numbers: " + amount);
 
 * You can retrieve a value from a certain index with the method **list[index]** that is given the index at which the value resides as a parameter.
 
-```cpp
+```cs
 List<int> numbers = new List<int>();
 numbers.Add(3);
 Console.WriteLine(numbers[0]);
@@ -783,7 +783,7 @@ Console.WriteLine(numbers[0]);
 
 * Removing elements is done with either **Remove** or **RemoveAt**, depending if we remove by value or index.
 
-```cpp
+```cs
 List<string> list = new List<string>();
 list.Add("First");
 list.Add("Second");
@@ -794,7 +794,7 @@ list.Remove("Third");
 
 * Checking for the existence of a value is done with the method **Contains**. It's provided the value being searched for as a parameter, and it returns a boolean value.
 
-```cpp
+```cs
 List<string> list = new List<string>();
 list.Add("First");
 list.Contains("First");
@@ -802,7 +802,7 @@ list.Contains("First");
 
 * To iterate a list, we use forEach
 
-```cpp
+```cs
 List<int> numbers = new List<int>();
 numbers.Add(3);
 numbers.Add(2);
@@ -1055,7 +1055,7 @@ You can assume that user always gives atleast one viable number.
 
 You can use the source code below as an inspitation. It is used to find the smallest number.
 
-```cpp
+```cs
 // assume we have a list that contains integers
 
 int smallest = list[0];
@@ -1183,7 +1183,7 @@ Logan was not found!
 
 Create the method `public static void PrintNumbersInRange(List<int> numbers, int lowerLimit, int upperLimit)` in the exercise template. The method prints the numbers in the given list whose values are in the range [lowerLimit, upperLimit]. A few examples of using the method are supplied below.
 
-```cpp
+```cs
 List<int> numbers = new List<int>();
 numbers.Add(3);
 numbers.Add(2);
@@ -1217,7 +1217,7 @@ The numbers in the range [3, 10]
 
 Create the method `public static int Sum(List<int> numbers)` in the exercise template. The method is to return the sum of the numbers in the parameter list.
 
-```cpp
+```cs
 List<int> numbers = new List<int>();
 numbers.Add(3);
 numbers.Add(2);
@@ -1241,7 +1241,7 @@ Console.WriteLine(Sum(numbers));
 
 create the method `public static void RemoveLast(List<string> strings)` in the exercise template. The method should remove the last value in the list it receives as a parameter. If the list is empty, the method does nothing.
 
-```cpp
+```cs
 List<string> strings = new List<string>();
 
 strings.Add("First");

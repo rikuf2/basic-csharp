@@ -6,7 +6,7 @@ hidden: false
 
 In part 1 we had a look of the basic while-true loop structure
 
-```cpp
+```cs
 while (true)
 {
   // Do something
@@ -25,7 +25,7 @@ Actually the paranthesis of a loop contain a conditional expression, or a condit
 
 The following code prints the numbers 1,2,...,5. When the value of the variable number is more than 5, the while-condition evaluates to false and the execution ends.
 
-```cpp
+```cs
 int number = 1;
 
 while (number < 6)
@@ -55,7 +55,7 @@ Above we learned how a "while-loop" with a condition can be used to go through n
 
 The structure of this kind of loop is the following.
 
-```cpp
+```cs
 int i = 0;
 while (i < 10)
 {
@@ -68,7 +68,7 @@ The above loop can be split into three parts. First we introduce the variable i,
 
 The same can be achieved with a **for-loop** like so.
 
-```cpp
+```cs
 for (int i = 0; i < 10; i++)
 {
   Console.WriteLine(i);
@@ -82,7 +82,7 @@ A for-loop contains four parts:
 - increasing (or decreasing or changing) the value of the counter variable; and
 - the functionality to be executed.
 
-```cpp
+```cs
 for (*introducting a variable*; *condition*; *increasing the counter*)
 {
   // Functionality to be executed
@@ -91,7 +91,7 @@ for (*introducting a variable*; *condition*; *increasing the counter*)
 
 Let's see this in action:
 
-```cpp
+```cs
 for (int i = 0; i < 5; i++)
 {
   Console.WriteLine(i);
@@ -100,7 +100,7 @@ for (int i = 0; i < 5; i++)
 
 The example above prints the numbers from zero to four. The interval can also be defined using variables -- the example below uses variables start and end to define the interval of numbers the loop goes through.
 
-```cpp
+```cs
 int start = 3;
 int end = 7;
 for (int i = start; i < end; i++)
@@ -120,7 +120,7 @@ A loop does not stop executing immediately when its condition evaluates to true.
 
 Let's look at the following loop.
 
-```cpp
+```cs
 int number = 1;
 
 while (number != 2)
@@ -148,7 +148,7 @@ Even though **number equals 2 at one point**, the loop runs forever.
 
 This also applies to for-loops. In the example below, loop execution -- when understood incorrectly -- should end when i equals 100. However, it doesn't.
 
-```cpp
+```cs
 for (int i = 0; i != 100; i++)
 {
   Console.WriteLine(i);
@@ -166,7 +166,7 @@ One common program type is "do something certain amount of times". What's common
 
 The following program calculates the product 4\*3 somewhat clumsily, i.e., as the sum 3 + 3 + 3 + 3:
 
-```cpp
+```cs
 int result = 0;
 
 int i = 0;
@@ -186,7 +186,7 @@ Console.WriteLine(result);
 
 The same functionality can be achieved with the following code.
 
-```cpp
+```cs
 int result = 0;
 
 int i = 0;
@@ -201,7 +201,7 @@ Console.WriteLine(result);
 
 Or by using a for-loop as seen in the following.
 
-```cpp
+```cs
 int result = 0;
 
 for (int i = 0; i < 4; i++)
@@ -238,7 +238,7 @@ Let's take a look at a somewhat more complex program that reads integers from th
 
 A possible solution is detailed below. However, the style of the example is not ideal.
 
-```cpp
+```cs
 Console.Write("Write numbers, negative numbers are invalid: ");
 int sum = 0;
 int validNumbers = 0;
@@ -270,7 +270,7 @@ In the code above, the computation executed after the loop has ended has been im
 
 Let's stick to the following loop structure:
 
-```cpp
+```cs
 // Create variables needed for the loop
 
 while (true)
@@ -289,7 +289,7 @@ while (true)
 
 In other words, the program structure is cleaner if the things to be done after the loop ends are placed outside of it.
 
-```cpp
+```cs
 Console.Write("Write numbers, negative numbers are invalid: ");
 int sum = 0;
 int validNumbers = 0;

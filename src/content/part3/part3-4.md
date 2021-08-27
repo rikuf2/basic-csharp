@@ -7,13 +7,13 @@ hidden: false
 
 Let's first revise what we already know about strings and see how to split them. Below we create a string variable magicWord, that contains value "abracadabra".
 
-```cpp
+```cs
 string magicWord = "abracadabra";
 ```
 
 Passing a string as a parameter to a print command (or, for that matter, any method that takes a string parameter) happens in the familiar way:
 
-```cpp
+```cs
 string magicWord = "abracadabra";
 Console.WriteLine(magicWord);
 ```
@@ -26,7 +26,7 @@ abracadabra
 
 You can read a string using the ReadLine-method offered by Console. The program below reads the name of the user and prints it:
 
-```cpp
+```cs
 Console.WriteLine("What's your name?");
 // reading a line from the user and assigning it to the name variable
 string name = Console.ReadLine();
@@ -42,7 +42,7 @@ Hank
 
 Strings can also be concatenated. If you place a +-operator between two strings, you get a new string that's a combination of those two strings. Be mindful of any white spaces in your variables!
 
-```cpp
+```cs
 string greeting = "Hi ";
 string name = "Lily";
 string goodbye = " and see you later!";
@@ -60,7 +60,7 @@ Hi Lily and see you later!
 
 Strings can be compared with **==** just like any other variable.
 
-```cpp
+```cs
 string text = "Hello";
 string word = "Hullo";
 
@@ -80,7 +80,7 @@ Boo
 
 As we've come to know, a boolean value can be inverted through negation - **!**.
 
-```cpp
+```cs
 string text = "Hello";
 string word = "Hullo";
 
@@ -96,7 +96,7 @@ else
 
 Or by negating the comparison
 
-```cpp
+```cs
 string text = "Hello";
 string word = "Hullo";
 
@@ -114,7 +114,7 @@ else
 
 You can split a string to multiple pieces with the **Split-method** of the string class. The method takes as a parameter a string denoting the place around which the string should be split. The split method returns an array of the resulting sub-parts. In the example below, the string has been split around a space.
 
-```cpp
+```cs
 string text = "first second third fourth";
 string[] pieces = text.Split(" ");
 Console.WriteLine(pieces[0]);
@@ -157,7 +157,7 @@ Let's assume the user enters the data above row by row, ending with an empty lin
 
 A program to print the names and ages looks like the following:
 
-```cpp
+```cs
 while (true)
 {
   string input = Console.ReadLine();
@@ -193,7 +193,7 @@ Splitting a string always produces an array of strings. If the text is of fixed 
 
 The program below computes the sum of ages in this fixed format data. In order to compute the sum, the age must first be converted to a number (the familiar command Convert.ToInt32).
 
-```cpp
+```cs
 int sum = 0;
 
 while (true)
@@ -219,7 +219,7 @@ Sum of the ages is 5
 
 We can write a program to compute the average of the ages in the same way:
 
-```cpp
+```cs
 int sum = 0;
 int count = 0;
 
@@ -363,7 +363,7 @@ flavour
 
 Tip! Strings have a Contains method, which tells if a string contains another string. It works like this:
 
-```cpp
+```cs
 string text = "volcanologist";
 
 if (text.Contains("can")) 
@@ -413,7 +413,7 @@ message
 <Note>
 You can find out the length of the array like this:
 
-```cpp
+```cs
 string[] parts = {"one", "two", "three"};
 Console.WriteLine("Number of parts: " + parts.Length);
 ```
@@ -465,7 +465,7 @@ Name of the oldest: gabriel
 
 In this exercise you'll be asked for the length of the names. You can find out the length of a string with Length property:
 
-```cpp
+```cs
 string word = "equisterian";
 int length = word.Length;
 Console.WriteLine("The length of the word " + word + " is " + length);

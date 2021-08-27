@@ -8,7 +8,7 @@ Printing to the screen has been done with the statement **Console.WriteLin()**, 
 
 Technically speaking, **a method** is a named set of statements - a part of the program that can be called from elsewhere in the program code by using the method's name. For instance the line of code
 
-```cpp
+```cs
 Console.WriteLine("I am a parameter given to a method!");
 ```
 
@@ -22,7 +22,7 @@ A method means a named set consisting of statements that can be called from else
 
 In the code boilerplate, methods are written outside of the curly braces of the Main, yet inside out the outermost curly braces. They can be located above or below the Main.
 
-```cpp
+```cs
 using System;
 
 public class Program
@@ -38,7 +38,7 @@ public class Program
 
 Let's observe how to create a new method. We'll create the method **greet**.
 
-```cpp
+```cs
 public static void Greet()
 {
   Console.WriteLine("Greetings from the method world!");
@@ -47,7 +47,7 @@ public static void Greet()
 
 And then we'll insert it into a suitable place for a method.
 
-```cpp
+```cs
 using System;
 
 public class Program
@@ -69,7 +69,7 @@ The definition of the method consists of two parts. The first line of the defini
 
 Calling a custom method is simple: write the name of the methods followed by a set of parentheses and the semicolon. In the following snippet the Main program (Main) calls the greet method four times in total.
 
-```cpp
+```cs
 using System;
 
 public class Program
@@ -114,7 +114,7 @@ We discussed variable naming in the previous part. There are conventions for met
 
 In the code example below the method is poorly named. It begins with a lower-case letter and the words are separated by \_ characters. The parentheses after the method name have a space between and indentation in the code block is incorrect.
 
-```cpp
+```cs
 public static void this_method_says_woof ( ) {
 Console.WriteLine("woof");
 }
@@ -122,7 +122,7 @@ Console.WriteLine("woof");
 
 In contrast the method below is correctly named: The name begins with an upper-case letter and the words are joined together with the PascalCase style, meaning that each word begins with an upper-case letter. The parentheses sit next to one another and the contents are correctly indented (the method has its own code block, so the indentation of the code is four characters).
 
-```cpp
+```cs
 public static void ThisMethodSaysWoof()
 {
   Console.WriteLine("woof");
@@ -135,7 +135,7 @@ public static void ThisMethodSaysWoof()
 
 In the following example a parameterized method **Greet** is defined. It has an int type parameter called **numOfTimes**.
 
-```cpp
+```cs
 public static void Greet(int numOfTimes)
 {
     int i = 0;
@@ -149,7 +149,7 @@ public static void Greet(int numOfTimes)
 
 We will call the method greet with different values. The parameter **numOfTimes** is assigned the value **1** on the first call, and **3** on the second.
 
-```cpp
+```cs
   public static void Main(string[] args)
   {
     Greet(1);
@@ -168,7 +168,7 @@ Greetings!
 
 Just like when calling the predefined method **Console.WriteLine()**, you can pass an expression as a paratmeter.
 
-```cpp
+```cs
   public static void Main(string[] args)
   {
     Greet(1 + 2);
@@ -187,14 +187,14 @@ If an expression is used as a parameter for a method, that expression is evaluat
 
 A method can be defined with multiple parameters. When calling such a method, the parameters are passed in the same order.
 
-```cpp
+```cs
 public static void Sum(int first, int second)
 {
   Console.WriteLine("The sum of numbers " + first + " and " + second + " is " + (first + second));
 }
 ```
 
-```cpp
+```cs
 Sum(3, 5);
 
 int number1 = 2;
@@ -212,7 +212,7 @@ The sum of numbers 2 and 4 is 6
 
 When calling a method **the values of the parameters are copied**. In practice this means that both the Main method and the method to be called can use similarly named variables, but changing the value of the parameter inside the method does not affect the value of the variable with the same name in the Main method. Let's examine this behavior with the following program.
 
-```cpp
+```cs
 public class Example {
   public static void Main(string[] args)
   {
@@ -256,7 +256,7 @@ So even if they had the same exact name, method parameters are distinct from the
 
 As a further demonstration, let's consider the following example. We define a variable called **number** in the Main method. That variable is passed as a parameter to the method **IncrementByThree**.
 
-```cpp
+```cs
 // Main program
 public static void Main(String[] args)
 {
@@ -292,7 +292,7 @@ The parameter **numbe** ris copied for the method to use -- in other words, a ne
 
 The definition of a method indicates whether that method returns a value. If it does, the method definition is to express to type of the return value. Otherwise the keyword **void** is used in the definition. The methods we've created thus far have been defined with the keyword **void** so they have returned no values.
 
-```cpp
+```cs
 public static **void** IncrementByThree()
 {
   ...
@@ -303,7 +303,7 @@ The keyword **void** indicates that the method returns nothing. If we want the m
 
 In concrete terms, returning the value happens with the command **return** followed by the value to be returned (or the name of the variable whose value is to be returned).
 
-```cpp
+```cs
 public static int AlwaysReturnsTen()
 {
   return 10;
@@ -312,7 +312,7 @@ public static int AlwaysReturnsTen()
 
 The method defined above returns an **int** type value **10** when it is called. The return value must be stored if it is to be used. This is done the same way as normal assignment of a variable value -- with the equality sign.
 
-```cpp
+```cs
 public static void Main(String[] args)
 {
   int number = AlwaysReturnsTen();
@@ -323,7 +323,7 @@ public static void Main(String[] args)
 
 The return value of the method is placed in an **int** type variable as any other int value. The return value can also used as a part of any expression.
 
-```cpp
+```cs
 double number = 4 * AlwaysReturnsTen() + (alwaysReturnsTen() / 2.0) - 8;
 
 Console.WriteLine("the result of the calculation " + number);
@@ -343,7 +343,7 @@ The lines of source code following the command **return** are never executed. Sh
 
 From the point of view of an IDE the a method like the following is faulty.
 
-```cpp
+```cs
 public static int FaultyMethod()
 {
   return 10;
@@ -353,7 +353,7 @@ public static int FaultyMethod()
 
 The next method works since it is possible to reach every statement in it -- even though there is source code below the return command.
 
-```cpp
+```cs
 public static int FunctioningMethod(int parameter)
 {
   if (parameter > 10) {
@@ -367,7 +367,7 @@ public static int FunctioningMethod(int parameter)
 
 If the method is of the form **public static void NameOfMethod()** it is possible to return from it -- in other words to stop its execution in that place -- by using the command return without following it by any value. For instance:
 
-```cpp
+```cs
 public static void PrintEmptyLines(int parameter)
 {
   if (parameter > 10)
@@ -385,7 +385,7 @@ This would print up to 10 empty lines. If the **parameter** is more than 10, the
 
 Defining variables inside methods is done in the same manner as in the "Main program". The method that follows calculates the average of the numbers it receives as parameters. Variables **sum** and **avg** are used to help in the calculation.
 
-```cpp
+```cs
 public static double Average(int number1, int number2, int number3)
 {
   int sum = number1 + number2 + number3;
@@ -397,7 +397,7 @@ public static double Average(int number1, int number2, int number3)
 
 One way to call the method is the following:
 
-```cpp
+```cs
 public static void Main(String[] args)
 {
   Console.Write("Enter the first number: ");
@@ -417,7 +417,7 @@ public static void Main(String[] args)
 
 Variables defined in a method are only visible inside that method. In the example above, this means that the variables **sum** and **avg** defined inside the method **average** are not visible in the Main program. A typical mistake for a learning programmer is to try and use a method in the following way.
 
-```cpp
+```cs
 public static void Main(String[] args)
 {
   int first = 3;
@@ -435,7 +435,7 @@ Above the programmer tries to use the variable **avg** that is defined **inside 
 
 The following mistakes are also commonplace.
 
-```cpp
+```cs
 public static void Main(String[] args)
 {
   int first = 3;
@@ -451,7 +451,7 @@ In the example above there is an attempt to use the name of the method **average
 
 In addition to placing the result of the method into a help variable, another working solution is to execute the method call directly inside the print statement:
 
-```cpp
+```cs
 public static void Main(String[] args)
 {
   int first = 3;
@@ -471,7 +471,7 @@ The value to be returned need not be fully pre-defined - it can also be calculat
 
 In the following example we'll define the method sum that adds together the values of two variables and returns the sum. The values of the variables that are summed are received as method parameters.
 
-```cpp
+```cs
 public static int Sum(int first, int second)
 {
   return first + second;
@@ -482,14 +482,14 @@ When the execution of the method reaches the statement **return first + second;*
 
 The method is called in the following manner. Below the numbers 2 and 7 are added together with the method **Sum**. The return value produces by the method call is placed into the variable **sumOfNumbers**.
 
-```cpp
+```cs
 int sumOfNumbers = Sum(2, 7);
 // sumOfNumbers is now 9
 ```
 
 Let's expand the previous example so that the numbers are entered by the user:
 
-```cpp
+```cs
 public static void Main(String[] args)
 {
   Console.Write("Enter the first number: ");
@@ -511,7 +511,7 @@ In the example above the return value of the method is not stored in a variable,
 
 The values passed to a method are copied to its paremeters. Due to this the names of the parameters and the names of the variables defined on the side of the caller really have nothing to do with each other. In the previous example both the variables of the Main program and the method parameters were named similarly (**first** and **second**) "by accident". The code below will function in exactly the same manner even though the variables are named differently:
 
-```cpp
+```cs
 public static void Main(String[] args)
 {
   Console.Write("Enter the first number: ");
@@ -539,7 +539,7 @@ The execution environment of C# source code keeps track of the method being exec
 
 When a method is called, the execution of the calling method await the execution of the called method. This can be visualized with the call stack. The call stack refers to the stack formed by the method calls -- the method that is currently being executed is always on the top of the stack, and on ending the execution of a method execution is resumed in the method that is next on the stack. Let's examine the following program:
 
-```cpp
+```cs
 public static void Main(String[] args)
 {
   Console.WriteLine("Hello world!");
@@ -575,7 +575,7 @@ Main
 
 Let's examine the call stack in a situation where there are parameters defined for the method.
 
-```cpp
+```cs
 public static void Main(String[] args)
 {
   int beginning = 1;
@@ -622,7 +622,7 @@ Main beginning = 1 end = 5
 
 Let's next study an example where the method returns a value. The **Main** method of the program calls a separate **Start** method, inside of which two variables are created, the **Sum** method is called, the the value returned by the Sum method is printed.
 
-```cpp
+```cs
 public static void Main(String[] args)
 {
   Start();
@@ -680,7 +680,7 @@ After that the print command is executed, and then we return to the Main method.
 
 As we noticed before, you can call other methods from inside methods. An additional example of this technique is given below. We'll create the method MultiplicationTable that prints the multiplication table of the given number. The multiplication table prints the rows with the help of the method PrintMultiplicationTableRow.
 
-```cpp
+```cs
 public static void MultiplicationTable(int max)
 {
   int number = 1;
@@ -718,7 +718,7 @@ The output of the method call **MultiplicationTable(3)**, for instance, looks li
 
 create a method called PrintPhrase which prints the phrase "In a hole in the ground there lived a method" and a newline (use WriteLine and not just Write).
 
-```cpp
+```cs
 public static void Main(string[] args)
 {
   // Call your method here:
@@ -743,7 +743,7 @@ In a hole in the ground there lived a method
 
 Expand the previous program so that the main program asks the user for the number of times the phrase will be printed (i.e. how many times the method will be called).
 
-```cpp
+```cs
 public static void Main(string[] args)
 {
   // ask the user for the number of times that the phrase will be printed
@@ -774,7 +774,7 @@ In a hole in the ground there lived a method
 
 Create the following method in the exercise template: `public static void PrintUntilNumber(int number)`. It should print the numbers from one to the number passed as a parameter. Two examples of the method's usage are given below.
 
-```cpp
+```cs
 public static void Main(string[] args) 
 {
   PrintUntilNumber(5);
@@ -789,7 +789,7 @@ public static void Main(string[] args)
 5
 ```
 
-```cpp
+```cs
 public static void Main(string[] args) 
 {
   PrintUntilNumber(3);
@@ -808,7 +808,7 @@ public static void Main(string[] args)
 
 Create the following method in the exercise template: `public static void PrintFromNumberToOne(int number)`. It should print the numbers from the number passed as a parameter down to one. Two examples of the method's usage are given below.
 
-```cpp
+```cs
 public static void Main(string[] args) 
 {
   PrintFromNumberToOne(5);
@@ -823,7 +823,7 @@ public static void Main(string[] args)
 1
 ```
 
-```cpp
+```cs
 public static void Main(string[] args) 
 {
   PrintFromNumberToOne(2);
@@ -847,7 +847,7 @@ Write a method `public static void Division(int numerator, int denominator)` tha
 
 Write a method `public static void DivisibleByThreeInRange(int beginning, int end)` that prints all the numbers divisible by three in the given range. The numbers are to be printed in order from the smallest to the greatest.
 
-```cpp
+```cs
 public static void Main(string[] args) 
 {
   DivisibleByThreeInRange(3, 6);
@@ -859,7 +859,7 @@ public static void Main(string[] args)
 6
 ```
 
-```cpp
+```cs
 public static void Main(string[] args) 
 {
   DivisibleByThreeInRange(2, 10);
@@ -891,7 +891,7 @@ Write a method `public static string Word()`. The method must return a string of
 Expand the method `Sum`  in the exercise template so that it calculates and returns the sum of the numbers that are given as the parameters.
 create the method using the following structure:
 
-```cpp
+```cs
 public static int Sum(int number1, int number2, int number3, int number4) 
 {
   // write your code here
@@ -916,7 +916,7 @@ Sum: 14
 
 Define a two-parameter method `Smalles` that returns the smaller of the two numbers passed to it as parameters.
 
-```cpp
+```cs
 public static int Smallest(int number1, int number2) 
 {
   // write your code here
@@ -944,7 +944,7 @@ Smallest: 2
 
 Define a three-parameter method `Greatest` that returns the greatest of the three numbers passed to it as parameters.
 
-```cpp
+```cs
 public static int Greatest(int number1, int number2, int number3) 
 {
   // write your code here
@@ -976,7 +976,7 @@ Define a method called `PrintStars` that prints the given number of stars and a 
 
 Write the method in the following template:
 
-```cpp
+```cs
 public static void PrintStars(int number)
 {
   // you can print one star with the command
@@ -1048,7 +1048,7 @@ You will also have to either copy the `PrintStars` method from your previous ans
 Create a method called `PrintRightTriangle(int size)` that uses PrintSpaces and PrintStars to print the correct triangle. So the method call PrintRightTriangle(4) should print the following:
 
 ```
-&nbsp;&nbsp;&nbsp;*
+   *
   **
  ***
 ****
