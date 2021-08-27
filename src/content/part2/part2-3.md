@@ -1047,12 +1047,12 @@ You will also have to either copy the `PrintStars` method from your previous ans
 
 Create a method called `PrintRightTriangle(int size)` that uses PrintSpaces and PrintStars to print the correct triangle. So the method call PrintRightTriangle(4) should print the following:
 
-```bash
+<pre><code>
    *
   **
  ***
 ****
-```
+</code></pre>
 
 * Section 3
 
