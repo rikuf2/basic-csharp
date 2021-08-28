@@ -59,8 +59,6 @@ A selection of options will pop up. The selections contain all the open exercise
 * Select the exercise you are doing
 * A new terminal opens at the bottom of Visual Studio Code.
 
-<Note>The dollar sign in the pictures is NOT part of the command! </Note>
-
 * write the command `cd/Exercise000` , but instead of the zeros, use the actual exercise number. Press `Enter`.
 
 ![Selecting source folder](https://github.com/centria/basic-csharp/raw/master/src/images/exercise003.png)
@@ -74,6 +72,8 @@ A selection of options will pop up. The selections contain all the open exercise
 * If your program works as it should, you can see the output in the console. The next example is from Part 6, exercise 003:
 
 ![Dotnet run](https://github.com/centria/basic-csharp/raw/master/src/images/dotnet-print.png)
+
+<Note>The dollar sign in the pictures is NOT part of the command! </Note>
 
 ## Testing your exercises
 
