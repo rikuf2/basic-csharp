@@ -59,6 +59,7 @@ const index = {
 			},
 		},
 		pre: {
+			'white-space': 'pre-wrap',
 			...oceanic,
 			fontFamily: '"Operator Mono", monospace',
 			fontSize: '0.9rem',
