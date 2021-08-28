@@ -59,12 +59,12 @@ const index = {
 			},
 		},
 		pre: {
-			'white-space': 'pre-wrap',
 			...oceanic,
 			fontFamily: '"Operator Mono", monospace',
 			fontSize: '0.9rem',
 			tabSize: 4,
 			hyphens: 'none',
+			overflow: 'auto',
 			borderRadius: 6,
 			p: 3,
 			my: 4,
