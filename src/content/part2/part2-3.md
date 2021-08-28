@@ -1052,8 +1052,8 @@ Create a method called `PrintRightTriangle(int size)` that uses PrintSpaces and 
    *  
   **  
  ***  
-****</code>  
-</pre>
+****
+</code></pre>
 
 
 * Section 3
