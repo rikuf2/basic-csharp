@@ -2,16 +2,20 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import Layout from '../components/Layout'
+import { Note } from '../components/UIComponents'
 import styled from '@emotion/styled'
 import PropTypes from 'prop-types'
 
 const Tmc = ({ data, location }) => {
 	const { mdx } = data
 
+	const shortcodes = { Note }
 	return (
 		<Layout tableOfContents={mdx.tableOfContents} location={location}>
 			<Heading>{mdx.frontmatter.title}</Heading>
-			<MDXRenderer>{mdx.body}</MDXRenderer>
+			<MDXProvider components={shortcodes}>
+				<MDXRenderer>{mdx.body}</MDXRenderer>
+			</MDXProvider>
 		</Layout>
 	)
 }
