@@ -1014,7 +1014,7 @@ Define a method called `PrintSquare(int size)` that prints a suitable square wit
 
 * Section 3
 
-Write a method called PrintRectangle(int width, int height) that prints the correct rectangle by using the PrintStars method. So the method call PrintRectangle(17, 3) should produce the following output:
+Write a method called `PrintRectangle(int width, int height)` that prints the correct rectangle by using the PrintStars method. So the method call `PrintRectangle(17, 3)` should produce the following output:
 
 ```console
 ***************** 
@@ -1024,7 +1024,7 @@ Write a method called PrintRectangle(int width, int height) that prints the corr
 
 * Section 4
 
-Create a method called PrintTriangle(int size) that prints a triangle by using the PrintStars method. So the call PrintTriangle(4) should print the following:
+Create a method called `PrintTriangle(int size)` that prints a triangle by using the PrintStars method. So the call `PrintTriangle(4)` should print the following:
 
 ```console
 *
@@ -1045,13 +1045,14 @@ You will also have to either copy the `PrintStars` method from your previous ans
 
 * Section 2
 
-Create a method called `PrintRightTriangle(int size)` that uses PrintSpaces and PrintStars to print the correct triangle. So the method call PrintRightTriangle(4) should print the following:
+Create a method called `PrintRightTriangle(int size)` that uses PrintSpaces and PrintStars to print the correct triangle. So the method call `PrintRightTriangle(4)` should print the following:
 
 
-```plain  
+```cpp  
+// NOTICE THE AMOUNT OF WHITESPACE    
    *  
-  **  
- ***  
+  **  
+ ***  
 ****  
 ```  
 
@@ -1060,31 +1061,33 @@ Create a method called `PrintRightTriangle(int size)` that uses PrintSpaces and 
 
 Define a method called `ChristmasTree(int height)` that prints the correct Christmas tree. The Christmas tree consists of a triangle with the specified height and the base. The base is two stars high and three stars wide, and is placed at the center of the triangle's bottom. The tree is to be constructed by using the methods PrintSpaces and PrintStars.
 
-For example, the call ChristmasTree(4) should print the following:
+For example, the call ChristmasTree(4) should work as following:
 
-```console         
+```cpp
+// NOTICE THE AMOUNT OF WHITESPACE
    * 
-  *** 
- *****
+  *** 
+ *****
 ******* 
-  *** 
-  ***
+  *** 
+  ***
 ```
-The call ChristmasTree(10) should print:
+The call ChristmasTree(10) should work like this:
 
-```bash  
+```cpp
+// NOTICE THE AMOUNT OF WHITESPACE
          * 
-        *** 
-       ***** 
-      ******* 
-     ********* 
-    *********** 
-   ************* 
-  *************** 
- ***************** 
+        *** 
+       ***** 
+      ******* 
+     ********* 
+    *********** 
+   ************* 
+  *************** 
+ ***************** 
 ******************* 
-        *** 
-        ***
+        *** 
+        ***
 ```
 <Note> Heights shorter that 3 don't have work correctly! </Note>
 
