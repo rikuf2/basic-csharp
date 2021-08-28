@@ -1056,6 +1056,7 @@ Create a method called `PrintRightTriangle(int size)` that uses PrintSpaces and 
 ****  
 ```  
 
+<Note> The comments in this and next examples are not part of the print, but only to emphasize the difference to previous work.</Note>
 
 * Section 3
 
