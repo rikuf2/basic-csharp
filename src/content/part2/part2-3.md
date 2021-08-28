@@ -1089,6 +1089,6 @@ The call ChristmasTree(10) should work like this:
         *** 
         ***
 ```
-<Note> Heights shorter that 3 don't have work correctly! </Note>
+<Note> Heights shorter that 3 don't have to work correctly! </Note>
 
 </Exercise>
