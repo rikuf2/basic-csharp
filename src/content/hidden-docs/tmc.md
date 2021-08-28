@@ -37,11 +37,14 @@ When you have the account, follow the instructions for:
 
 You can find the exercises for each part at the end of each chapter. In some chapters, there might be no exercises.
 
-You can follow these instructions (to a point) on how to submit exercises: [https://www.mooc.fi/en/installation/vscode/#first-programming-exercise](https://www.mooc.fi/en/installation/vscode/#first-programming-exercise)
+You can follow these instructions (to a point) on how to submit exercises: 
+[https://www.mooc.fi/en/installation/vscode/#first-programming-exercise](https://www.mooc.fi/en/installation/vscode/#first-programming-exercise)
 
-<Note>The part of "Running the source code" does not unfortunately work yet.
+<Note>
+The part of "Running the source code" does not unfortunately work yet.
 
-We have to run our exercises manually, if we want to do so.</Note>
+We have to run our exercises manually, if we want to do so.
+</Note>
 
 ## Running the exercises
 
@@ -71,3 +74,15 @@ A selection of options will pop up. The selections contain all the open exercise
 * If your program works as it should, you can see the output in the console. The next example is from Part 6, exercise 003:
 
 ![Dotnet run](https://github.com/centria/basic-csharp/raw/master/src/images/dotnet-print.png)
+
+## Testing your exercises
+
+Follow the instructions here: [https://www.mooc.fi/en/installation/vscode/#test-source-code](https://www.mooc.fi/en/installation/vscode/#test-source-code)
+
+## Submitting your exercises:
+
+Follow the instructions here: [https://www.mooc.fi/en/installation/vscode/#submit-solution](https://www.mooc.fi/en/installation/vscode/#submit-solution)
+
+## Checking your points:
+
+Follow the instructions here: [https://www.mooc.fi/en/installation/vscode/#check-your-points](https://www.mooc.fi/en/installation/vscode/#check-your-points)
