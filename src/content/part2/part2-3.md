@@ -1049,7 +1049,7 @@ Create a method called `PrintRightTriangle(int size)` that uses PrintSpaces and 
 
 
 ```plain  
-   *  
+   *  
   **  
  ***  
 ****  
@@ -1063,7 +1063,7 @@ Define a method called `ChristmasTree(int height)` that prints the correct Chris
 For example, the call ChristmasTree(4) should print the following:
 
 ```console         
-   * 
+   * 
   *** 
  *****
 ******* 
@@ -1073,7 +1073,7 @@ For example, the call ChristmasTree(4) should print the following:
 The call ChristmasTree(10) should print:
 
 ```bash  
-         * 
+         * 
         *** 
        ***** 
       ******* 
