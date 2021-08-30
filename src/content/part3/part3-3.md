@@ -244,7 +244,7 @@ Console.WriteLine(numbers[0]);
 Console.WriteLine(luvut[2]);
 ```
 
-Just like in Lists, you can't access an index outside of the array. You can try out the following example on your own computer, for example in the sandbox.
+Just like in Lists, you can't access an index outside of the array. You can try out the following example on your own computer.
 
 ```cpp
 string[] arrayOfStrings = {"Mike L.", "Mike P.", "Mike V."};
