@@ -79,10 +79,10 @@ A selection of options will pop up. The selections contain all the open exercise
 
 Follow the instructions here: [https://www.mooc.fi/en/installation/vscode/#test-source-code](https://www.mooc.fi/en/installation/vscode/#test-source-code)
 
-## Submitting your exercises:
+## Submitting your exercises
 
 Follow the instructions here: [https://www.mooc.fi/en/installation/vscode/#submit-solution](https://www.mooc.fi/en/installation/vscode/#submit-solution)
 
-## Checking your points:
+## Checking your points
 
 Follow the instructions here: [https://www.mooc.fi/en/installation/vscode/#check-your-points](https://www.mooc.fi/en/installation/vscode/#check-your-points)

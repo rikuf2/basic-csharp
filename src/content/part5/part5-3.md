@@ -23,7 +23,7 @@ Console.WriteLine(number);
 ```
 
 ```cpp
-namespace sandbox
+namespace Sandbox
 {
   public class Name
   {
@@ -54,7 +54,7 @@ The method call **Console.WriteLine** prints the value of the variable. The valu
 The previous example is the case when the programmer has not changed a variable's default print format. You can change the default print by defining the method **ToString** in the class of the object in question. The method indicates what string should be printed when an instance of the class is printed. In the example below, we have defined the method **public override string ToString()** in the class Name: it returns the instance variable name. Now when we print an object that is an instance of Name with the Console.WriteLine command, what is printed is the string returned by the ToString method.
 
 ```cpp
-namespace sandbox
+namespace Sandbox
 {
   public class Name
   {

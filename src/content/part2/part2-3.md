@@ -293,7 +293,7 @@ The parameter **numbe** ris copied for the method to use -- in other words, a ne
 The definition of a method indicates whether that method returns a value. If it does, the method definition is to express to type of the return value. Otherwise the keyword **void** is used in the definition. The methods we've created thus far have been defined with the keyword **void** so they have returned no values.
 
 ```cpp
-public static **void** IncrementByThree()
+public static void IncrementByThree()
 {
   ...
 }

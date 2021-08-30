@@ -10,7 +10,7 @@ Let's continue working with objects and references. Assume we can use the class 
 Person has object variables name, age, weight, and height; additionally, it offers methods to calculate the body mass index, among other things. 
 
 ```cpp
-namespace sandbox
+namespace Sandbox
 {
 
   public class Person
@@ -746,7 +746,7 @@ If we want to be able to compare two objects of our own design with the **Equals
 The method equals is implemented in a way that allows for using it to compare the current object with any other object. The method receives an Object type object as its single parameter -- all objects are Object type, in addition to their own type. The equals method first compares if the addresses are equal: if so, the objects are equal. After this, we examine if the types of the objects are the same: if not, the objects are not equal. Then the Object object passed as the parameter is converted to the type of the object that is being examined by using a type cast. Then the values of the object variables can be compared. Below the equality comparison has been implemented for the SimpleDate class.
 
 ```cpp
-namespace sandbox
+namespace Sandbox
 {
   public class SimpleDate
   {
@@ -822,7 +822,7 @@ Every class we create (and every ready-made C# class) inherits the class Object,
 To illustrate, the following source code compiles successfully: **Equals** method can be found in the Object class inherited by all classes.
 
 ```cpp
-namespace sandbox
+namespace Sandbox
 {
   public class Bird
   {
@@ -1015,7 +1015,7 @@ We have seen methods return boolean values, numbers, and strings. Easy to guess,
 In the next example we present a simple counter that has the method **Clone**. The method can be used to crete a clone of the counter; i.e. a new counter object that has the same value at the time of its creation as the counter that is being cloned.
 
 ```cpp
-namespace sandbox
+namespace Sandbox
 {
   public class Counter
   {

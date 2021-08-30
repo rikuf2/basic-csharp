@@ -53,12 +53,12 @@ We'll now familiarize ourselves with creating our own classes and defining the v
 
 A class is defined to represent some meaningful entity, where a "meaningful entity" often refers to a real-world object or concept. If a computer program had to process personal information, it would perhaps be meaningful to define a seperate class Person consisting of methods and attributes related to an individual.
 
-Let's begin. The example is using the **sandbox** from the exercises, so you can follow the instructions along. We'll assume that we have a project template that has an empty main program, called 
+Let's begin. The example is using the **Sandbox** from the exercises, so you can follow the instructions along. We'll assume that we have a project template that has an empty main program, called 
 **Program.cs**. 
 
 ```cpp
 using System;
-namespace sandbox
+namespace Sandbox
 {
   class Program
   {
@@ -84,14 +84,14 @@ Make sure the file Person.cs is in the same folder as **Program.cs**
 
 3. Make sure to include the correct **namespace** so you can reference it from your Program.cs file. 
 
-We'll get to namespaces later. For now, whenever you create a new class, **use the folder name as the namespace**.
+We'll get to namespaces later. For now, whenever you create a new class, **use the same namespace as existing classes**.
 
 4. Add this code to your file:
 
 ```cpp
 using System;
 
-namespace sandbox
+namespace Sandbox
 {
   public class Person
   {
@@ -1023,7 +1023,7 @@ The exercise template comes with a partially executed class DecreasingCounter:
 ```cpp
 using System;
 
-namespace exercise_99
+namespace Exercise007
 {
   public class DecreasingCounter
   {
@@ -1309,7 +1309,7 @@ The calculations are actually ( in order):
 The exercise template includes class `Statistics`
 
 ```cpp
-namespace exercise_105
+namespace Exercise013
 {
   public class Statistics
   {
