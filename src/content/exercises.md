@@ -23,6 +23,10 @@ Every part will have its own deadline. The deadlines are automatic and hard.
 
 At the beginning of the course, only the exercises for Part 1 are available. To advance to next part, the student must get at least 80 % of a part's points. The next part will also open after the deadline of the previous has passed.
 
+## Submitting the exercises
+
+Exercise submission instructions <Link style={{color: "#ef5b5b"}} to='/hidden-docs/tmc'>can be found from this page.</Link> 
+
 ## The exam
 
 The exam will be held in Centria's Itslearning platform. More information closer to the exam will be published here.
