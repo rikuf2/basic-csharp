@@ -5,6 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const Logo = () => {
 	return (
+		// You can change the Logo here by replace the img source
 		<StaticImage
 			src='../images/Centria-banner.png'
 			alt='Centria banner'
