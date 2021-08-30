@@ -32,7 +32,7 @@ const Layout = ({ children, tableOfContents, location }) => {
           </p>
           <p>
             More information about{' '}
-            <Link to='/hidden-docs/license'>License</Link>
+            <Link to='/license'>License</Link>
           </p>
         </Footer>
       </SiteWrapper>
