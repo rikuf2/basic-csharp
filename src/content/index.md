@@ -4,9 +4,6 @@ nav_order: 1
 hidden: false
 ---
 
-
-# THIS SITE IS UNDER CONSTRUCTION AND WILL BE PUBLISHED 1.9.2021!
-
 Welcome to the Basics of Programming with C# course! The course begins 1.9.2021 and ends 31.10.2021. 
 
 ## Attending the course
