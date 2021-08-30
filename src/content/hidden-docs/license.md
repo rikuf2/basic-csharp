@@ -25,7 +25,9 @@ This material and its exercises have been a group effort. Thanks goes to at leas
 This page template was originally created by:
 * * Vũ Nguyễn, Centria
 
+## Errors in the material?
 
+Did you find an error? A typo perhaps? Please make a pull request at [https://github.com/centria/basic-csharp](https://github.com/centria/basic-csharp) and help us make the material better!
 
 
 

@@ -31,6 +31,9 @@ const Layout = ({ children, tableOfContents, location }) => {
             <a href='https://web.centria.fi/'> Centria</a>
           </p>
           <p>
+            <a href='https://github.com/centria/basic-csharp'>Errors? Make a pull request!</a>
+          </p>
+          <p>
             More information about{' '}
             <Link to='/hidden-docs/license'>License</Link>
           </p>

@@ -86,3 +86,7 @@ Follow the instructions here: [https://www.mooc.fi/en/installation/vscode/#submi
 ## Checking your points
 
 Follow the instructions here: [https://www.mooc.fi/en/installation/vscode/#check-your-points](https://www.mooc.fi/en/installation/vscode/#check-your-points)
+
+## Errors in the material?
+
+Did you find an error? A typo perhaps? Please make a pull request at [https://github.com/centria/basic-csharp](https://github.com/centria/basic-csharp) and help us make the material better!
