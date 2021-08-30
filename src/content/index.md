@@ -40,4 +40,4 @@ At the end of the course, there is also an exam with **pass / fail** grading. Th
 
 ## Errors in the material?
 
-Did you find an error? A typo perhaps? Please make a pull request at [https://github.com/centria/basic-csharp](https://github.com/centria/basic-csharp) and help us make the material better!
+Did you find an error? A typo perhaps? Please make a pull request at [https://github.com/centria/basic-csharp/tree/master/src/content](https://github.com/centria/basic-csharp) and help us make the material better!
