@@ -246,21 +246,20 @@ row 9: print value 28
 
 <Exercise title={'016 Seconds in days'}>
 
-Let's combine everything you know so far. create program that asks the user for a `string`, an `integer`, a `double` and a `boolean`, and prints them like follows:
+Create a program, which asks user for amount of days, and prints the total amount of seconds for that amount of days, gives the answer and quits.
+
+Example print:
 
 ```console
-Give a string:
-> This is a masterpiece!
-Give an integer:
-> 42
-Give a double:
-> 3.1415
-Give a boolean:
-> True
-Your string: This is a masterpiece!
-Your integer: 42
-Your double: 3.1415
-Your boolean: True
+How many days?
+> 2
+172800
+```
+
+```console
+How many days?
+> 7
+604800
 ```
 
 </Exercise>
