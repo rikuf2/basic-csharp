@@ -11,10 +11,10 @@ This material has been adapted from the said material by [**Heikki Ahonen**](htt
 ### Acknowledgements
 
 This material and its exercises have been a group effort. Thanks goes to at least the following people (in alphabetical order):
-* Joni Aromaa, University of Helsinki
-* Mohammad Farid, Centria
+* [Joni Aromaa](https://github.com/aromaa), University of Helsinki
+* [Mohammad Farid](https://github.com/farid555), Centria
 * Petri Kivipuro, Centria
-* Antti Leinonen, University of Helsinki
+* [Antti Leinonen](https://github.com/Redande/), University of Helsinki
 * Janne Nylund, Centria
 * Mathilda Nynäs, Centria
 * Merja Pyrhönen, Centria
@@ -23,7 +23,7 @@ This material and its exercises have been a group effort. Thanks goes to at leas
 * Mirja Uusitalo, Centria
 
 This page template was originally created by:
-* Vũ Nguyễn, Centria
+* [Vũ Nguyễn](https://github.com/ndkv9), Centria
 
 ## Errors in the material?
 
