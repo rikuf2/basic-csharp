@@ -4,9 +4,9 @@ nav_order: 999
 hidden: true
 ---
 
-The course structure and material are based on a material made [**Agile Education Research Group**](https://www.helsinki.fi/en/researchgroups/data-driven-education) from the University of Helsinki, More information and its license can be found [**here**](https://ohjelmointi-19.mooc.fi/credits).
+The course structure and material are made by [**Agile Education Research Group**](https://www.helsinki.fi/en/researchgroups/data-driven-education) from the University of Helsinki, More information and its license can be found [**here**](https://ohjelmointi-19.mooc.fi/credits).
 
-This material has been adapted from said material by **Heikki Ahonen** and the material is licensed with [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/deed). You can use and share it freely, as long as the names of original creator(s) are not removed (this license). If you make changes to the material, it has to be licensed with the same license. Commercial use of the material is forbidden without the original creator's permission.
+This material has been adapted from said material by [**Heikki Ahonen**](https://github.com/heikkihei) and the material is licensed with [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/deed). You can use and share it freely, as long as the names of original creator(s) are not removed (this license). If you make changes to the material, it has to be licensed with the same license. Commercial use of the material is forbidden without the original creator's permission.
 
 ### Acknowledgements
 

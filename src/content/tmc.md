@@ -75,6 +75,12 @@ A selection of options will pop up. The selections contain all the open exercise
 
 <Note>The dollar sign in the pictures is NOT part of the command! </Note>
 
+### Alternative way
+
+In Visual Studio Code,
+* Click on the exerice folder with right mouse button, and choose `Open in integrated terminal`.
+* Run the program with the command `dotnet run`.
+
 ## Testing your exercises
 
 Follow the instructions here: [https://www.mooc.fi/en/installation/vscode/#test-source-code](https://www.mooc.fi/en/installation/vscode/#test-source-code)
