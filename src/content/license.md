@@ -23,7 +23,7 @@ This material and its exercises have been a group effort. Thanks goes to at leas
 * Mirja Uusitalo, Centria
 
 This page template was originally created by:
-* * Vũ Nguyễn, Centria
+* Vũ Nguyễn, Centria
 
 ## Errors in the material?
 
