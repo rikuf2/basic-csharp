@@ -21,7 +21,7 @@ Every part will have its own deadline. The deadlines are automatic and hard.
 
 ## Advancing on the course
 
-At the beginning of the course, only the exercises for Part 1 are available. To advance to next part, the student must get at least 80 % of a part's points. The next part will also open after the deadline of the previous has passed.
+At the beginning of the course, only the exercises for Part 1 are available. To advance to next part, the student must get at least 50 % of a part's points. The next part will also open after the deadline of the previous has passed.
 
 ## Submitting the exercises
 
