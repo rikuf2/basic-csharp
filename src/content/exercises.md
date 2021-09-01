@@ -19,6 +19,11 @@ Every part will have its own deadline. The deadlines are automatic.
 | 5    |   20.10.2021   |
 | 6    |   27.10.2021   |
 
+
+<Note>
+The Open University version is not yet open!
+</Note>
+
 <Note>
 If you are doing this course via open university, your deadline for all the parts is 1.5.2022!
 </Note>

@@ -38,6 +38,10 @@ The course is graded on a scale of 0-5. The grade comprises of the amount of exe
 
 At the end of the course, there is also an exam with **pass / fail** grading. This does not affect the grade but is to ensure that you have done the exercises yourself. The exam is reserved for students of Centria University of Applied Sciences or via Open University, and at the moment official credits are only for said students. The information and the exercises are available still for anyone who wants.
 
+<Note>
+The Open University version is not yet open!
+</Note>
+
 ## Errors in the material?
 
 Did you find an error? A typo perhaps? Please make a pull request at [GitHub](https://github.com/centria/basic-csharp/tree/master/src/content) and help us make the material better!
