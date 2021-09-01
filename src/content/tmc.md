@@ -33,6 +33,10 @@ When you have the account, follow the instructions for:
 - Selecting your organization: *Centria University of Applied Sciences*
 - Selecting your course: *Basics of Programming in C#*
 
+<Note>
+If you are doing this course via open university, select Basics of Programming in C# Open University!
+</Note>
+
 ## Doing the exercises
 
 You can find the exercises for each part at the end of each chapter. In some chapters, there might be no exercises.

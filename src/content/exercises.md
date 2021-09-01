@@ -8,7 +8,7 @@ The course is divided into six parts, all of which contain exercises. To pass th
 
 ## Deadlines
 
-Every part will have its own deadline. The deadlines are automatic and hard.
+Every part will have its own deadline. The deadlines are automatic.
 
 | Part | Deadline       |
 | :----| :------------: |
@@ -18,6 +18,10 @@ Every part will have its own deadline. The deadlines are automatic and hard.
 | 4    |   13.10.2021   |
 | 5    |   20.10.2021   |
 | 6    |   27.10.2021   |
+
+<Note>
+If you are doing this course via open university, your deadline for all the parts is 1.5.2022!
+</Note>
 
 ## Advancing on the course
 
