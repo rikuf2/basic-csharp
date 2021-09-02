@@ -29,6 +29,8 @@ You also need the `C#` plugin: [https://marketplace.visualstudio.com/items?itemN
 
 Once you have everything installed, you need to download the exercises to your computer. To do that, you need to have a `MOOC.fi account`. You can read the instructions from here: [https://www.mooc.fi/en/installation/vscode/#mooc.fi-create-account](https://www.mooc.fi/en/installation/vscode/#mooc.fi-create-account). Follow the instructions to `login`.
 
+<Note>Register with your university (or school) email, if you have one!</Note>
+
 When you have the account, follow the instructions for:
 - Selecting your organization: *Centria University of Applied Sciences*
 - Selecting your course: *Basics of Programming in C#*
