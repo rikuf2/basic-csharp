@@ -21,7 +21,7 @@ Every part will have its own deadline. The deadlines are automatic.
 
 
 <Note>
-If you are doing this course via open university, your deadline for all the parts is 1.5.2022!
+If you are doing this course via Open University, your deadline for all the parts is 1.5.2022!
 </Note>
 
 ## Advancing on the course
