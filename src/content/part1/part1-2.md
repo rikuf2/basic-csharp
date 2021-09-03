@@ -290,6 +290,8 @@ Give a number!
 You gave 42
 ```
 
+<Note>Use WriteLine for prints, not just Write!</Notee>
+
 </Exercise>
 
 <Exercise title={'013 Print double'}>
