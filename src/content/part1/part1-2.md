@@ -290,7 +290,7 @@ Give a number!
 You gave 42
 ```
 
-<Note>Use WriteLine for prints, not just Write!</Notee>
+<Note>Use WriteLine for prints, not just Write! </Note>
 
 </Exercise>
 
