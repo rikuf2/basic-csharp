@@ -36,10 +36,6 @@ When you have the account, follow the instructions for:
 - Selecting your course: *Basics of Programming in C#*
 
 <Note>
-The Open University version is not yet open!
-</Note>
-
-<Note>
 If you are doing this course via open university, select Basics of Programming in C# Open University!
 </Note>
 

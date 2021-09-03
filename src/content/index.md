@@ -1,5 +1,5 @@
 ---
-title: 'Learning goals'
+title: 'Attending the course'
 nav_order: 1
 hidden: false
 ---
@@ -8,7 +8,11 @@ Welcome to the Basics of Programming with C# course! The course begins 1.9.2021 
 
 ## Attending the course
 
-To attend the course, you do not have to be a student in Centria University of Applied science. All the material and exercises are available online, except for the final exam.
+To attend the course, you do not have to be a student in Centria University of Applied science. All the material and exercises are available online.
+
+## Registering to Open University course
+
+You can register to the course from [this page: https://tki.centria.fi/koulutus/basics-of-programming-with-c-2021-2022/6681](https://tki.centria.fi/koulutus/basics-of-programming-with-c-2021-2022/6681)
 
 ## Learning goals and grading
 
@@ -37,10 +41,6 @@ The course is graded on a scale of 0-5. The grade comprises of the amount of exe
 | Less than 50 %  |   0   |
 
 At the end of the course, there is also an exam with **pass / fail** grading. This does not affect the grade but is to ensure that you have done the exercises yourself. The exam is reserved for students of Centria University of Applied Sciences or via Open University, and at the moment official credits are only for said students. The information and the exercises are available still for anyone who wants.
-
-<Note>
-The Open University version is not yet open!
-</Note>
 
 ## Errors in the material?
 

@@ -47,7 +47,7 @@ in the future. In the exercises, for the first weeks the basic structure is give
 
 ## Printing
 
-As mentioned earlier, programming languages have statements built in them. **Console.WriteLine** is one of them. The statement is quite self-explanatory. It tells the computer to **write a line to the console**. You can change the **Hello World** to any text you wish, as long as the command itself is not changed, and it will work.
+As mentioned earlier, programming languages have statements built in them. **Console.WriteLine** is one of them. The statement is quite self-explanatory. It tells the computer to **write a line to the console**. You can change the **Hello World!** to any text you wish, as long as the command itself is not changed, and it will work.
 
 The requirements in the exercises are very precise. If for example the line needs to end with an exclamation mark, it cannot be left out.
 
