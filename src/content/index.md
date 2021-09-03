@@ -10,6 +10,7 @@ Welcome to the Basics of Programming with C# course! The course begins 1.9.2021 
 
 To attend the course, you do not have to be a student in Centria University of Applied science. All the material and exercises are available online. If you want to get ECTS credits for the course, you have to register to Centria Open University.
 
+
 ## Registering to Open University course
 
 You can register to the course from [this page: https://tki.centria.fi/koulutus/basics-of-programming-with-c-2021-2022/6681](https://tki.centria.fi/koulutus/basics-of-programming-with-c-2021-2022/6681). This version of the course is open until 1.5.2022 and has only one final deadline at 1.5.2022.
