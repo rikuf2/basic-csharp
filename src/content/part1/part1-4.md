@@ -355,12 +355,12 @@ Orwell
 Create a program which asks for an integer. If the integer is less than 1900, output "You're old".
 
 ```console
-Give your age:
+Give your year of birth:
 >1985
 ```
 
 ```console
-Give your age:
+Give your year of birth:
 > 1899
 You're old
 ```
