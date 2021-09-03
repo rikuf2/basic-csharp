@@ -18,18 +18,18 @@ public class Program
 }
 ```
 
-The program execution starts from the first line after **public static void Main(string[] args) {** and ends at the closing **}** bracket. Everything in between is run one row at a time. For example, the most common first program of any programmer, the **Hello World**, would go like this:
+The program execution starts from the first line after **public static void Main(string[] args) {** and ends at the closing **}** bracket. Everything in between is run one row at a time. For example, the most common first program of any programmer, the **Hello World!**, would go like this:
 
 ```cpp
 public class Program {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello World");
+        Console.WriteLine("Hello World!");
     }
 }
 ```
 
-In this example, the only runnable statement is **Console.WriteLine("Hello World");**, which prints out
+In this example, the only runnable statement is **Console.WriteLine("Hello World!");**, which prints out
 
 ```console
 Hello World!
@@ -40,7 +40,7 @@ We will later focus on the terms **public class** and **public static void**, no
 In the material the whole structure might not be shown, unless purposefully needed. The example above could be represented also as
 
 ```cpp
-Console.WriteLine("Hello World");
+Console.WriteLine("Hello World!");
 ```
 
 in the future. In the exercises, for the first weeks the basic structure is given, so you do not have to worry about memorising it quite yet.
