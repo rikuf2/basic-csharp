@@ -34,7 +34,7 @@ At the beginning of the course, only the exercises for Part 1 are available. To 
 
 ## Submitting the exercises
 
-Exercise submission instructions <Link style={{color: "#ef5b5b"}} to='/tmc'>can be found from this page.</Link> 
+Exercise submission instructions <Link style={{color: "#ef5b5b"}} to='/tmc'>can be found from the TMC instructions.</Link> 
 
 ## The exam
 
