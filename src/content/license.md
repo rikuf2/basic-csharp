@@ -15,9 +15,9 @@ This material and its exercises have been a group effort. Thanks goes to at leas
 * [Mohammad Farid](https://github.com/farid555), Centria
 * Petri Kivipuro, Centria
 * [Antti Leinonen](https://github.com/Redande/), University of Helsinki
-* Janne Nylund, Centria
+* [Janne Nylund](https://github.com/janne-nylund), Centria
 * Mathilda Nynäs, Centria
-* Merja Pyrhönen, Centria
+* [Merja Pyrhönen](https://github.com/meikku), Centria
 * Markus Räisänen, Business College Helsinki
 * [Tuukka Ullakko](https://github.com/TuukkaUllakko), Centria
 * Mirja Uusitalo, Centria
