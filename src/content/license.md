@@ -19,7 +19,7 @@ This material and its exercises have been a group effort. Thanks goes to at leas
 * Mathilda Nynäs, Centria
 * Merja Pyrhönen, Centria
 * Markus Räisänen, Business College Helsinki
-* Tuukka Ullakko, Centria
+* [Tuukka Ullakko](https://github.com/TuukkaUllakko), Centria
 * Mirja Uusitalo, Centria
 
 This page template was originally created by:
