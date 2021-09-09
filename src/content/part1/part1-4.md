@@ -271,11 +271,11 @@ int number = Convert.ToInt32(userInput);
 
 if ((number % 400) == 0) 
 {
-    System.out.println("The number " + number + " is divisible by four hundred");
+    Console.WriteLine("The number " + number + " is divisible by four hundred");
 } 
 else 
 {
-    System.out.println("The number " + number + " is not divisible by four hundred");
+    Console.WriteLine("The number " + number + " is not divisible by four hundred");
 }
 ```
 

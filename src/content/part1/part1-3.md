@@ -16,7 +16,7 @@ int sum = first + second; // variable "sum" is set with the value of the sum fro
 Console.WriteLine(sum); // prints 6
 ```
 
-## Calcuation order with brackets.
+## Calculation order with brackets
 
 You can change the order of calculation with brackets, if you wish.
 
