@@ -143,7 +143,7 @@ while (true)
 {
     Console.WriteLine("Do you want to continue?");
     string input = Console.ReadLine();
-    if (input = "no") 
+    if (input == "no") 
     {
         break;
     }
