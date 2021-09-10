@@ -325,7 +325,7 @@ Your speed:
 
 ```console
 Your speed:
-125
+> 125
 Speeding!
 ```
 
