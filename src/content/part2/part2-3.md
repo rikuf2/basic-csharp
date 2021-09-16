@@ -335,7 +335,7 @@ All the variable types seen so far can be returned from a method.
 | --------------------------------------- | -------------------------------------------- |
 | Method returns nothing                  | public static void ReturnsNothing()          |
 | Method returns **int** type variable    | public static int ReturnsInt()               |
-| Method returns **double** type variable | public static int ReturnsDouble()            |
+| Method returns **double** type variable | public static double ReturnsDouble()         |
 | Method returns **bool** type variable   | public static bool ReturnsBool()             |
 | Method returns **varible type**         | public static "variable type" NameOfMethod() |
 
