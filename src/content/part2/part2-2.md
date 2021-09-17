@@ -478,7 +478,7 @@ Numbers: 3
 
 - Section 4
 
-Extend the program so, that it prints the mean of the numbers (not including the -1) the user has written.
+Extend the program so, that it prints the average of the numbers (not including the -1) the user has written.
 
 ```console
 Give numbers: 
