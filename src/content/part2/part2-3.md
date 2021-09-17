@@ -376,7 +376,9 @@ public static void PrintEmptyLines(int parameter)
     return;
   }
   for (int i = 0; i < parameter; i++)
+  {
     Console.WriteLine("");
+  }
 }
 ```
 
