@@ -57,7 +57,7 @@ Files can exist practically anywhere on a hard drive, even separated into multip
 
 Reading a file is done by using **File class**, which can be found from **System.IO**. We will concentrate on text files, or files that include strings. 
 
-In our examples (for now), we assume we have a files called **text.txt** and **records.csv** in the same folder as **Program.cs** is. You can once again try these in your sandbox. The text.txt contains this:
+In our examples (for now), we assume we have a files called **text.txt** and **records.csv** in the same folder as **Program.cs** is. The text.txt contains this:
 
 ```console
 This is a line

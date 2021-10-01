@@ -235,7 +235,7 @@ public static void GrowOlder()
 As a result, we get an error:
 
 ```console
-Member 'Sandbox.Person.GrowOlder()' cannot be accessed with an instance reference; qualify it with a type name instead
+Member 'Exercise001.Person.GrowOlder()' cannot be accessed with an instance reference; qualify it with a type name instead
 (38:5) Keyword 'this' is not valid in a static property, static method, or static field initializer
 ```
 

@@ -23,7 +23,7 @@ Console.WriteLine(number);
 ```
 
 ```cpp
-namespace Sandbox
+namespace Exercise001
 {
   public class Name
   {
@@ -44,7 +44,7 @@ namespace Sandbox
 
 
 ```console
-sandbox.Name
+Exercise001.Name
 ```
 
 In the first example we create a simple **int** variable, and the number 10 is stored as its value. When we pass the variable to the **Console.WriteLine** method, the value 10 is printed. In the second example we create a **reference type** variable named john. A reference to an object, returned by the constructor of the **Name** class when we call it, is stored as the value of the variable. When this latter variable is printed, the string **sandbox.Name** is what ends up being printed. What is the cause for this?
@@ -54,7 +54,7 @@ The method call **Console.WriteLine** prints the value of the variable. The valu
 The previous example is the case when the programmer has not changed a variable's default print format. You can change the default print by defining the method **ToString** in the class of the object in question. The method indicates what string should be printed when an instance of the class is printed. In the example below, we have defined the method **public override string ToString()** in the class Name: it returns the instance variable name. Now when we print an object that is an instance of Name with the Console.WriteLine command, what is printed is the string returned by the ToString method.
 
 ```cpp
-namespace Sandbox
+namespace Exercise001
 {
   public class Name
   {
