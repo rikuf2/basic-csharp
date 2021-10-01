@@ -13,7 +13,7 @@ This material has been adapted from the said material by [**Heikki Ahonen**](htt
 This material and its exercises have been a group effort. Thanks goes to at least the following people (in alphabetical order):
 * [Joni Aromaa](https://github.com/aromaa), University of Helsinki
 * [Mohammad Farid](https://github.com/farid555), Centria
-* Petri Kivipuro, Centria
+* [Petri Kivipuro](https://github.com/PetriKivipuro), Centria
 * [Antti Leinonen](https://github.com/Redande/), University of Helsinki
 * [Janne Nylund](https://github.com/janne-nylund), Centria
 * [Mathilda Nynäs](https://github.com/Majon1), Centria
