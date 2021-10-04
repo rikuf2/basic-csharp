@@ -241,7 +241,7 @@ int[] numbers = {100,  1,  42,  23,  1,  1, 3200, 3201};
 // prints the number at index 0, i.e. number 100
 Console.WriteLine(numbers[0]);
 // prints the number at index 2, i.e. number 42
-Console.WriteLine(luvut[2]);
+Console.WriteLine(numbers[2]);
 ```
 
 Just like in Lists, you can't access an index outside of the array. You can try out the following example on your own computer.
