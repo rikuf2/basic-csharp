@@ -436,7 +436,7 @@ Where from?
 
 - Section 1
 
-Implement a program that asks the user for numbers(the program first prints "Write numbers: ") until the user gives the number -1, When the user writes -1, the program prints "Thx! Bye!" and ends.
+Implement a program that asks the user for numbers(the program first prints "Give numbers: ") until the user gives the number -1, When the user writes -1, the program prints "Thx! Bye!" and ends.
 
 ```console
 Give numbers: 
@@ -478,7 +478,7 @@ Numbers: 3
 
 - Section 4
 
-Extend the program so, that it prints the mean of the numbers (not including the -1) the user has written.
+Extend the program so, that it prints the average of the numbers (not including the -1) the user has written.
 
 ```console
 Give numbers: 

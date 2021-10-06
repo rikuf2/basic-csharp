@@ -421,8 +421,8 @@ create an "exercise assistant" class called `Fitbyte`. Its constructor takes bot
 - A constructor `public Fitbyte(int age, int restingHeartRate)`
 - A method `public double TargetHeartRate(double percentageOfMaximum)` that calculates and returns the target heart rate.
 
-Use the formula 206.3 - (0.711 * age) to calculate the maximum heart rate.
-Use the formula (maxHeartRate - restingHeartRate) * percentageOfMaximum + restingHeartRate to calculate the target heart rate.
+Use the formula 206.3 - (0.711 \* age) to calculate the maximum heart rate.
+Use the formula (maxHeartRate - restingHeartRate) \* percentageOfMaximum + restingHeartRate to calculate the target heart rate.
 
 Use case:
 

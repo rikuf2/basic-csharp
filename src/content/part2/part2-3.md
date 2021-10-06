@@ -4,7 +4,7 @@ nav_order: 3
 hidden: false
 ---
 
-Printing to the screen has been done with the statement **Console.WriteLin()**, and reading numbers with the statement **Console.ReadLine()**. Conditional statements have used **if**, repeat statements **while** and **for**. We notice that printing and reading somewhat differ from **if**, **while**, and **for**; the printing and reading commands are followed by parentheses, and sometimes there also are parameters given to the command between the parentheses. These statements "ending with parentheses" are strictly speaking not commands, but rather methods.
+Printing to the screen has been done with the statement **Console.WriteLine()**, and reading numbers with the statement **Console.ReadLine()**. Conditional statements have used **if**, repeat statements **while** and **for**. We notice that printing and reading somewhat differ from **if**, **while**, and **for**; the printing and reading commands are followed by parentheses, and sometimes there also are parameters given to the command between the parentheses. These statements "ending with parentheses" are strictly speaking not commands, but rather methods.
 
 Technically speaking, **a method** is a named set of statements - a part of the program that can be called from elsewhere in the program code by using the method's name. For instance the line of code
 
@@ -335,7 +335,8 @@ All the variable types seen so far can be returned from a method.
 | --------------------------------------- | -------------------------------------------- |
 | Method returns nothing                  | public static void ReturnsNothing()          |
 | Method returns **int** type variable    | public static int ReturnsInt()               |
-| Method returns **double** type variable | public static int ReturnsDouble()            |
+| Method returns **string** type variable | public static string ReturnsString()         |
+| Method returns **double** type variable | public static double ReturnsDouble()         |
 | Method returns **bool** type variable   | public static bool ReturnsBool()             |
 | Method returns **varible type**         | public static "variable type" NameOfMethod() |
 
@@ -375,7 +376,9 @@ public static void PrintEmptyLines(int parameter)
     return;
   }
   for (int i = 0; i < parameter; i++)
+  {
     Console.WriteLine("");
+  }
 }
 ```
 
