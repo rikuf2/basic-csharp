@@ -1400,7 +1400,7 @@ The card has a balance of 50 euros
 
 * Section 2
 
-Expand your answer from the exercise 106 by adding two methods:
+Expand your answer by adding two methods:
 - Method `public void EatLunch()`
 - Method `public void DrinkCoffee()`
 
