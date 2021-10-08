@@ -11,8 +11,8 @@ public class Person
 {
   private string name;
   private int age;
-  private int weight;
-  private int height;
+  private double weight;
+  private double height;
 
 
   public Person(string name)
