@@ -10,14 +10,16 @@ The course is divided into six parts, all of which contain exercises. To pass th
 
 Every part will have its own deadline. The deadlines are automatic.
 
+<Note> Deadlines for parts 5 and 6 have been postponed by a week, due to autumn break in Centria!</Note>
+
 | Part | Deadline       |
 | :----| :------------: |
 | 1    |   22.09.2021   |
 | 2    |   29.09.2021   |
 | 3    |   06.10.2021   |
 | 4    |   13.10.2021   |
-| 5    |   20.10.2021   |
-| 6    |   27.10.2021   |
+| 5    |   27.10.2021   |
+| 6    |   03.11.2021   |
 
 
 <Note>
