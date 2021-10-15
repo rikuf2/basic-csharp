@@ -328,7 +328,7 @@ You can assume the file is in the same folder as your program.
 
 </Exercise>
 
-<Exercise title={'023 Guestlist txt'}>
+<Exercise title={'023 Guestlist text file'}>
 
 The exercise template comes ready with functionality for the guest list application. It checks whether names entered by the user are on the guest list.
 
