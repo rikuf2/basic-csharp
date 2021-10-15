@@ -1234,11 +1234,11 @@ static void Main(string[] args)
   PaymentCard petesCard = new PaymentCard(10);
 
   Console.WriteLine("money " + petesCard.balance);
-  bool wasSuccessful = petesCard.takeMoney(8);
+  bool wasSuccessful = petesCard.TakeMoney(8);
   Console.WriteLine("successfully withdrew: " + wasSuccessful);
   Console.WriteLine("money " + petesCard.balance);
 
-  wasSuccessful = petesCard.takeMoney(4);
+  wasSuccessful = petesCard.TakeMoney(4);
   Console.WriteLine("successfully withdrew: " + wasSuccessful);
   Console.WriteLine("money " + petesCard.balance);
 
