@@ -1317,7 +1317,7 @@ Console.WriteLine(lunchCafeteria);
 ```console
 remaining change 7.5
 remaining change 2.5
-remaining change 13
+remaining change 9.7
 money: 1015.3, number of sold coffees: 2, number of sold lunches: 1
 ```
 
