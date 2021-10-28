@@ -1833,7 +1833,7 @@ public Money Plus(Money addition)
   return newMoney;
 }
 ```
-<Note>If the cents would go over 100, the euros should increase as well!</Note>
+<Note>If the cents would go over 99 (100 or more), the euros should increase as well!</Note>
 
 - create the method `public bool LessThan(Money compared)` that returns true if the money object whose method is called has a greater worth than the money object that is received as the method parameter.
 
