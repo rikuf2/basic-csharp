@@ -8,30 +8,11 @@ The course is divided into six parts, all of which contain exercises. To pass th
 
 ## Deadlines
 
-Every part will have its own deadline. The deadlines are automatic.
-
-<Note>
-Deadlines for parts 5 and 6 have been postponed by a week, due to autumn break in Centria!
-Updated deadlines as shown below:
-</Note>
-
-| Part | Deadline       |
-| :----| :------------: |
-| 1    |   22.09.2021   |
-| 2    |   29.09.2021   |
-| 3    |   06.10.2021   |
-| 4    |   13.10.2021   |
-| 5    |   27.10.2021   |
-| 6    |   03.11.2021   |
-
-
-<Note>
-If you are doing this course via Open University, your deadline for all the parts is 1.5.2022!
-</Note>
+The course has only the final deadline 1.5.2022, by which exercises have to be done. The deadline is automatic and hard.
 
 ## Advancing on the course
 
-At the beginning of the course, only the exercises for Part 1 are available. To advance to next part, the student must get at least 50 % of a part's points.
+At the beginning of the course, only the exercises for Part 1 are available for a student. To advance to next part, the student must get at least 50 % of a part's points.
 
 ## Submitting the exercises
 
@@ -39,4 +20,8 @@ Exercise submission instructions <Link style={{color: "#ef5b5b"}} to='/tmc'>can 
 
 ## The exam
 
-The exam will be held in Centria's Itslearning platform. More information closer to the exam will be published here.
+The exam will be held in Centria's Itslearning platform. To access the exam, you have to register to the Open University course from [this page: https://tki.centria.fi/koulutus/basics-of-programming-with-c-2021-2022/6681](https://tki.centria.fi/koulutus/basics-of-programming-with-c-2021-2022/6681).
+
+The deadline for the exam and to gain credits is 1.5.2022.
+
+<Note>Registering might take a couple of days, so make sure to register earlier than on the last day! </Note>
