@@ -20,7 +20,7 @@ Exercise submission instructions <Link style={{color: "#ef5b5b"}} to='/tmc'>can 
 
 ## The exam
 
-The exam will be held in Centria's Itslearning platform. To access the exam, you have to register to the Open University course from [this page: https://tki.centria.fi/koulutus/basics-of-programming-with-c-2021-2022/6681](https://tki.centria.fi/koulutus/basics-of-programming-with-c-2021-2022/6681).
+The exam will be held in Centria's Itslearning platform. To access the exam, you have to register to the Open University course from [this page: https://tki.centria.fi/koulutus/software-development-basics-of-programming-with-c-2021-2022/6681](https://tki.centria.fi/koulutus/software-development-basics-of-programming-with-c-2021-2022/6681).
 
 The deadline for the exam and to gain credits is 1.5.2022.
 
