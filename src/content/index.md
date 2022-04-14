@@ -13,7 +13,7 @@ To attend the course, you do not have to be a student in Centria University of A
 
 ## Registering to Open University
 
-You can register to the course from [this page: https://tki.centria.fi/koulutus/software-development-basics-of-programming-with-c-2021-2022/6681](https://tki.centria.fi/koulutus/software-development-basics-of-programming-with-c-2021-2022/6681). This course is open until 1.5.2022 and has only one final deadline at the end.
+You can register to the course from [HERE](https://koulutus.centria.fi/koulutukset/software-development/). This course is open until 1.5.2022 and has only one final deadline at the end.
 
 
 ## Learning goals and grading
