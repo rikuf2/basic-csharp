@@ -13,7 +13,9 @@ To attend the course, you do not have to be a student in Centria University of A
 
 ## Registering to Open University
 
-You can register to the course from [HERE](https://koulutus.centria.fi/koulutukset/software-development/). This course is open until 1.5.2022 and has only one final deadline at the end.
+You can register to the course from [HERE](https://koulutus.centria.fi/koulutukset/software-development/).
+
+<Note>Centria students don't have to enroll to Open University, but enroll from Peppi!</Note>
 
 
 ## Learning goals and grading
