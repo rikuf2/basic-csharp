@@ -8,7 +8,7 @@ The course is divided into six parts, all of which contain exercises. To pass th
 
 ## Deadlines
 
-The course has only the final deadline 1.5.2022, by which exercises have to be done. The deadline is automatic and hard.
+The course can have either weekly deadlines or a single deadline at the end, by which exercises have to be done. The deadlines are automatic and hard. You can find the deadlines from TMC and/or Itslearning.
 
 ## Advancing on the course
 
@@ -20,8 +20,6 @@ Exercise submission instructions <Link style={{color: "#ef5b5b"}} to='/tmc'>can 
 
 ## The exam
 
-The exam will be held in Centria's Itslearning platform. To access the exam, you have to register to the Open University course from [this page: https://tki.centria.fi/koulutus/software-development-basics-of-programming-with-c-2021-2022/6681](https://tki.centria.fi/koulutus/software-development-basics-of-programming-with-c-2021-2022/6681).
-
-The deadline for the exam and to gain credits is 1.5.2022.
+The exam will be held in Centria's Itslearning platform.
 
 <Note>Registering might take a couple of days, so make sure to register earlier than on the last day! </Note>
