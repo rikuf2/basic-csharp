@@ -36,6 +36,14 @@ Register with your university (or school) email, if you have one!
 Also, register with same email to TMC and to Open University, if you want credits!
 </Note>
 
+### Centria students
+
+When you have the account, follow the instructions for:
+- Selecting your organization: *Centria University of Applied Sciences*
+- Selecting your course according to time of attendance, for example *Basics of Programming in C# Fall 1*
+    - The correct course name can also be found from Itslearning.
+
+
 When you have the account, follow the instructions for:
 - Selecting your organization: *Centria University of Applied Sciences*
 - Selecting your course: *Basics of Programming in C# Open University*
