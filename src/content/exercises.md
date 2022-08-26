@@ -20,6 +20,11 @@ Exercise submission instructions <Link style={{color: "#ef5b5b"}} to='/tmc'>can 
 
 ## The exam
 
-The exam will be held in Centria's Itslearning platform.
+The exam will be held in Centria's Itslearning platform. 
 
-<Note>Registering might take a couple of days, so make sure to register earlier than on the last day! </Note>
+
+### Open university exam
+
+To access the exam, you have to register to the Open University course from this page: https://koulutus.centria.fi/koulutukset/software-development/.
+
+Those who want to get ECTS credits, must enroll in open university. The registrees will get the credentials in Centria’s Itslearning-environment. The final exam in Itslearning must be finished by deadline (set per course basis).
