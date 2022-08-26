@@ -7,7 +7,7 @@ const Logo = () => {
 	return (
 		// You can change the Logo here by replace the img source
 		<StaticImage
-			src='../images/Centria-banner.png'
+			src='../images/Centria_tunnus_RGB_FI_marginaalilla.png'
 			alt='Centria banner'
 			quality={95}
 			formats={['AUTO', 'WEBP', 'AVIF']}
