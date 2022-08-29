@@ -44,7 +44,7 @@ The course is graded on a scale of 0-5. The grade comprises of the amount of exe
 | 50 % - 59,99 %  |   1   |
 | Less than 50 %  |   0   |
 
-At the end of the course, there is also an exam with **pass / fail** grading. This does not affect the grade but is to ensure that you have done the exercises yourself. The exam is reserved for students of Centria Open University, and you can find the registeration information from above. The course material and the exercises are available still for anyone who wants.
+At the end of the course, there is also an exam with **pass / fail** grading. This does not affect the grade but is to ensure that you have done the exercises yourself. The exam is reserved for students of Centria University of Applied Sciences and Centria Open University, and you can find the registeration information from above. The course material and the exercises are available still for anyone who wants.
 
 ## Errors in the material?
 
