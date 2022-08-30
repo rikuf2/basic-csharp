@@ -56,12 +56,19 @@ You can follow these instructions (to a point) on how to submit exercises:
 [https://www.mooc.fi/en/installation/vscode/#first-programming-exercise](https://www.mooc.fi/en/installation/vscode/#first-programming-exercise)
 
 <Note>
+At this point, you might encounter a bug, and the exercises do not show up.
+In this case, you have to choose again the Extensions menu, select the TMC extension, and enable it.
+After enabling, VSCode will ask if you trust the extension and the files, say "yes" to both questions.
+<Note>
+
+
+## Running the exercises
+
+<Note>
 The part of "Running the source code" does not unfortunately work yet.
 
 We have to run our exercises manually, if we want to do so.
 </Note>
-
-## Running the exercises
 
 In Visual Studio Code, select `Terminal` and then `New Terminal`
 
