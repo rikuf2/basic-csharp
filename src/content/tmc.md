@@ -57,9 +57,11 @@ You can follow these instructions (to a point) on how to submit exercises:
 
 <Note>
 At this point, you might encounter a bug, and the exercises do not show up.
+
 In this case, you have to choose again the Extensions menu, select the TMC extension, and enable it.
-After enabling, VSCode will ask if you trust the extension and the files, say "yes" to both questions.
-<Note>
+
+After enabling, VSCode will ask if you trust the extension and the files, say YES to both questions.
+</Note>
 
 
 ## Running the exercises
