@@ -1,5 +1,5 @@
 ---
-title: "Overloading methdods and constructors"
+title: "Overloading methods and constructors"
 nav_order: 2
 hidden: false
 ---
