@@ -16,7 +16,7 @@ You need to have `.NET` (also called `Dotnet`) installed. You can install it fro
 
 ## Visual Studio Code
 
-The editor used during this course is `Visual Studio Code`. You can fid the instruvtions from example here: [https://www.mooc.fi/en/installation/vscode/#installing-vscode](https://www.mooc.fi/en/installation/vscode/#installing-vscode) or the direct installation link from here: [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
+The editor used during this course is `Visual Studio Code`. You can find the instructions from example here: [https://www.mooc.fi/en/installation/vscode/#installing-vscode](https://www.mooc.fi/en/installation/vscode/#installing-vscode) or the direct installation link from here: [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
 ## C# and TMC Plugin
 
