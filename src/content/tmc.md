@@ -40,7 +40,7 @@ Also, register with same email to TMC and to Open University, if you want credit
 
 When you have the account, follow the instructions for:
 - Selecting your organization: *Centria University of Applied Sciences*
-- Selecting your course according to time of attendance, for example *Basics of Programming in C# Fall 1*
+- Selecting your course according to time of attendance, for example *Basics of Programming in C# Fall X* or *Basics of Programming in C# Spring X*, where X is the course number.
     - The correct course name can also be found from Itslearning.
 
 ### Open University and free learning
