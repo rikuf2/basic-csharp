@@ -43,6 +43,7 @@ When you have the account, follow the instructions for:
 - Selecting your course according to time of attendance, for example *Basics of Programming in C# Fall 1*
     - The correct course name can also be found from Itslearning.
 
+### Open University and free learning
 
 When you have the account, follow the instructions for:
 - Selecting your organization: *Centria University of Applied Sciences*
