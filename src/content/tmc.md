@@ -43,7 +43,7 @@ When you have the account, follow the instructions for:
 - Selecting your course according to time of attendance, for example *Basics of Programming in C# Fall X* or *Basics of Programming in C# Spring X*, where X is the course number.
     - The correct course name can also be found from Itslearning.
 
-### Open University and free learning
+### Open University, Pathway and free learning
 
 When you have the account, follow the instructions for:
 - Selecting your organization: *Centria University of Applied Sciences*
@@ -73,6 +73,14 @@ The part of "Running the source code" does not unfortunately work yet.
 We have to run our exercises manually, if we want to do so.
 </Note>
 
+### Short way
+
+In Visual Studio Code,
+* Click on the file `Program.cs` with **right mouse button**, and choose `Open in integrated terminal`.
+* Run the program by writing the command `dotnet run` in to the newly opened terminal, and press `Enter`.
+
+### The longer way
+
 In Visual Studio Code, select `Terminal` and then `New Terminal`
 
 ![Terminal menu](https://github.com/centria/basic-csharp/raw/master/src/images/new-terminal.png)
@@ -100,11 +108,6 @@ A selection of options will pop up. The selections contain all the open exercise
 
 <Note>The dollar sign in the pictures is NOT part of the command! </Note>
 
-### Alternative way
-
-In Visual Studio Code,
-* Click on the exerice folder with right mouse button, and choose `Open in integrated terminal`.
-* Run the program with the command `dotnet run`.
 
 ## Testing your exercises
 
