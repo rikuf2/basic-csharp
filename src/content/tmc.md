@@ -79,6 +79,8 @@ In Visual Studio Code,
 * Click on the file `Program.cs` with **right mouse button**, and choose `Open in integrated terminal`.
 * Run the program by writing the command `dotnet run` in to the newly opened terminal, and press `Enter`.
 
+![Dotnet run](https://github.com/centria/basic-csharp/raw/master/src/images/dotnet-run.png)
+
 ### The longer way
 
 In Visual Studio Code, select `Terminal` and then `New Terminal`
