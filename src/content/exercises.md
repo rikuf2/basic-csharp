@@ -22,6 +22,8 @@ Exercise submission instructions <Link style={{color: "#ef5b5b"}} to='/tmc'>can 
 
 The exam will be held in Centria's Itslearning platform. 
 
+<Note>For Pathway students the exam will be in Moodle, and you do not need to register to it separately!</Note>
+
 
 ### Open university exam
 
