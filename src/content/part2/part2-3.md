@@ -917,7 +917,7 @@ Sum: 14
 
 <Exercise title={'018 Smallest'}>
 
-Define a two-parameter method `Smalles` that returns the smaller of the two numbers passed to it as parameters.
+Define a two-parameter method `Smallest` that returns the smaller of the two numbers passed to it as parameters.
 
 ```cpp
 public static int Smallest(int number1, int number2) 
