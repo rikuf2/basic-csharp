@@ -334,6 +334,9 @@ The exercise template comes ready with functionality for the guest list applicat
 
 However, the program is missing the functionality needed for reading the guest list. Modify the program so that the names on the guest list are read from the file.
 
+    
+<Note>The exercise expects you to have a string called names where you store the file!</Note>    
+    
 ```console
 Name of the file: 
 > guestlist.txt
@@ -352,8 +355,6 @@ Thank you!
 ```
 
 <Note>The exercise template comes with two files, names.txt and other-names.txt, which have the following contents. Do not change the contents of the files!</Note>
-
-<Note>The exercise expects you to have a string called names where you store the file!</Note>
 
 names.txt:
 
