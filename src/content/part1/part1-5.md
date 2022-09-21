@@ -12,7 +12,7 @@ For example, let's make a program which asks the user for a number 7 times and s
 ```cpp
 int sum = 0;
 Console.Write("Give integer value: ");
-string userInput = Convert.ToInt32(Console.ReadLine());
+int userInput = Convert.ToInt32(Console.ReadLine());
 sum = sum + userInput;
 Console.WriteLine("Sum is " + intValue);
 
