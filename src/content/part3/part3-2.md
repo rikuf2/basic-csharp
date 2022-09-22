@@ -1021,16 +1021,16 @@ Where to?
 
 ```console
 > 72
-> 2
 > 8
+> 2
 > 11
 > -1 
 From where?
 > 0 
 Where to?
 > 20  
-2
 8
+2
 11 
 ```
 
