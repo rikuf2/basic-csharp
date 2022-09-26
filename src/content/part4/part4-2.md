@@ -175,6 +175,7 @@ Persons in total: 3
 Persons: 
 Matt, age 0 years
 Mike, age 0 years
+Bob, age 0 years
 ```
 
 ## Multiple constructor parameters
