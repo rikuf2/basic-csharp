@@ -337,6 +337,8 @@ However, the program is missing the functionality needed for reading the guest l
     
 <Note>The exercise expects you to have a string called names where you store the file!</Note>    
     
+An example of the program use:    
+
 ```console
 Name of the file: 
 > guestlist.txt
