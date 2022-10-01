@@ -711,8 +711,8 @@ The output of the method call **MultiplicationTable(3)**, for instance, looks li
 
 ```console
 1 2 3
-4 5 6
-7 8 9
+2 4 6
+3 6 9
 ```
 
 # Exercises
