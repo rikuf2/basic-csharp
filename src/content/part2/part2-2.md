@@ -224,8 +224,8 @@ The values of variables **result** and **i** from the previous example have been
 | :----: | :-: | :---: |
 |   0    |  0  | true  |
 |   3    |  1  | true  |
-|   9    |  3  | true  |
 |   6    |  2  | true  |
+|   9    |  3  | true  |
 |   12   |  4  | false |
 
 ## On the Structure of Programs Using Loops
