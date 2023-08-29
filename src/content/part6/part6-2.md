@@ -269,7 +269,7 @@ public class Program
       Console.WriteLine(ada + " is under age");
     }
 
-        if (ada.IsOfAge())
+        if (mike.IsOfAge())
     {
       Console.WriteLine(mike + " is of age");
     }
@@ -278,7 +278,7 @@ public class Program
       Console.WriteLine(mike + " is under age");
     }
 
-        if (ada.IsOfAge())
+        if (jack.IsOfAge())
     {
       Console.WriteLine(jack + " is of age");
     }
