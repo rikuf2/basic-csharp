@@ -33,7 +33,7 @@ The list below does not include everything, but exists to give a guideline for s
 |  6   | You understand the dfference between **static** and **non-static** classes and methods. You can separate **user interface** from program logic.                                                                                                                               |
 
 
-The course is graded on a scale of 0-5. The grade comprises of the amount of exercises done.
+The course is graded on a scale of 0-5. The grade comprises of the amount of exercise points earned.
 
 | Percentage done | Grade |
 | :-------------- | :---: |
