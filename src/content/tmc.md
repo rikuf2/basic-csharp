@@ -43,11 +43,11 @@ When you have the account, follow the instructions for:
 - Selecting your course according to time of attendance, for example *Basics of Programming in C# Fall X* or *Basics of Programming in C# Spring X*, where X is the course number.
     - The correct course name can also be found from Itslearning.
 
-### Open University, Pathway and free learning
+### Open University and free learning
 
 When you have the account, follow the instructions for:
 - Selecting your organization: *Centria University of Applied Sciences*
-- Selecting your course: *Basics of Programming in C# Open University*
+- Selecting your course: *OPEN XX-XX Basics of Programming in C#* where XX-XX is the current academic year
 
 ## Doing the exercises
 
