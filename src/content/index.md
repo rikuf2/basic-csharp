@@ -1,10 +1,10 @@
 ---
-title: 'Attending the course'
+title: 'Kurssille osallistuminen'
 nav_order: 1
 hidden: false
 ---
 
-Welcome to the Basics of Programming with C# course!
+Tervetuloa ohjelmoinnin perusteisiin C#:lla (_C Sharp_)!
 
 ## If you just want to learn
 
