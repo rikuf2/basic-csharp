@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Basics of programming',
-    name: 'Basics of programming',
+    title: 'Ohjelmoinnin perusteet',
+    name: 'Ohjelmoinnin perusteet',
     description:
-      'Basics of programming with CSharp',
+      'Ohjelmoinnin perusteet C Sharpilla',
   },
   plugins: [
     // access content folder
@@ -67,5 +67,5 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-image',
   ],
-  pathPrefix: '/basic-csharp',
+  pathPrefix: '/ohjelmoinnin-perusteet',
 }
