@@ -39,18 +39,3 @@ jobs:
           deploy-branch: gh-pages
           gatsby-args: --prefix-paths
 
-      - uses: actions/checkout@v3
-        if: ${{ github.event_name == 'push' && env.SKIP_COMMITS }}
-      - name: Bump version and push tag
-        uses: anothrNick/github-tag-action@a2c70ae13a881faf2b4953baaa9e49731997ab36
-        if: ${{ github.event_name == 'push' && env.SKIP_COMMITS }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DEFAULT_BUMP: patch
-          DRY_RUN: false
-          WITH_V: true
-          INITIAL_VERSION: 0.0.1
-          TAG_CONTEXT: repo
-          RELEASE_BRANCHES: master
-          SOURCE: .
-          VERBOSE: true

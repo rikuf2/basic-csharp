@@ -1,29 +1,29 @@
 ---
-title: 'Attending the course'
+title: 'Kurssille osallistuminen'
 nav_order: 1
 hidden: false
 ---
 
-Welcome to the Basics of Programming with C# course!
+Tervetuloa ohjelmoinnin perusteisiin C#:lla (_C Sharp_)!
 
-## If you just want to learn
+## Jos haluat vain oppia
 
-To attend the course, you do not have to be a student in Centria University of Applied science. All the material and exercises are available online. If you want to get ECTS credits for the course, you have to register to Centria Open University.
-
-
-## Registering to Open University
-
-You can register to the course from [HERE](https://koulutus.centria.fi/koulutukset/software-development/).
-
-<Note>Centria students don't have to enroll to Open University, but enroll from Peppi!</Note>
+Osallistuaksesi opintojaksolle, sinun ei tarvitse olla opiskelija Centria-ammattikorkeakoulussa. Kaikki materiaali ja tehtävät ovat saatavilla netissä. Jos haluat saada opintopisteitä (ECTS credits) opintojaksosta, sinun tulee rekisteröityä Centrian avoimeen ammattikorkeakouluun.
 
 
-## Learning goals and grading
+## Rekisteröityminen avoimeen ammattikorkeakouluun
+
+Voit rekisteröityä opintojaksolle [TÄÄLTÄ](https://koulutus.centria.fi/koulutukset/software-development/).
+
+<Note>Centrian opiskelijat eivät rekisteröidy avoimen kautta, vaan Pepissä!</Note>
 
 
-The list below does not include everything, but exists to give a guideline for students, what to expect each week.
+## Oppimistavoitteet ja arvostelu
 
-| Part | Goal                                                                                                                                                                                                                                                                          |
+
+Alla oleva lista ei kata kaikkea, mutta on enemmänkin ohjeellinen, mitä odottaa jokaisessa osassa.
+
+| Osa | Tavoite                                                                                                                                                                                                                                                                         |
 | :--: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |  1   | You can write simple programs, which read user input and for example basic calculations. You know the terms **variable**, **conditional** or **if**, and **while-loop** and can use them in the programs.                                                                     |
 |  2   | You know the logical operators, such as **and**, **or** and **not** and can use them in conditionals and while-loops. You know what **methods**, **method parameters** and **method return** mean, how to create them and what happens in the program while a method is used. |
