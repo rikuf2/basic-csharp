@@ -48,7 +48,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEFAULT_BUMP: patch
           DRY_RUN: false
-          WITH_V: true
+          WITH_V: false
           INITIAL_VERSION: 0.0.1
           TAG_CONTEXT: repo
           RELEASE_BRANCHES: master
