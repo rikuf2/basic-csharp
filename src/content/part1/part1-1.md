@@ -184,6 +184,10 @@ public class Program { public static void Main(string[] args) { Console.WriteLin
 
 But as you can see, the latter is not as easy to read, and understanding for example the different code blocks is harder. **Keep your code neat and clean!**
 
+<Note>
+You can make your code more readable by using the keyboard shortcut ALT + SHIFT + F after writing your code. This will automatically indent your code!
+</Note>
+
 ## Printing a string
 
 Now that we have the tools for programming, let's go a bit deeper. so far we have printed simple lines of text. These texts are actually **string literals**. These literals can be saved into **string variables**. When we introduce a variable into a program, we usually give it a **value**. A value is given by following the variable with a **=** sign, the value and ending the line again with a semicolon, **;**. For example, if we want a string variable called **message** with a value of **I am learning**, we would assign it with
