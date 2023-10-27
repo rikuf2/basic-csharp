@@ -77,6 +77,9 @@ if (number > 10)
 }
 ```
 
+<Note>Remember ALT + SHIFT + F, which will format the code automatically.</Note>
+
+
 ## Relational operators
 
 The following are relational operators:

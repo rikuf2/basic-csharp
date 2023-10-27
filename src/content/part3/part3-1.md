@@ -20,6 +20,8 @@ One way in which perceptual blindness manifests itself in programming practice i
 
 Likewise, a programmer may focus on the most complicated aspect of a program featuring a loop, when in fact the error lies somewhere else completely. An example of this is the program below, which is used to calculate the average of user-inputted values. It contains an error, and when searching for it, the loop is typically the first target of focus.
 
+<Note>Remember ALT + SHIFT + F, which will format the code automatically.</Note>
+
 ```cpp
 
 int values = 0;
