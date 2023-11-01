@@ -399,7 +399,7 @@ namespace Exercise005
     {
         public static void Main(string[] args)
         {
-            string name = "Ada Lovelace";
+            string name = "Ada LoveLace";
             // Write your code here:           
         }
     }
