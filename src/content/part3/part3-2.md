@@ -73,7 +73,7 @@ list.Add(true);
 
 ```cpp
 List<string> list = new List<string>();
-lista.Add("String is text");
+list.Add("String is text");
 ```
 
 Once a list has been created, List assumes that all the variables contained in it are of the correct type. Of course, you can store variables with the correct type in them, as well. Then the value of said variable is stored.
