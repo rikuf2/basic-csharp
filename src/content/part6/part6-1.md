@@ -574,7 +574,7 @@ public class Program
     while (true) {
       Console.WriteLine("Points:");
       string input = Console.ReadLine();
-      if (input =0 "") 
+      if (input == "") 
       {
           break;
       }
